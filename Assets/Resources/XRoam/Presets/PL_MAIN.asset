@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e03f6dd975326488bcf664a9af9965, type: 3}
+  m_Name: PL_MAIN
+  m_EditorClassIdentifier: 
+  _synchronous: 0
+  _mainScene: Assets/00_ART/01_Scenes/00_MAIN.unity
+  _statesConfigs:
+  - {fileID: 11400000, guid: bf60c4e9a86fbbb448f6349d132169df, type: 2}
+  - {fileID: 11400000, guid: 5b9a01399a4730f4da92203e0565f59a, type: 2}
+  - {fileID: 11400000, guid: 76aad742b4213994f802441ee12f6e7a, type: 2}
+  - {fileID: 11400000, guid: 3c6c76e9f9db7174f841fb862233d1c8, type: 2}
+  - {fileID: 11400000, guid: f89fa68dce8734845ae739a8c5f98d6d, type: 2}
+  - {fileID: 11400000, guid: 532f9058f1daf2e4aabb740737d6927c, type: 2}
+  - {fileID: 11400000, guid: 16f10084f40dd6d4e8222911e5c9d88f, type: 2}
+  - {fileID: 11400000, guid: 350f464239541b44f8adcde2096ef31c, type: 2}

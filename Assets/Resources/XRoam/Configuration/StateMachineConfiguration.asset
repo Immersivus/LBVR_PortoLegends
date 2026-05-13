@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844f94e85c4e89647ba31ff9308abf3e, type: 3}
+  m_Name: StateMachineConfiguration
+  m_EditorClassIdentifier: 
+  Version: 1.4.0
+  _presets:
+  - {fileID: 11400000, guid: 5e7f3208330038542b6c61506cb1a89d, type: 2}
+  - {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _presetInUse: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
