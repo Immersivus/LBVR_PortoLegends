@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
+  m_Name: '- C05_C'
+  m_EditorClassIdentifier: 
+  _id: a34dcbea-d20f-464a-97f2-8a64a30642b1
+  _name: '- C05_C'
+  _mainScene: Assets/00_ART/01_Scenes/00_MAIN.unity
+  _exposed: 1
+  _exposedName: '- C05_C'
+  _scenesToLoad:
+  - Assets/00_ART/01_Scenes/05_C.unity
+  _stateActions: []
