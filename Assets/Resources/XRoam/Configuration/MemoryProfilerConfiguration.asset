@@ -21,28 +21,28 @@ MonoBehaviour:
     MeshMemory: 8
   - Path: Assets/00_ART/01_Scenes/00_MAIN.unity
     Name: 00_MAIN
-    Memory: 265
-    TextureMemory: 236
-    MeshMemory: 28
+    Memory: 230
+    TextureMemory: 213
+    MeshMemory: 17
   - Path: Assets/00_ART/01_Scenes/01.unity
     Name: 01
-    Memory: 258
-    TextureMemory: 236
+    Memory: 290
+    TextureMemory: 268
     MeshMemory: 21
   - Path: Assets/00_ART/01_Scenes/02.unity
     Name: 02
-    Memory: 271
-    TextureMemory: 243
+    Memory: 301
+    TextureMemory: 272
     MeshMemory: 28
   - Path: Assets/00_ART/01_Scenes/03.unity
     Name: 03
-    Memory: 275
-    TextureMemory: 241
+    Memory: 304
+    TextureMemory: 270
     MeshMemory: 33
   - Path: Assets/00_ART/01_Scenes/04.unity
     Name: 04
-    Memory: 302
-    TextureMemory: 241
+    Memory: 331
+    TextureMemory: 270
     MeshMemory: 60
   - Path: Assets/00_ART/01_Scenes/05.unity
     Name: 05
@@ -51,9 +51,9 @@ MonoBehaviour:
     MeshMemory: 28
   - Path: Assets/00_ART/01_Scenes/06.unity
     Name: 06
-    Memory: 281
-    TextureMemory: 236
-    MeshMemory: 44
+    Memory: 362
+    TextureMemory: 265
+    MeshMemory: 97
   - Path: Assets/00_ART/08_Packages_Imports/GrabInteration/SCENE_LOW_ export.unity
     Name: SCENE_LOW_ export
     Memory: 287
@@ -61,11 +61,31 @@ MonoBehaviour:
     MeshMemory: 14
   - Path: Assets/00_ART/01_Scenes/08.unity
     Name: 08
-    Memory: 327
-    TextureMemory: 290
-    MeshMemory: 37
+    Memory: 331
+    TextureMemory: 270
+    MeshMemory: 60
   - Path: Assets/00_ART/01_Scenes/07.unity
     Name: 07
-    Memory: 342
-    TextureMemory: 300
-    MeshMemory: 42
+    Memory: 283
+    TextureMemory: 265
+    MeshMemory: 17
+  - Path: Assets/00_ART/01_Scenes/05_A.unity
+    Name: 05_A
+    Memory: 295
+    TextureMemory: 265
+    MeshMemory: 29
+  - Path: Assets/00_ART/01_Scenes/05_B.unity
+    Name: 05_B
+    Memory: 272
+    TextureMemory: 237
+    MeshMemory: 34
+  - Path: Assets/00_ART/01_Scenes/05_C.unity
+    Name: 05_C
+    Memory: 299
+    TextureMemory: 266
+    MeshMemory: 33
+  - Path: Assets/00_ART/01_Scenes/05_D.unity
+    Name: 05_D
+    Memory: 297
+    TextureMemory: 265
+    MeshMemory: 31
