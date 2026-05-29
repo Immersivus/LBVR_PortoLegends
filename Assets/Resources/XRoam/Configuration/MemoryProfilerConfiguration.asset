@@ -21,24 +21,24 @@ MonoBehaviour:
     MeshMemory: 8
   - Path: Assets/00_ART/01_Scenes/00_MAIN.unity
     Name: 00_MAIN
-    Memory: 159
-    TextureMemory: 156
+    Memory: 184
+    TextureMemory: 182
     MeshMemory: 2
   - Path: Assets/00_ART/01_Scenes/01.unity
     Name: 01
-    Memory: 384
-    TextureMemory: 361
-    MeshMemory: 23
+    Memory: 259
+    TextureMemory: 250
+    MeshMemory: 8
   - Path: Assets/00_ART/01_Scenes/02.unity
     Name: 02
-    Memory: 479
-    TextureMemory: 412
-    MeshMemory: 66
+    Memory: 348
+    TextureMemory: 296
+    MeshMemory: 51
   - Path: Assets/00_ART/01_Scenes/03.unity
     Name: 03
-    Memory: 373
-    TextureMemory: 356
-    MeshMemory: 17
+    Memory: 489
+    TextureMemory: 423
+    MeshMemory: 66
   - Path: Assets/00_ART/01_Scenes/04.unity
     Name: 04
     Memory: 289
