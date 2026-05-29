@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/00_ART/08_Packages_Imports/GrabInteration/SCENE_LOW_ export.unity
     guid: 3e4810cba44f6024797edee3b1bb4a06
   - enabled: 0
@@ -59,7 +59,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/00_ART/01_Scenes/04/SC04_ART_v01.unity
     guid: 1777629942d0fe4469ec73b87565cc23
-  - enabled: 1
+  - enabled: 0
     path: Assets/00_ART/01_Scenes/TESTING/IvoTestingGrounds.unity
     guid: e05b40d2c1fefc3429f3dd5f5d37d9c8
   m_configObjects:
