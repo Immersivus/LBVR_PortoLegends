@@ -144,6 +144,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 137671644284131141, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 148277750340340436, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_Layer
       value: 27
@@ -276,6 +280,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 27
       objectReference: {fileID: 0}
+    - target: {fileID: 2203505961523673815, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2505275410856524202, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_Layer
       value: 27
@@ -343,6 +351,18 @@ PrefabInstance:
     - target: {fileID: 3264757275411881516, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_Layer
       value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307722636636988465, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_UIPressAction.m_Reference
+      value: 
+      objectReference: {fileID: -6131295136447488360, guid: 1d0d0228791f36b409a0b28e55b87e7e, type: 3}
+    - target: {fileID: 3307722636636988465, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_UIPressActionValue.m_Reference
+      value: 
+      objectReference: {fileID: 6558622148059887818, guid: 1d0d0228791f36b409a0b28e55b87e7e, type: 3}
+    - target: {fileID: 3363360872459160024, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3388763737507520187, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_CullingMask.m_Bits
@@ -464,6 +484,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 27
       objectReference: {fileID: 0}
+    - target: {fileID: 5559487491472748532, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5596571789639065336, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_Layer
       value: 27
@@ -485,7 +509,19 @@ PrefabInstance:
       value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 5869816146426660638, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_HoverToSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869816146426660638, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 288
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869816146426660638, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869816146426660638, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_BlockUIOnInteractableSelection
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6009959416174564840, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
@@ -541,7 +577,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6584405899582112077}
     - target: {fileID: 7197990385204181888, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_HoverToSelect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7197990385204181888, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 288
+      objectReference: {fileID: 0}
+    - target: {fileID: 7197990385204181888, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7197990385204181888, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_BlockUIOnInteractableSelection
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7211355327934726997, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
@@ -668,6 +716,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 27
       objectReference: {fileID: 0}
+    - target: {fileID: 8876696985908475095, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_UIPressAction.m_Reference
+      value: 
+      objectReference: {fileID: 187161793506945269, guid: 1d0d0228791f36b409a0b28e55b87e7e, type: 3}
+    - target: {fileID: 8876696985908475095, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_UIPressActionValue.m_Reference
+      value: 
+      objectReference: {fileID: -1758520528963094988, guid: 1d0d0228791f36b409a0b28e55b87e7e, type: 3}
     - target: {fileID: 8950003717230514961, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: m_Layer
       value: 27
