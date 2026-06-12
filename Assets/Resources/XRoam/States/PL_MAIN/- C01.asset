@@ -21,4 +21,8 @@ MonoBehaviour:
   - Assets/00_ART/01_Scenes/01.unity
   - Assets/00_ART/01_Scenes/02.unity
   - Assets/00_ART/01_Scenes/03.unity
-  _stateActions: []
+  _stateActions:
+  - Id: e9ea449a-b916-4e60-9f98-a92298a0f149
+    Name: Swap Music SC02
+    Scene: 00_MAIN
+    Moment: 1

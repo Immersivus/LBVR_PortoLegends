@@ -10,6 +10,8 @@ public class LeverControl : MonoBehaviour
     public UnityEvent leverEvent;
 
     private bool safetyBool;
+
+    public bool notDoubleSided;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -22,10 +24,21 @@ public class LeverControl : MonoBehaviour
     {
         if (!safetyBool)
         {
-            if(lever.angle < lever.limits.min + 10 || lever.angle >  lever.limits.max - 10)
+            if (notDoubleSided)
             {
-                OnLeverMove();
-                safetyBool = true;
+                if (lever.angle > lever.limits.max - 10)
+                {
+                    OnLeverMove();
+                    safetyBool = true;
+                }
+            }
+            else 
+            {
+                if (lever.angle < lever.limits.min + 10 || lever.angle > lever.limits.max - 10)
+                {
+                    OnLeverMove();
+                    safetyBool = true;
+                }
             }
         }
     }
