@@ -4687,7 +4687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &607263282
 Transform:
   m_ObjectHideFlags: 0
@@ -7667,6 +7667,52 @@ MonoBehaviour:
   _statesIds:
   - 4317ad62-fbbe-4ac5-ad3a-5d14602232f7
   _disableOnStateChanged: 1
+--- !u!1 &1090297175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090297177}
+  - component: {fileID: 1090297176}
+  m_Layer: 0
+  m_Name: XR Interaction Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1090297176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090297175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+--- !u!4 &1090297177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090297175}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1090384834
 GameObject:
   m_ObjectHideFlags: 0
@@ -8825,6 +8871,7 @@ MonoBehaviour:
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _statesIds:
   - 372c5601-fff1-4530-836c-2b26e0217a26
+  - eb4a6cad-18cc-4c08-a251-de7667958b4c
   _disableOnStateChanged: 1
 --- !u!1 &1263274350
 GameObject:
@@ -11888,8 +11935,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.6127963, y: 2.5804996, z: 1}
-  m_Center: {x: 0.025678158, y: -0.15657163, z: 0}
+  m_Size: {x: 1.547544, y: 2.5804996, z: 1}
+  m_Center: {x: -0.834028, y: -0.15657163, z: 0}
 --- !u!1 &1759467558
 GameObject:
   m_ObjectHideFlags: 0
@@ -13961,3 +14008,4 @@ SceneRoots:
   - {fileID: 427013983}
   - {fileID: 644934713}
   - {fileID: 781144949}
+  - {fileID: 1090297177}
