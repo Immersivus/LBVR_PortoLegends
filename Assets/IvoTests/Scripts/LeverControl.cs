@@ -41,6 +41,8 @@ public class LeverControl : MonoBehaviour
                 }
             }
         }
+
+
     }
 
     void OnLeverMove()
