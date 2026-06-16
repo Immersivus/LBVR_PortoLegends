@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 04
-    second: {fileID: 2100000, guid: 15b0d82500a947f479eaadd701af1fef, type: 2}
+    second: {fileID: 2100000, guid: a0ca4cf2832a6a44594191aaee7ad865, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -18,16 +18,21 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: PHOTOS
-    second: {fileID: 2100000, guid: ec474452cad0339478d692db1c621200, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SC03_MAIN_SHADER_ATLAS.002
     second: {fileID: 2100000, guid: a0ca4cf2832a6a44594191aaee7ad865, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: SC03_MAIN_SHADER_ATLAS.002
+    second: {fileID: 2100000, guid: da588b35529f4d540b9ca916f654b068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: SC04_MAIN_SHADER_ATLAS
+    second: {fileID: 2100000, guid: da588b35529f4d540b9ca916f654b068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC04_MAIN_SHADER_ATLAS.001
     second: {fileID: 2100000, guid: a0ca4cf2832a6a44594191aaee7ad865, type: 2}
   - first:
       type: UnityEngine:Material
