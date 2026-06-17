@@ -8,12 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: atlas03
+    second: {fileID: 2100000, guid: e471be1c72554fa439eee8aaa99eedd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atlas04
     second: {fileID: 2100000, guid: 66fca6359199bb944ab2cec1b63d610c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: atlas_01
     second: {fileID: 2100000, guid: 1e9596883fb98d148b11269a2554390e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atlas_01.001
+    second: {fileID: 2100000, guid: 6d12bb2cbb018ec4cb1ddbc721616e24, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
