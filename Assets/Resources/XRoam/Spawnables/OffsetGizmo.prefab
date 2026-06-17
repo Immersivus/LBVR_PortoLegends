@@ -248,7 +248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2664005694985297596}
   - component: {fileID: 8502641262813927250}
-  - component: {fileID: 1571738521263858777}
+  - component: {fileID: -6332522673933759336}
   m_Layer: 0
   m_Name: OffsetGizmo
   m_TagString: Untagged
@@ -291,7 +291,7 @@ MonoBehaviour:
   <PredictedSpawn>k__BackingField: {fileID: 0}
   <PredictedOwner>k__BackingField: {fileID: 0}
   NetworkBehaviours:
-  - {fileID: 1571738521263858777}
+  - {fileID: -6332522673933759336}
   InitializedParentNetworkBehaviour: {fileID: 0}
   InitializedNestedNetworkObjects: []
   RuntimeParentNetworkBehaviour: {fileID: 0}
@@ -316,7 +316,7 @@ MonoBehaviour:
   _spectatorInterpolation: 2
   _enableTeleport: 0
   _teleportThreshold: 1
-  <PrefabId>k__BackingField: 1
+  <PrefabId>k__BackingField: 2
   <SpawnableCollectionId>k__BackingField: 0
   <AssetPathHash>k__BackingField: 6133148461725649712
   <SceneId>k__BackingField: 0
@@ -325,7 +325,7 @@ MonoBehaviour:
     Rotation: {x: 0, y: 0, z: 0, w: 1}
     Scale: {x: 1, y: 1, z: 1}
     IsValid: 1
---- !u!114 &1571738521263858777
+--- !u!114 &-6332522673933759336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
