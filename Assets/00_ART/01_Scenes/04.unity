@@ -10487,6 +10487,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1097929382}
     m_Modifications:
+    - target: {fileID: 5367734283278242199, guid: f0b8910925e10b341952355b6158a077, type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5544234343495583166, guid: f0b8910925e10b341952355b6158a077, type: 3}
       propertyPath: m_Name
       value: BookPrefabPlaceholder (3)
@@ -42980,6 +42984,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1097929382}
     m_Modifications:
+    - target: {fileID: 5367734283278242199, guid: f0b8910925e10b341952355b6158a077, type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5544234343495583166, guid: f0b8910925e10b341952355b6158a077, type: 3}
       propertyPath: m_Name
       value: BookPrefabPlaceholder (1)
@@ -46386,6 +46394,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1097929382}
     m_Modifications:
     - target: {fileID: 5367734283278242199, guid: f0b8910925e10b341952355b6158a077, type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367734283278242199, guid: f0b8910925e10b341952355b6158a077, type: 3}
       propertyPath: m_ForceGravityOnDetach
       value: 0
       objectReference: {fileID: 0}
@@ -46451,6 +46463,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1097929382}
     m_Modifications:
+    - target: {fileID: 5367734283278242199, guid: f0b8910925e10b341952355b6158a077, type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5544234343495583166, guid: f0b8910925e10b341952355b6158a077, type: 3}
       propertyPath: m_Name
       value: BookPrefabPlaceholder (2)

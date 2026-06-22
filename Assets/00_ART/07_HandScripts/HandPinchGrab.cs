@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Hands;
 using UnityEngine.XR.Interaction.Toolkit;
@@ -32,7 +32,7 @@ public class HandPinchGrab : MonoBehaviour
 
         if (!hand.isTracked)
         {
-            // Tracking lost mid-grab — force exit all interactors cleanly
+            // Tracking lost mid-grab â€” force exit all interactors cleanly
             if (wasPinching)
             {
                 ForceExitAll();
@@ -81,7 +81,7 @@ public class HandPinchGrab : MonoBehaviour
         // We drive it by toggling the ray interactor's select action simulation
         if (rayInteractor.TryGetCurrentUIRaycastResult(out var raycastResult))
         {
-            // There's a UI element under the ray — send the UI press
+            // There's a UI element under the ray â€” send the UI press
             var uiInputModule = FindAnyObjectByType<XRUIInputModule>();
             if (uiInputModule != null)
                 SimulateUIPress(uiInputModule, raycastResult, pressed);
@@ -150,7 +150,7 @@ public class HandPinchGrab : MonoBehaviour
     {
         if (interactor == null || !interactor.hasSelection) return;
 
-        // Copy list — it mutates during iteration
+        // Copy list â€” it mutates during iteration
         var selecting = new List<IXRSelectInteractable>(interactor.interactablesSelected);
         foreach (var interactable in selecting)
             interactor.interactionManager.SelectExit(

@@ -11506,11 +11506,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 04a55032869711840b7f0beaf20b9c07, type: 2}
     - target: {fileID: -5974431770699926146, guid: 382dcf1276b579b4282d0296f0ed5b8a, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5486603415466280802, guid: 382dcf1276b579b4282d0296f0ed5b8a, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4922190109836300250, guid: 382dcf1276b579b4282d0296f0ed5b8a, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -11534,7 +11534,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0aea7cb0c00fb3246a05d9b6489fbeba, type: 2}
     - target: {fileID: -455485572513581032, guid: 382dcf1276b579b4282d0296f0ed5b8a, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 382dcf1276b579b4282d0296f0ed5b8a, type: 3}
       propertyPath: m_Name
@@ -11542,7 +11542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 382dcf1276b579b4282d0296f0ed5b8a, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
