@@ -19,6 +19,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: atlas03
     second: {fileID: 2100000, guid: ec3beb3d4b7d06041b2bd8a77da625fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atlas_04
+    second: {fileID: 2100000, guid: e9b1edc047fe80048a9bf4ba049fdb52, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
