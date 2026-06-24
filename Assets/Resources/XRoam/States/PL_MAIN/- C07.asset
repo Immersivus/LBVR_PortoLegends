@@ -19,4 +19,8 @@ MonoBehaviour:
   _exposedName: '- C07'
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/07.unity
-  _stateActions: []
+  _stateActions:
+  - Id: f84b1787-67b3-44a1-9d45-42986567c12c
+    Name: Swap Music SC07
+    Scene: 00_MAIN
+    Moment: 1
