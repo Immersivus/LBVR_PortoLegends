@@ -7078,6 +7078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381305540}
   - component: {fileID: 381305541}
+  - component: {fileID: 381305542}
   m_Layer: 0
   m_Name: PuzzleManager
   m_TagString: Untagged
@@ -7117,7 +7118,35 @@ MonoBehaviour:
   steps: 0
   eventAfterCompletion:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 381305542}
+        m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
+        m_MethodName: ChangeState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &381305542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381305539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _stateId: 1f82eae3-06d0-4d50-90ec-3109604b4388
+  _applyChangeToServer: 0
+  _cleanChange: 0
 --- !u!1 &402601890
 GameObject:
   m_ObjectHideFlags: 0
