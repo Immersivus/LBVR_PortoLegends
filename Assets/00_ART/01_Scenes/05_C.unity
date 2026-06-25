@@ -881,6 +881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 2
   correct: 0
+  animator: {fileID: 1872200555}
 --- !u!65 &267712780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13168,6 +13169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 3
   correct: 0
+  animator: {fileID: 1094047740}
 --- !u!65 &627393260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25414,7 +25416,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1009998777}
-  - component: {fileID: 1009998778}
   m_Layer: 0
   m_Name: PuzzleButtons
   m_TagString: Untagged
@@ -25440,28 +25441,6 @@ Transform:
   - {fileID: 627393256}
   m_Father: {fileID: 1362412581}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1009998778
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009998776}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 44861349e58abff42b077c2623a18131, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1040631212
 GameObject:
   m_ObjectHideFlags: 0
@@ -30859,6 +30838,7 @@ GameObject:
   - component: {fileID: 1094047737}
   - component: {fileID: 1094047739}
   - component: {fileID: 1094047738}
+  - component: {fileID: 1094047740}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -30934,6 +30914,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094047736}
   m_Mesh: {fileID: -5494768682103759808, guid: 31e3ff794ecfbf546b9441e49bd16fd6, type: 3}
+--- !u!95 &1094047740
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094047736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44861349e58abff42b077c2623a18131, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1128551286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38100,7 +38102,7 @@ Animator:
   m_GameObject: {fileID: 1276968101}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 59fb6edbcd4e8444ab7973ac6dcc52b1, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -38122,7 +38124,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.105, y: 0, z: 3.42}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1362412581}
@@ -39804,6 +39806,7 @@ GameObject:
   - component: {fileID: 1620141335}
   - component: {fileID: 1620141337}
   - component: {fileID: 1620141336}
+  - component: {fileID: 1620141338}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -39879,6 +39882,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620141334}
   m_Mesh: {fileID: 2552007436865176286, guid: 31e3ff794ecfbf546b9441e49bd16fd6, type: 3}
+--- !u!95 &1620141338
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620141334}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44861349e58abff42b077c2623a18131, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &1646274828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46393,6 +46418,7 @@ GameObject:
   - component: {fileID: 1872200552}
   - component: {fileID: 1872200554}
   - component: {fileID: 1872200553}
+  - component: {fileID: 1872200555}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -46468,6 +46494,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872200551}
   m_Mesh: {fileID: 2181718174279282111, guid: 31e3ff794ecfbf546b9441e49bd16fd6, type: 3}
+--- !u!95 &1872200555
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872200551}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44861349e58abff42b077c2623a18131, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1876120766
 GameObject:
   m_ObjectHideFlags: 0
@@ -46609,6 +46657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 1
   correct: 0
+  animator: {fileID: 1620141338}
 --- !u!114 &1877766558
 MonoBehaviour:
   m_ObjectHideFlags: 0
