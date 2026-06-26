@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: portal_3_mat
+  m_Name: sphere_material_portal
   m_Shader: {fileID: 4800000, guid: a2353fcdab984f847ac6bf3522fac98f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_60305875:
-        m_Texture: {fileID: 2800000, guid: d9721f1c147ffea458c703e7d524b60f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_CBE8DD27:
@@ -144,13 +144,13 @@ Material:
     - _AdvancedDissolveKeywordGlobalControlID: 0
     - _AdvancedDissolveKeywordState: 1
     - _AdvancedDissolveShaderGraphGUID: 0
-    - _Disolve: 0
+    - _Disolve: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - Color_9673536E: {r: 0, g: 1.7568628, b: 16.062746, a: 1}
-    - Vector2_188C51F5: {r: 1, g: 1, b: 0, a: 0}
-    - Vector4_DECB3CBE: {r: -0.5, g: 0, b: 0, a: 0}
+    - Vector2_188C51F5: {r: 4, g: 2, b: 0, a: 0}
+    - Vector4_DECB3CBE: {r: 0, g: 0.3, b: 0, a: 0}
     - _AdvancedDissolveBakedKeywords: {r: 0, g: 0, b: 0, a: 0}
     - _AdvancedDissolveCutoutGeometric1Normal: {r: 1, g: 0, b: 0, a: 0}
     - _AdvancedDissolveCutoutGeometric1Position: {r: 0, g: 0, b: 0, a: 0}

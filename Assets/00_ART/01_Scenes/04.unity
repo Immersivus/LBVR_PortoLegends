@@ -46279,6 +46279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BookPrefabPlaceholder
       objectReference: {fileID: 0}
+    - target: {fileID: 5544234343495583166, guid: f0b8910925e10b341952355b6158a077, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6063574933871224330, guid: f0b8910925e10b341952355b6158a077, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.255

@@ -155,6 +155,9 @@
         },
         {
             "m_Id": "901cc3fa55c44af9a98036167c9277b8"
+        },
+        {
+            "m_Id": "ad34ea032075434cb4466eed09351e0d"
         }
     ],
     "m_GroupDatas": [],
@@ -508,6 +511,20 @@
                     "m_Id": "a268e747ae43d189809ca9243ea0b7a8"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "ad34ea032075434cb4466eed09351e0d"
+                },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "901cc3fa55c44af9a98036167c9277b8"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -3401,6 +3418,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "a0017ca520c7409eb744ef5d993a4e66",
+    "m_Id": 3,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "a060c1ae6aabb5809cf77da48c27a1bf",
     "m_Id": 0,
@@ -3683,6 +3715,56 @@
     },
     "m_Labels": [],
     "m_ScreenSpaceType": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "ad34ea032075434cb4466eed09351e0d",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Advanced Dissolve",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -615.0,
+            "y": 386.0,
+            "width": 249.00003051757813,
+            "height": 303.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "f6116e8b38c6429bad02c222d5a7d9cb"
+        },
+        {
+            "m_Id": "e85ae16672f24dd3b6fab7dd02c4bd55"
+        },
+        {
+            "m_Id": "a0017ca520c7409eb744ef5d993a4e66"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"58cc1ed7edc36664e85cbe55fd29d527\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "c701cd45-688e-46f3-967f-e302285a4dad",
+        "6c2f7d51-be77-44c0-a149-1de41a5a5c61"
+    ],
+    "m_PropertyIds": [
+        777814133,
+        -1381052259
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
 {
@@ -4647,6 +4729,31 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "e85ae16672f24dd3b6fab7dd02c4bd55",
+    "m_Id": -1381052259,
+    "m_DisplayName": "User Defined Edge Color",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Color_d37717e22d9845eeb5507ed0b661e197",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "e96b3190a104cb81820adef815fbf34e",
     "m_Id": 1,
@@ -4850,6 +4957,21 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "f6116e8b38c6429bad02c222d5a7d9cb",
+    "m_Id": 777814133,
+    "m_DisplayName": "User Defined Cutout",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Vector1_9E44E7D0",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
