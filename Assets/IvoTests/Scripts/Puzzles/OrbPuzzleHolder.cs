@@ -28,9 +28,9 @@ public class OrbPuzzleHolder : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<OrbPuzzleHolder>() != null)
+        if (other.GetComponent<OrbPuzzleOrb>() != null)
         {
-            if(other.GetComponent<OrbPuzzleHolder>().color == color)
+            if(other.GetComponent<OrbPuzzleOrb>().color == color)
             {
                 AttachOrb(other.transform);
             }
@@ -39,9 +39,10 @@ public class OrbPuzzleHolder : MonoBehaviour
 
     void AttachOrb(Transform orb)
     {
-        orb.parent = this.transform;
-        orb.localPosition = Vector3.zero;
+        orb.parent = gameObject.transform;
         orb.GetComponent<XRGrabInteractable>().enabled = false;
+        orb.GetComponent<SphereCollider>().enabled = false;
+        orb.GetComponent<OrbPuzzleOrb>().Placed(gameObject);
         manager.steps++;
         ac.Play();
         foreach (GameObject particle in particles) 

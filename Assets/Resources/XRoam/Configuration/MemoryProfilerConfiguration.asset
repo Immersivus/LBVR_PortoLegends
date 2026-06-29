@@ -21,29 +21,29 @@ MonoBehaviour:
     MeshMemory: 8
   - Path: Assets/00_ART/01_Scenes/00_MAIN.unity
     Name: 00_MAIN
-    Memory: 280
-    TextureMemory: 260
-    MeshMemory: 20
+    Memory: 255
+    TextureMemory: 242
+    MeshMemory: 13
   - Path: Assets/00_ART/01_Scenes/01.unity
     Name: 01
-    Memory: 471
-    TextureMemory: 402
-    MeshMemory: 69
+    Memory: 287
+    TextureMemory: 266
+    MeshMemory: 21
   - Path: Assets/00_ART/01_Scenes/02.unity
     Name: 02
-    Memory: 438
-    TextureMemory: 387
-    MeshMemory: 51
+    Memory: 371
+    TextureMemory: 307
+    MeshMemory: 63
   - Path: Assets/00_ART/01_Scenes/03.unity
     Name: 03
-    Memory: 364
-    TextureMemory: 345
-    MeshMemory: 18
+    Memory: 514
+    TextureMemory: 434
+    MeshMemory: 80
   - Path: Assets/00_ART/01_Scenes/04.unity
     Name: 04
-    Memory: 327
-    TextureMemory: 310
-    MeshMemory: 17
+    Memory: 453
+    TextureMemory: 419
+    MeshMemory: 33
   - Path: Assets/00_ART/01_Scenes/05.unity
     Name: 05
     Memory: 265
@@ -51,9 +51,9 @@ MonoBehaviour:
     MeshMemory: 28
   - Path: Assets/00_ART/01_Scenes/06.unity
     Name: 06
-    Memory: 357
-    TextureMemory: 298
-    MeshMemory: 59
+    Memory: 748
+    TextureMemory: 685
+    MeshMemory: 62
   - Path: Assets/00_ART/08_Packages_Imports/GrabInteration/SCENE_LOW_ export.unity
     Name: SCENE_LOW_ export
     Memory: 390
