@@ -24,22 +24,11 @@ public class FollowPlayer : MonoBehaviour
         {
             if (!tracking)
             {
-                StartCoroutine(MoveToPlayer());
                 tracking = true;
             }
 
             Vector3 newPosition = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
             transform.position = newPosition;
-        }
-    }
-
-    IEnumerator MoveToPlayer()
-    {
-        while (true)
-        {
-            Quaternion stabilizedRotation = new Quaternion(transform.rotation.x, playerTransform.rotation.y, transform.rotation.z, playerTransform.rotation.w);
-            transform.rotation = Quaternion.Lerp(transform.rotation, stabilizedRotation, Time.deltaTime);
-            yield return null;
         }
     }
 }
