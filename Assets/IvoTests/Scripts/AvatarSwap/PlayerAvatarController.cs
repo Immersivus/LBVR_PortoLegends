@@ -1,5 +1,6 @@
 using FishNet.Object;
 using FishNet.Object.Synchronizing;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAvatarController : NetworkBehaviour
@@ -35,7 +36,6 @@ public class PlayerAvatarController : NetworkBehaviour
             Debug.LogWarning($"Invalid head index requested: {newIndex}");
             return;
         }
-
         RequestHeadChangeServerRpc(newIndex);
     }
 

@@ -40,4 +40,12 @@ public class LanguageSystemPlayerFollow : MonoBehaviour
             yield return null;
         }
     }
+
+    public void ChangeAvatar(int avatarIndex)
+    {
+        foreach (GameObject avatar in GameObject.FindGameObjectsWithTag("Avatar"))
+        {
+           avatar.GetComponent<PlayerAvatarController>().RequestHeadChange(avatarIndex);
+        }
+    }
 }

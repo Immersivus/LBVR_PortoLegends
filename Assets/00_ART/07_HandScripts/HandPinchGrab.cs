@@ -36,6 +36,7 @@ public class HandPinchGrab : MonoBehaviour
             if (wasPinching)
             {
                 ForceExitAll();
+                RayUIPointerUp(); // release any held UI press, without a click
                 wasPinching = false;
             }
 
@@ -57,64 +58,80 @@ public class HandPinchGrab : MonoBehaviour
 
         if (isPinching && !wasPinching)
         {
-            TryPressRayUI(pressed: true);
             TrySelectAll();
+            RayUIPointerDown();
         }
-            
         else if (!isPinching && wasPinching)
         {
-            TryPressRayUI(pressed: false);
             ForceExitAll();
+            RayUIPointerUp();
         }
-           
 
         wasPinching = isPinching;
     }
     // --- UI (Ray over Canvas) ---
+    // Canvas UI Buttons are NOT IXRInteractable, so they never show up in
+    // GetValidTargets() and can never be reached via SelectEnter/SelectExit.
+    // Instead of relying on XRI's internal UI input plumbing (which differs
+    // across package versions — some expose uiPressInput on the interactor,
+    // older ones read it off the controller instead), we drive Unity's
+    // standard UGUI event system directly. This fires the exact same
+    // OnPointerDown/Up/Click callbacks a mouse click would, and works
+    // regardless of XRI version.
 
-    private void TryPressRayUI(bool pressed)
+    private GameObject rayPressedGO;
+
+    private void RayUIPointerDown()
     {
         if (rayInteractor == null) return;
+        if (!rayInteractor.TryGetCurrentUIRaycastResult(out var raycastResult)) return;
 
-        // XRRayInteractor exposes the UI press state through its line visual
-        // but the actual UI click goes through the XRUIInputModule via simulateTouch
-        // We drive it by toggling the ray interactor's select action simulation
-        if (rayInteractor.TryGetCurrentUIRaycastResult(out var raycastResult))
+        var target = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler<UnityEngine.EventSystems.IPointerDownHandler>(raycastResult.gameObject);
+        if (target == null) return;
+
+        var eventData = new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current)
         {
-            // There's a UI element under the ray — send the UI press
-            var uiInputModule = FindAnyObjectByType<XRUIInputModule>();
-            if (uiInputModule != null)
-                SimulateUIPress(uiInputModule, raycastResult, pressed);
+            pointerPress = target,
+            pointerEnter = target,
+            button = UnityEngine.EventSystems.PointerEventData.InputButton.Left
+        };
+
+        UnityEngine.EventSystems.ExecuteEvents.Execute(
+            target, eventData, UnityEngine.EventSystems.ExecuteEvents.pointerDownHandler);
+
+        rayPressedGO = target;
+    }
+
+    private void RayUIPointerUp()
+    {
+        if (rayPressedGO == null) return;
+
+        var eventData = new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current)
+        {
+            pointerPress = rayPressedGO,
+            pointerEnter = rayPressedGO,
+            button = UnityEngine.EventSystems.PointerEventData.InputButton.Left
+        };
+
+        UnityEngine.EventSystems.ExecuteEvents.Execute(
+            rayPressedGO, eventData, UnityEngine.EventSystems.ExecuteEvents.pointerUpHandler);
+
+        // Only fire the click if the ray is still over the same element it
+        // was pressed on — mirrors normal button behavior (drag-off cancels).
+        bool stillOverSameTarget = false;
+        if (rayInteractor != null && rayInteractor.TryGetCurrentUIRaycastResult(out var currentHover))
+        {
+            var currentTarget = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler<UnityEngine.EventSystems.IPointerClickHandler>(currentHover.gameObject);
+            stillOverSameTarget = currentTarget == rayPressedGO;
         }
-    }
 
-    private void SimulateUIPress(XRUIInputModule uiInputModule,
-                                  UnityEngine.EventSystems.RaycastResult raycastResult,
-                                  bool pressed)
-    {
-        // XRUIInputModule routes UI events through the interactor's select state.
-        // The cleanest way to trigger it without a physical button is to
-        // temporarily enable selectActionTrigger via the interactor's UI press path.
-        // Since XRRayInteractor.uiPressInput isn't directly settable, we use
-        // SendUIPress which XRUIInputModule exposes internally via the interactor.
+        if (stillOverSameTarget)
+        {
+            UnityEngine.EventSystems.ExecuteEvents.Execute(
+                rayPressedGO, eventData, UnityEngine.EventSystems.ExecuteEvents.pointerClickHandler);
+        }
 
-        // Force the ray interactor into select state to trigger UI press
-        if (pressed)
-            rayInteractor.interactionManager.SelectEnter(
-                (IXRSelectInteractor)rayInteractor,
-                GetRayUIInteractable());
-        else
-            ForceExitInteractor(rayInteractor);
-    }
-
-    // The XRRayInteractor itself acts as the UI interactable target when over UI
-    private IXRSelectInteractable GetRayUIInteractable()
-    {
-        var targets = new List<IXRInteractable>();
-        rayInteractor.GetValidTargets(targets);
-        if (targets.Count > 0)
-            return targets[0] as IXRSelectInteractable;
-        return null;
+        rayPressedGO = null;
     }
 
     private void TrySelectAll()
