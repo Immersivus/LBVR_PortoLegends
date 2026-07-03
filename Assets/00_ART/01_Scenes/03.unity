@@ -88305,6 +88305,7 @@ GameObject:
   - component: {fileID: 1410106280}
   - component: {fileID: 1410106279}
   - component: {fileID: 1410106278}
+  - component: {fileID: 1410106282}
   m_Layer: 0
   m_Name: TM_TRIGGER
   m_TagString: Untagged
@@ -88358,6 +88359,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1410106282}
+        m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
+        m_MethodName: ChangeState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnExitActions:
     m_PersistentCalls:
       m_Calls: []
@@ -88397,12 +88410,28 @@ Transform:
   m_GameObject: {fileID: 1410106277}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.86, y: 0, z: 1.43}
+  m_LocalPosition: {x: 1.895, y: 0, z: 1.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1897682574}
+  m_Father: {fileID: 1521370091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1410106282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410106277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _stateId: 372c5601-fff1-4530-836c-2b26e0217a26
+  _applyChangeToServer: 0
+  _cleanChange: 0
 --- !u!1 &1425670784
 GameObject:
   m_ObjectHideFlags: 0
@@ -93887,7 +93916,8 @@ PlayableDirector:
   - key: {fileID: 3182721787872571773, guid: 0202539786df3154eaa1b40c198f0223, type: 2}
     value: {fileID: 1331595876}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 72ed6d9569fc9c84ba4690eba691b23e: {fileID: 1410106277}
 --- !u!4 &1465392009
 Transform:
   m_ObjectHideFlags: 0
@@ -94883,6 +94913,7 @@ Transform:
   - {fileID: 893960893}
   - {fileID: 793554249}
   - {fileID: 1724115817}
+  - {fileID: 1410106281}
   m_Father: {fileID: 1408082647}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1521370092
@@ -112470,7 +112501,6 @@ Transform:
   - {fileID: 1947117672}
   - {fileID: 1465392009}
   - {fileID: 1813242989}
-  - {fileID: 1410106281}
   m_Father: {fileID: 1408082647}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898755529
