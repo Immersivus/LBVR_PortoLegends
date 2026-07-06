@@ -7,7 +7,8 @@ public class PlayerAvatarController : NetworkBehaviour
 {
     [Header("Head Variants")]
     [Tooltip("Head mesh GameObjects, index-matched.")]
-    [SerializeField] private GameObject[] headVariants;
+
+    [SerializeField] private List<GameObject> headVariants;
 
     private readonly SyncVar<int> _headIndex = new SyncVar<int>(0);
 
@@ -28,10 +29,14 @@ public class PlayerAvatarController : NetworkBehaviour
     /// </summary>
     public void RequestHeadChange(int newIndex)
     {
+        
         if (!IsOwner)
             return;
 
-        if (headVariants == null || newIndex < 0 || newIndex >= headVariants.Length)
+        Debug.Log("Fodasse");
+        headVariants = GetComponentInChildren<HeadMeshList>(true).headMeshes;
+
+        if (headVariants == null || newIndex < 0 || newIndex >= headVariants.Count)
         {
             Debug.LogWarning($"Invalid head index requested: {newIndex}");
             return;
@@ -56,7 +61,7 @@ public class PlayerAvatarController : NetworkBehaviour
         if (headVariants == null)
             return;
 
-        for (int i = 0; i < headVariants.Length; i++)
+        for (int i = 0; i < headVariants.Count; i++)
         {
             if (headVariants[i] != null)
                 headVariants[i].SetActive(i == index);

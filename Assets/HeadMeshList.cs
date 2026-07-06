@@ -1,7 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HeadMeshList : MonoBehaviour
 {
-    public GameObject[] headMeshes;
+
+    public List<GameObject> headMeshes;
 
 }
