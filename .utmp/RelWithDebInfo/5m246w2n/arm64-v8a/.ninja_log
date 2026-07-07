@@ -1,10 +1,19 @@
 # ninja log v5
+23	1331	8033247482995785	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fe03d8e542fc9248
 1	1236	8033247482185115	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2fe72fd3cf59240f
 11	1308	8033247482381096	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	8199b06c17e13363
-23	1331	8033247482995785	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fe03d8e542fc9248
+5	1800	8033247486847878	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7f4ede4a336db1e4
 20	1332	8033247482995785	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1821cf60ec3f74c7
 16	1468	8033247484494197	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c53bf753b9fcb2c
+1800	2073	8033247490398829	F:/Users/Public/Documents/Unity Projects/LBVR_PortoLegends/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5m246w2n/obj/arm64-v8a/libgame.so	2faa05949d109149
 14	1469	8033247484484157	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	96bc2c1635781e77
 8	1469	8033247484494197	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	aa582b75acbc022b
-5	1800	8033247486847878	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7f4ede4a336db1e4
-1800	2073	8033247490398829	F:/Users/Public/Documents/Unity Projects/LBVR_PortoLegends/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5m246w2n/obj/arm64-v8a/libgame.so	2faa05949d109149
+11	862	8051459223714698	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2fe72fd3cf59240f
+20	879	8051459223891682	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	8199b06c17e13363
+24	896	8051459224080007	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1821cf60ec3f74c7
+27	900	8051459224140380	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fe03d8e542fc9248
+17	1026	8051459225375732	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c53bf753b9fcb2c
+14	1030	8051459225436597	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7f4ede4a336db1e4
+5	1040	8051459225541808	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	96bc2c1635781e77
+2	1093	8051459226057436	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	aa582b75acbc022b
+1093	1394	8051459229062809	F:/Users/Public/Documents/Unity Projects/LBVR_PortoLegends/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5m246w2n/obj/arm64-v8a/libgame.so	2faa05949d109149
