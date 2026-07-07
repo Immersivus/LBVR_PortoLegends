@@ -669,8 +669,8 @@ MonoBehaviour:
   ambientColor: {r: 1, g: 1, b: 1, a: 1}
   ambientMode: 0
   fog: 1
-  fogColor: {r: 1, g: 0.8980392, b: 0.5568628, a: 1}
-  fogDensity: 0.006
+  fogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
+  fogDensity: 0.02
 --- !u!114 &-4875721401284841420
 MonoBehaviour:
   m_ObjectHideFlags: 1
