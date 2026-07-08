@@ -6,6 +6,8 @@ public class OrbPuzzleOrb : MonoBehaviour
 
     private GameObject parent;
     public bool placed;
+
+    public int index;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
