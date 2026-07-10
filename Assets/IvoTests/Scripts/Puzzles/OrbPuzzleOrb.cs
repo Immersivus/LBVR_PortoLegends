@@ -11,7 +11,7 @@ public class OrbPuzzleOrb : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        GetComponent<Rigidbody>().AddForce(Vector3.forward * 10);
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class OrbPuzzleOrb : MonoBehaviour
         if (placed)
         {
             transform.localPosition = Vector3.zero;
-            transform.parent = parent.transform;
+            transform.parent = parent.transform;           
         }
     }
 
@@ -28,5 +28,6 @@ public class OrbPuzzleOrb : MonoBehaviour
     {
         placed = true;
         parent = newParent;
+        GetComponent<Rigidbody>().useGravity = false;
     }
 }

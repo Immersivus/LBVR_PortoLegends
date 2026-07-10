@@ -58248,7 +58248,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
+  m_ForceGravityOnDetach: 1
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
@@ -84735,6 +84735,7 @@ MonoBehaviour:
   - {fileID: 1950470988}
   - {fileID: 106125390}
   - {fileID: 1569211057}
+  orbsStartingPosition: []
 --- !u!65 &1742939661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84754,8 +84755,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.220175, y: 2.7840111, z: 6.6539383}
-  m_Center: {x: 0.59318066, y: 1.4165784, z: 0.55471516}
+  m_Size: {x: 5.220175, y: 2.2406025, z: 6.6539383}
+  m_Center: {x: 0.59318066, y: 1.6882827, z: 0.55471516}
 --- !u!1001 &1743795968
 PrefabInstance:
   m_ObjectHideFlags: 0

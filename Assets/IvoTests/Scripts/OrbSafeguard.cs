@@ -6,7 +6,7 @@ public class OrbSafeguard : MonoBehaviour
 
     [SerializeField] private List<GameObject> orbs;
 
-    private List<Vector3> orbsStartingPosition;
+    public List<Vector3> orbsStartingPosition;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,6 +34,9 @@ public class OrbSafeguard : MonoBehaviour
         if (other.GetComponent<OrbPuzzleOrb>() != null)
         {
             other.transform.localPosition = orbsStartingPosition[other.GetComponent<OrbPuzzleOrb>().index];
+            other.GetComponent<Rigidbody>().linearVelocity = Vector3.zero; // kill previous momentum
+            other.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            other.GetComponent<Rigidbody>().useGravity = false;
         }
     }
 }
