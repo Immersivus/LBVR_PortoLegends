@@ -3516,7 +3516,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433306223}
-  - component: {fileID: 433306224}
   m_Layer: 0
   m_Name: TM_WINE
   m_TagString: Untagged
@@ -3542,23 +3541,6 @@ Transform:
   - {fileID: 1542231198}
   m_Father: {fileID: 543450652987388407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &433306224
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433306222}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 5cd7abf7e91e3a144a812ea7b32e2476, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings: []
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &605798732
 GameObject:
   m_ObjectHideFlags: 0
@@ -9276,7 +9258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timelineObject: {fileID: 433306222}
-  timeline: {fileID: 433306224}
 --- !u!1001 &1360576131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29731,7 +29712,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &3655000510210119708
 GameObject:
@@ -29749,7 +29730,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &4109396432181806605
 MeshFilter:
@@ -29957,7 +29938,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!65 &8513859187056670512
 BoxCollider:

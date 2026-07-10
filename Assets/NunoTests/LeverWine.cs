@@ -4,12 +4,11 @@ using UnityEngine.Playables;
 public class LeverWine : MonoBehaviour
 {
     public GameObject timelineObject;
-    public PlayableDirector timeline;
-    private float rotationThreshold = 0.5f;
+    private float rotationThreshold = 0.05f;
 
     float lastY;
 
-
+    bool isRotating;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,26 +19,26 @@ public class LeverWine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float currentY = transform.localEulerAngles.y;
-        bool isRotating = Mathf.Abs(Mathf.DeltaAngle(lastY, currentY)) > rotationThreshold;
+        if (GetComponent<Rigidbody>().angularVelocity.y != 0f)
+        {
+            isRotating = true;
+        }
+        else 
+        {
+            isRotating = false;
+        }
 
         if (isRotating)
         {
             if (!timelineObject.activeSelf)
                 timelineObject.SetActive(true);
-
-            if (timeline.state != PlayState.Playing)
-                timeline.Play();
         }
         else
         {
             if (timelineObject.activeSelf)
             {
-                timeline.Stop();
                 timelineObject.SetActive(false);
             }
         }
-
-        lastY = currentY;
     }
 }
