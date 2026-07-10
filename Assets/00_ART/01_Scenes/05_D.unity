@@ -2459,7 +2459,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1343916300}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -9117955906679048207, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808290131}
+    - targetCorrespondingSourceObject: {fileID: -9117955906679048207, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808290134}
+    - targetCorrespondingSourceObject: {fileID: -9117955906679048207, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808290133}
+    - targetCorrespondingSourceObject: {fileID: -9117955906679048207, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808290132}
   m_SourcePrefab: {fileID: 100100000, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
 --- !u!4 &195243713 stripped
 Transform:
@@ -9265,7 +9277,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timelineObject: {fileID: 433306222}
   timeline: {fileID: 433306224}
-  rotationThreshold: 1
 --- !u!1001 &1360576131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14587,7 +14598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _activationType: 0
+  _activationType: 1
   _elements:
   - {fileID: 1343916299}
   - {fileID: 195243863}
@@ -19653,6 +19664,104 @@ Transform:
   - {fileID: 1360576133}
   m_Father: {fileID: 543450652987388407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1808290131
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195243714}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9f7690f33fdc5948bb8d6e5e06e5b0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1808290132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195243714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enabled: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1808290133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195243714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: 5aa71fa3-2661-4349-abb2-8b7f4a0b9eb3
+  _bodyPartType: 0
+  _onlyAdmin: 0
+  _synchronized: 0
+  _oneUseOnly: 1
+  OnEnterActions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1808290131}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CorkAnim
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersEnterActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!135 &1808290134
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195243714}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.4970334
+  m_Center: {x: -0.000000010670586, y: 0.95826435, z: 0.35964754}
 --- !u!1 &1838119738
 GameObject:
   m_ObjectHideFlags: 0
