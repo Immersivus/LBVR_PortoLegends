@@ -5,7 +5,7 @@ public class LeverWine : MonoBehaviour
 {
     public GameObject timelineObject;
     public PlayableDirector timeline;
-    private float rotationThreshold = 0.5;
+    private float rotationThreshold = 0.5f;
 
     float lastY;
 
