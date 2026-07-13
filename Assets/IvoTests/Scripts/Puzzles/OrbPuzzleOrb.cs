@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class OrbPuzzleOrb : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class OrbPuzzleOrb : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GetComponent<Rigidbody>().AddForce(Vector3.forward * 10);
+       
     }
 
     // Update is called once per frame

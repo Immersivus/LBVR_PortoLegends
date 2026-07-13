@@ -20,4 +20,8 @@ MonoBehaviour:
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/05_C.unity
   - Assets/00_ART/01_Scenes/05_D.unity
-  _stateActions: []
+  _stateActions:
+  - Id: 0b77925a-101e-4393-bd66-75b3855fa035
+    Name: IncreaseFarClip
+    Scene: 00_MAIN
+    Moment: 1
