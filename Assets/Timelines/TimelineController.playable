@@ -1461,10 +1461,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sphere 6
   - m_Version: 1
-    m_Start: 632.2666666666646
-    m_ClipIn: 0
+    m_Start: 633.0833333333311
+    m_ClipIn: 0.8166666666664923
     m_Asset: {fileID: -4449371825158606284}
-    m_Duration: 10
+    m_Duration: 9.183333333333508
     m_TimeScale: 1
     m_ParentTrack: {fileID: 852489550963816524}
     m_EaseInDuration: 0
