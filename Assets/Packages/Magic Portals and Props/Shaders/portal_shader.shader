@@ -523,6 +523,12 @@ void Unity_TilingAndOffset_float(float2 UV, float2 Tiling, float2 Offset, out fl
     Out = UV * Tiling + Offset;
 }
 
+void Unity_Contrast_float(float3 In, float Contrast, out float3 Out)
+{
+    float midpoint = pow(0.5, 2.2);
+    Out =  (In - midpoint) * Contrast + midpoint;
+}
+
 void Unity_Add_float4(float4 A, float4 B, out float4 Out)
 {
     Out = A + B;
@@ -648,6 +654,8 @@ float4 _Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4;
 Unity_Multiply_float4_float4(_Multiply_9a7b95e4bd11eb8b9526b63029537128_Out_2_Vector4, _Property_de81ac741338f78997613570e06449a3_Out_0_Vector4, _Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4);
 float4 _Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4;
 Unity_Multiply_float4_float4(_Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4, IN.VertexColor, _Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4);
+float3 _Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3;
+Unity_Contrast_float((_Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4.xyz), float(1.8), _Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3);
 float4 _ScreenPosition_35502ea563de198cb81c1dc57a46b5fb_Out_0_Vector4 = float4(IN.NDCPosition.xy, 0, 0);
 UnityTexture2D _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D = UnityBuildTexture2DStructNoScale(Texture2D_CBE8DD27);
 float4 _SampleTexture2D_c938392dd7e285808f7c37a9588cabf9_RGBA_0_Vector4 = SAMPLE_TEXTURE2D(_Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.tex, _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.samplerstate, _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.GetTransformedUV(_TilingAndOffset_6937019617fac98d9d9b2f666ab3e57d_Out_3_Vector2) );
@@ -665,7 +673,7 @@ Unity_Add_float4(_ScreenPosition_35502ea563de198cb81c1dc57a46b5fb_Out_0_Vector4,
 float3 _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3;
 Unity_SceneColor_float(_Add_6d91d73f3dafd688a2fa77c600610e8c_Out_2_Vector4, _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3);
 float3 _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3;
-Unity_Add_float3((_Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4.xyz), _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3, _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3);
+Unity_Add_float3(_Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3, _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3, _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3);
 float _Property_0bb70889de477f8aa7a978e61e951fe0_Out_0_Float = Vector1_4B8E4C28;
 float _Property_3986b5c753e76c89b805e3ae8b4b6c9e_Out_0_Float = Vector1_F6D0D21E;
 Bindings_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d;
@@ -677,7 +685,7 @@ _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.AbsoluteWorldSpacePosition = 
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.uv0 = IN.uv0;
 float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 SG_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float(float(0), float4 (0, 0, 0, 1), _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d, _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float);
-surface.BaseColor = IsGammaSpace() ? float3(0, 0, 0) : SRGBToLinear(float3(0, 0, 0));
+surface.BaseColor = IsGammaSpace() ? float3(0, 0.0509804, 1) : SRGBToLinear(float3(0, 0.0509804, 1));
 surface.NormalTS = IN.TangentSpaceNormal;
 surface.Emission = _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3;
 surface.Metallic = _Property_0bb70889de477f8aa7a978e61e951fe0_Out_0_Float;
@@ -1159,6 +1167,12 @@ void Unity_TilingAndOffset_float(float2 UV, float2 Tiling, float2 Offset, out fl
     Out = UV * Tiling + Offset;
 }
 
+void Unity_Contrast_float(float3 In, float Contrast, out float3 Out)
+{
+    float midpoint = pow(0.5, 2.2);
+    Out =  (In - midpoint) * Contrast + midpoint;
+}
+
 void Unity_Add_float4(float4 A, float4 B, out float4 Out)
 {
     Out = A + B;
@@ -1284,6 +1298,8 @@ float4 _Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4;
 Unity_Multiply_float4_float4(_Multiply_9a7b95e4bd11eb8b9526b63029537128_Out_2_Vector4, _Property_de81ac741338f78997613570e06449a3_Out_0_Vector4, _Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4);
 float4 _Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4;
 Unity_Multiply_float4_float4(_Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4, IN.VertexColor, _Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4);
+float3 _Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3;
+Unity_Contrast_float((_Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4.xyz), float(1.8), _Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3);
 float4 _ScreenPosition_35502ea563de198cb81c1dc57a46b5fb_Out_0_Vector4 = float4(IN.NDCPosition.xy, 0, 0);
 UnityTexture2D _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D = UnityBuildTexture2DStructNoScale(Texture2D_CBE8DD27);
 float4 _SampleTexture2D_c938392dd7e285808f7c37a9588cabf9_RGBA_0_Vector4 = SAMPLE_TEXTURE2D(_Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.tex, _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.samplerstate, _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.GetTransformedUV(_TilingAndOffset_6937019617fac98d9d9b2f666ab3e57d_Out_3_Vector2) );
@@ -1301,7 +1317,7 @@ Unity_Add_float4(_ScreenPosition_35502ea563de198cb81c1dc57a46b5fb_Out_0_Vector4,
 float3 _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3;
 Unity_SceneColor_float(_Add_6d91d73f3dafd688a2fa77c600610e8c_Out_2_Vector4, _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3);
 float3 _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3;
-Unity_Add_float3((_Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4.xyz), _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3, _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3);
+Unity_Add_float3(_Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3, _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3, _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3);
 float _Property_0bb70889de477f8aa7a978e61e951fe0_Out_0_Float = Vector1_4B8E4C28;
 float _Property_3986b5c753e76c89b805e3ae8b4b6c9e_Out_0_Float = Vector1_F6D0D21E;
 Bindings_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d;
@@ -1313,7 +1329,7 @@ _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.AbsoluteWorldSpacePosition = 
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.uv0 = IN.uv0;
 float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 SG_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float(float(0), float4 (0, 0, 0, 1), _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d, _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float);
-surface.BaseColor = IsGammaSpace() ? float3(0, 0, 0) : SRGBToLinear(float3(0, 0, 0));
+surface.BaseColor = IsGammaSpace() ? float3(0, 0.0509804, 1) : SRGBToLinear(float3(0, 0.0509804, 1));
 surface.NormalTS = IN.TangentSpaceNormal;
 surface.Emission = _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3;
 surface.Metallic = _Property_0bb70889de477f8aa7a978e61e951fe0_Out_0_Float;
@@ -3399,6 +3415,12 @@ void Unity_TilingAndOffset_float(float2 UV, float2 Tiling, float2 Offset, out fl
     Out = UV * Tiling + Offset;
 }
 
+void Unity_Contrast_float(float3 In, float Contrast, out float3 Out)
+{
+    float midpoint = pow(0.5, 2.2);
+    Out =  (In - midpoint) * Contrast + midpoint;
+}
+
 void Unity_Add_float4(float4 A, float4 B, out float4 Out)
 {
     Out = A + B;
@@ -3520,6 +3542,8 @@ float4 _Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4;
 Unity_Multiply_float4_float4(_Multiply_9a7b95e4bd11eb8b9526b63029537128_Out_2_Vector4, _Property_de81ac741338f78997613570e06449a3_Out_0_Vector4, _Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4);
 float4 _Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4;
 Unity_Multiply_float4_float4(_Multiply_63542a0e8ec468808c34683497ce12d2_Out_2_Vector4, IN.VertexColor, _Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4);
+float3 _Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3;
+Unity_Contrast_float((_Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4.xyz), float(1.8), _Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3);
 float4 _ScreenPosition_35502ea563de198cb81c1dc57a46b5fb_Out_0_Vector4 = float4(IN.NDCPosition.xy, 0, 0);
 UnityTexture2D _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D = UnityBuildTexture2DStructNoScale(Texture2D_CBE8DD27);
 float4 _SampleTexture2D_c938392dd7e285808f7c37a9588cabf9_RGBA_0_Vector4 = SAMPLE_TEXTURE2D(_Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.tex, _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.samplerstate, _Property_c42eec60b8c70f869c9c0ee253afd923_Out_0_Texture2D.GetTransformedUV(_TilingAndOffset_6937019617fac98d9d9b2f666ab3e57d_Out_3_Vector2) );
@@ -3537,7 +3561,7 @@ Unity_Add_float4(_ScreenPosition_35502ea563de198cb81c1dc57a46b5fb_Out_0_Vector4,
 float3 _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3;
 Unity_SceneColor_float(_Add_6d91d73f3dafd688a2fa77c600610e8c_Out_2_Vector4, _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3);
 float3 _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3;
-Unity_Add_float3((_Multiply_a268e747ae43d189809ca9243ea0b7a8_Out_2_Vector4.xyz), _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3, _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3);
+Unity_Add_float3(_Contrast_e9ba9e49699343538e1332e4dc7ba655_Out_2_Vector3, _SceneColor_16fd7b243f22c18bbb874b48afde2c4f_Out_1_Vector3, _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3);
 Bindings_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d;
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.ObjectSpaceNormal = IN.ObjectSpaceNormal;
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.WorldSpaceNormal = IN.WorldSpaceNormal;
@@ -3547,7 +3571,7 @@ _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.AbsoluteWorldSpacePosition = 
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.uv0 = IN.uv0;
 float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 SG_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float(float(0), float4 (0, 0, 0, 1), _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d, _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float);
-surface.BaseColor = IsGammaSpace() ? float3(0, 0, 0) : SRGBToLinear(float3(0, 0, 0));
+surface.BaseColor = IsGammaSpace() ? float3(0, 0.0509804, 1) : SRGBToLinear(float3(0, 0.0509804, 1));
 surface.Emission = _Add_5f015f3f96a07a8c8995602ac60c6a94_Out_2_Vector3;
 surface.Alpha = float(1);
 surface.AlphaClipThreshold = _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
@@ -4396,7 +4420,7 @@ _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.AbsoluteWorldSpacePosition = 
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.uv0 = IN.uv0;
 float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 SG_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float(float(0), float4 (0, 0, 0, 1), _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d, _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float);
-surface.BaseColor = IsGammaSpace() ? float3(0, 0, 0) : SRGBToLinear(float3(0, 0, 0));
+surface.BaseColor = IsGammaSpace() ? float3(0, 0.0509804, 1) : SRGBToLinear(float3(0, 0.0509804, 1));
 surface.Alpha = float(1);
 surface.AlphaClipThreshold = _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 
@@ -4818,7 +4842,7 @@ _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.AbsoluteWorldSpacePosition = 
 _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d.uv0 = IN.uv0;
 float _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 SG_AdvancedDissolve_58cc1ed7edc36664e85cbe55fd29d527_float(float(0), float4 (0, 0, 0, 1), _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d, _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float);
-surface.BaseColor = IsGammaSpace() ? float3(0, 0, 0) : SRGBToLinear(float3(0, 0, 0));
+surface.BaseColor = IsGammaSpace() ? float3(0, 0.0509804, 1) : SRGBToLinear(float3(0, 0.0509804, 1));
 surface.Alpha = float(1);
 surface.AlphaClipThreshold = _AdvancedDissolve_ad34ea032075434cb4466eed09351e0d_Out_3_Float;
 
