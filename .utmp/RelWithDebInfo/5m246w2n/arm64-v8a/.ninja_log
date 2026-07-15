@@ -1,10 +1,19 @@
 # ninja log v5
-11	862	8051459223714698	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2fe72fd3cf59240f
 27	900	8051459224140380	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fe03d8e542fc9248
+11	862	8051459223714698	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2fe72fd3cf59240f
 20	879	8051459223891682	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	8199b06c17e13363
-24	896	8051459224080007	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1821cf60ec3f74c7
 14	1030	8051459225436597	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7f4ede4a336db1e4
+24	896	8051459224080007	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1821cf60ec3f74c7
 17	1026	8051459225375732	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c53bf753b9fcb2c
-5	1040	8051459225541808	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	96bc2c1635781e77
 1093	1394	8051459229062809	F:/Users/Public/Documents/Unity Projects/LBVR_PortoLegends/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5m246w2n/obj/arm64-v8a/libgame.so	2faa05949d109149
+5	1040	8051459225541808	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	96bc2c1635781e77
 2	1093	8051459226057436	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	aa582b75acbc022b
+21	1145	8058139403463459	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	8199b06c17e13363
+31	1162	8058139403654115	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1821cf60ec3f74c7
+13	1180	8058139403834742	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2fe72fd3cf59240f
+36	1229	8058139404316382	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fe03d8e542fc9248
+0	1276	8058139404786485	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	96bc2c1635781e77
+5	1320	8058139405228034	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7f4ede4a336db1e4
+17	1501	8058139407029865	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	2c53bf753b9fcb2c
+9	1502	8058139407029865	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	aa582b75acbc022b
+1502	2904	8058139421057126	F:/Users/Public/Documents/Unity Projects/LBVR_PortoLegends/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5m246w2n/obj/arm64-v8a/libgame.so	2faa05949d109149

@@ -695,9 +695,7 @@ MonoBehaviour:
   _componentIndexCache: 255
   _addedNetworkObject: {fileID: 7161147313172318272}
   _networkObjectCache: {fileID: 0}
-  headVariants:
-  - {fileID: 0}
-  - {fileID: 0}
+  avatarPrefabs: []
 --- !u!1 &1950419252256353122
 GameObject:
   m_ObjectHideFlags: 0

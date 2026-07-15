@@ -5,10 +5,26 @@ public class LanguageSystemPlayerFollow : MonoBehaviour
 {
     bool tracking;
     Transform playerTransform;
+
+    public static LanguageSystemPlayerFollow Instance { get; private set; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
+    public PlayerAvatarController _localPlayerAvatar;
+
+    public void SetLocalPlayer(PlayerAvatarController avatar)
+    {
+        _localPlayerAvatar = avatar;
     }
 
     // Update is called once per frame
@@ -43,9 +59,14 @@ public class LanguageSystemPlayerFollow : MonoBehaviour
 
     public void ChangeAvatar(int avatarIndex)
     {
-        foreach (GameObject avatar in GameObject.FindGameObjectsWithTag("Avatar"))
+    
+        if (_localPlayerAvatar == null)
         {
-           avatar.GetComponent<PlayerAvatarController>().RequestHeadChange(avatarIndex);
+            Debug.LogWarning("Local player avatar not yet assigned.");
+            return;
         }
+
+        _localPlayerAvatar.RequestAvatarChange(avatarIndex);
     }
+
 }

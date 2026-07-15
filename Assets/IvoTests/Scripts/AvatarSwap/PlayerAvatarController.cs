@@ -1,53 +1,98 @@
+using FishNet.Connection;
 using FishNet.Object;
 using FishNet.Object.Synchronizing;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
-public class PlayerAvatarController : MonoBehaviour
+public class PlayerAvatarController : NetworkBehaviour
 {
-    [Header("Head Variants")]
-    [Tooltip("Head mesh GameObjects, index-matched.")]
+    // Server has authority to write; clients get read-only access + change callback
+    private readonly SyncVar<int> _avatarIndex = new SyncVar<int>(
+        new SyncTypeSettings(WritePermission.ServerOnly, ReadPermission.Observers));
 
-    [SerializeField] private List<GameObject> headVariants;
+    [SerializeField] private List<GameObject> avatarPrefabs; // reference set (or you spawn/swap models)
 
-    private int _headIndex;
-
-    private void Awake()
+    private void Start()
     {
         
     }
 
-    /// <summary>
-    /// Call this locally (e.g. from your customization UI) as the owner.
-    /// </summary>
-    public void RequestHeadChange(int newIndex)
-    {               
-        headVariants = GetComponentInChildren<HeadMeshList>(true).headMeshes;
+    public override void OnStartClient()
+    {
+        base.OnStartClient();
 
-        if (headVariants == null || newIndex < 0 || newIndex >= headVariants.Count)
+        if (IsOwner)
         {
-            Debug.LogWarning($"Invalid head index requested: {newIndex}");
-            return;
+            // Only the local player's own instance registers itself with the UI
+            LanguageSystemPlayerFollow.Instance.SetLocalPlayer(this);
         }
-        RequestHeadChangeServerRpc(newIndex);
-    }
-    private void RequestHeadChangeServerRpc(int newIndex)
-    {
-        // Optional: server-side validation here
-        _headIndex = newIndex;
-
-        ApplyHeadIndex(newIndex);
     }
 
-    private void ApplyHeadIndex(int index)
+    public override void OnStartNetwork()
     {
-        if (headVariants == null)
+        _avatarIndex.OnChange += OnAvatarIndexChanged;
+    }
+
+    public override void OnStopNetwork()
+    {
+        _avatarIndex.OnChange -= OnAvatarIndexChanged;
+    }
+
+    // Called on every client (and server) whenever the value changes,
+    // and also once when a client first receives it (asServer / OnStartNetwork sync).
+    private void OnAvatarIndexChanged(int prev, int next, bool asServer)
+    {
+        Debug.Log(2);
+        ApplyAvatarVisual(next);
+    }
+
+    private void ApplyAvatarVisual(int index)
+    {
+        
+        if (index >= 0 && index < avatarPrefabs.Count)
+        {
+            for(int i = 0; i < avatarPrefabs.Count; i++)
+            {
+                if (i == index)
+                {
+                    avatarPrefabs[i].SetActive(true);
+                }
+                else
+                {
+                    avatarPrefabs[i].SetActive(false);
+                }
+            }
+        }
+            
+    }
+
+    // --- Client requests a change ---
+
+    // Call this from the owning client's UI / menu logic
+    public void RequestAvatarChange(int newIndex)
+    {
+        Debug.Log(1);
+        ChangeAvatarServerRpc(newIndex);
+    }
+
+    [ServerRpc(RequireOwnership = true, RunLocally = true)]
+    private void ChangeAvatarServerRpc(int newIndex, NetworkConnection sender = null)
+    {
+        Debug.Log(3);
+        avatarPrefabs = GetComponentInChildren<HeadMeshList>(true).headMeshes;
+        if (newIndex < 0 || newIndex >= avatarPrefabs.Count)
             return;
 
-        for (int i = 0; i < headVariants.Count; i++)
+        if (IsServerInitialized)
         {
-            if (headVariants[i] != null)
-                headVariants[i].SetActive(i == index);
+            // Only the server is allowed to write the authoritative SyncVar
+            _avatarIndex.Value = newIndex;
+        }
+        else
+        {
+            // This is the local/client-side pass — just apply the visual immediately
+            ApplyAvatarVisual(newIndex);
         }
     }
 }
