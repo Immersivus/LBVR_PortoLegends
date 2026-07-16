@@ -18,7 +18,7 @@ public class LimitarMovimento : MonoBehaviour
     public ParticleSystem fumo;
 
     private Vector3 posicaoInicial;
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     private XRGrabInteractable grabInteractable;
     private Rigidbody rb;
     private bool agarrado = false;
@@ -26,11 +26,6 @@ public class LimitarMovimento : MonoBehaviour
     void Start()
     {
         posicaoInicial = transform.position;
-
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.clip = somApito;
-        audioSource.loop = false;
-        audioSource.playOnAwake = false;
 
         grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.selectEntered.AddListener((args) => OnAgarrar());
