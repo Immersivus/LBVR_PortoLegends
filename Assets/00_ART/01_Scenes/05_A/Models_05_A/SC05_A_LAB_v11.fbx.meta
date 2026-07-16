@@ -17,11 +17,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: atlas_01.001
-    second: {fileID: 2100000, guid: f5be4cc7e3e205e4a992be3414b96460, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: estrabao_mat.004
     second: {fileID: 2100000, guid: 0c1c01a72856db24fbf3473e2dfa536f, type: 2}
   - first:
