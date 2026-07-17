@@ -16802,6 +16802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2008347032}
   - component: {fileID: 2008347033}
+  - component: {fileID: 2008347034}
   m_Layer: 0
   m_Name: CharacterAudioSource
   m_TagString: Untagged
@@ -16921,6 +16922,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2008347034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008347031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abe31640fba18a4eb4ac51fbe7e573f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioObject:
+    _fadeOutTime: 0
+    AudioSource: {fileID: 0}
+    Priority: 0
+  _onAudioFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  _playOnAwake: 0
+  _languages: {fileID: 0}
 --- !u!1 &2043018912
 GameObject:
   m_ObjectHideFlags: 0
