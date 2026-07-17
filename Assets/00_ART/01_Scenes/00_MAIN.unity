@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
+  m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.12
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6509,8 +6509,11 @@ PlayableDirector:
     - eb53ba0356a775444a338f14947c49a3: {fileID: 0}
     - 571fc73c96c234e479f829926d2a3945: {fileID: 734239079}
     - ca776c6688e8cb74cac8531f06f2cb11: {fileID: 0}
+    - ee574a2e6eb1830499f583b958284384: {fileID: 2008347031}
     - e791126fd259c874683f7a8390260a20: {fileID: 1383951584}
     - eb896ef78fcfb904aba05b0fc5e78d37: {fileID: 1175204228}
+    - c7ed8ceb371e1784a934f2464aa37e31: {fileID: 2008347031}
+    - 6cd1d5c7afe09b64bbac281588b1d46c: {fileID: 2008347031}
     - 08047c85844d25d448eebc0a843917e5: {fileID: 0}
     - a1790d5cf8243d74f9db4e790c8980b5: {fileID: 2001105092}
     - 1815d1777d8943d4fb68edd4f8a0aedf: {fileID: 1733439037}
@@ -6519,35 +6522,42 @@ PlayableDirector:
     - 418cf1ce74a9e454cb1241ecfb0e24ee: {fileID: 1920727531}
     - 420012b8e19b9ea498ffb61f7ce95dcf: {fileID: 783875211}
     - da80aed2173825b4d9cd79b68214aa9c: {fileID: 152150976}
+    - 0f899aa401db4db46996b9446e45b8bc: {fileID: 2008347031}
     - 74bbc0d425c865a40b66e29280c10d98: {fileID: 1489931554}
     - 15f472c40384fc649b57492a0188d513: {fileID: 0}
     - 8f670fed32d2c5944996061b52a65f83: {fileID: 1410979655}
     - f89a5ef18a545464482996d7b21f7ed8: {fileID: 0}
     - a6aa2fb06c7704045843e9ac913ccad7: {fileID: 331145073}
     - ad8119d151e09b54bafdb402e8d01110: {fileID: 0}
+    - 9019cf52bd5b65444a25d3a8e4e6b18d: {fileID: 2008347031}
     - a39799322a02d9c40b7611470b9e6981: {fileID: 783875211}
     - e987e89e07b54c74e82a6619a1a68fc1: {fileID: 0}
     - efd584350a82e634cad9fee80e5cb9e3: {fileID: 1478513722}
     - 984d3b0df82d7a9479e77048f7bcf277: {fileID: 1977916123}
     - 476fff92421b77e4ebc523217a64847a: {fileID: 1273855146}
     - ee22de5cb84212842a665e3f8a9c43bb: {fileID: 0}
+    - b9768f28654e51f47b2225f12ad3cd81: {fileID: 2008347031}
     - f34906b3c7e404b4886c75e83372b56e: {fileID: 1550184425}
     - fbd7163ce73d9844c90d33161f0c1f8d: {fileID: 0}
     - 2b16341ee4bb9f24ab380199faf9722f: {fileID: 847866952}
     - 833c2372554881f40aec0897d320b5ea: {fileID: 1977916123}
+    - e97c76c1f0ed94a46a7c76e9568d646b: {fileID: 2008347031}
     - d9208731742ebe84f93bea8e617d37b2: {fileID: 1273855146}
     - 55d7109d2c1b0814da6f19c1609cd199: {fileID: 191271248}
     - 456ca69de5d4e884d8e6a1c5ec6d8366: {fileID: 0}
     - 8199cca424194e14b8d509886748f669: {fileID: 1708862740}
     - 6466db2c7af680c4190dfaabb4cc8ee3: {fileID: 2132600295}
     - c52bc2705af2d404aa99889706ffdbf0: {fileID: 2001105092}
+    - eb6fa91b1f6c72547b281c03ca4a563e: {fileID: 2008347031}
     - 7c9ecd8f616a5664cb072c4da88c645d: {fileID: 1817218876}
     - cc0e04566b74f714fb7e96168af2a863: {fileID: 0}
+    - 3f6dc5d7bd38dba499d61f0fdc07c2b1: {fileID: 2008347031}
     - 3f38f83122fe46e41a5b2d7df6784c47: {fileID: 276673629}
     - 7ba1a37467bef71498daebfe5904eac7: {fileID: 1977916123}
     - 7322afee6e773e845ab2692d1b629762: {fileID: 716814408}
     - f2793bc5e8b81ea4ea17e4416b2fd3dc: {fileID: 453960908}
     - 5bebe19c4c04ee448853097a7f9d2ad5: {fileID: 0}
+    - cd554b2c260921b4193299cfb7964e7d: {fileID: 2008347031}
 --- !u!4 &716814411
 Transform:
   m_ObjectHideFlags: 0
@@ -7172,6 +7182,51 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!1 &835100655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 835100657}
+  - component: {fileID: 835100656}
+  m_Layer: 0
+  m_Name: LanguageSystemInstaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &835100656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835100655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fd0a5cad9833f43b90873511c5b9a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _languageConfig: {fileID: 11400000, guid: 4b8a8f5699597294796dbe96ed98ebb1, type: 2}
+--- !u!4 &835100657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835100655}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.198622, y: -3.1745274, z: -4.313687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &837467968
 GameObject:
   m_ObjectHideFlags: 0
@@ -16803,6 +16858,7 @@ GameObject:
   - component: {fileID: 2008347032}
   - component: {fileID: 2008347033}
   - component: {fileID: 2008347034}
+  - component: {fileID: 2008347035}
   m_Layer: 0
   m_Name: CharacterAudioSource
   m_TagString: Untagged
@@ -16942,7 +16998,31 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _playOnAwake: 0
-  _languages: {fileID: 0}
+  _languages: {fileID: 11400000, guid: a8331b54db70bfb4e95a485a0c6ddeb2, type: 2}
+  _clips:
+  - {fileID: 11400000, guid: a8331b54db70bfb4e95a485a0c6ddeb2, type: 2}
+  - {fileID: 11400000, guid: b2733f43dbe733c4f9a9e380d503548f, type: 2}
+  - {fileID: 11400000, guid: 0a48e0a1df39ac340998e49cf9421ecd, type: 2}
+  - {fileID: 11400000, guid: 51255afa9090ca84792f43e34d066a19, type: 2}
+  - {fileID: 11400000, guid: 5e12a1b22ce370244aacda12e88f6ac2, type: 2}
+  - {fileID: 11400000, guid: 95974719ee5362840b302542f3a846a9, type: 2}
+  - {fileID: 11400000, guid: 993f889fd3e75d04e8ede4105f38ce5a, type: 2}
+  - {fileID: 11400000, guid: 41d8d13d787fe0f4e9dbd5c353e223a7, type: 2}
+  - {fileID: 11400000, guid: 6de1465e11267e1459987ca9a4eb604d, type: 2}
+  - {fileID: 11400000, guid: ac754979bce47b4448bdc52915583093, type: 2}
+--- !u!114 &2008347035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008347031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f8bd058eeb985408b5f0665fe4dd26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _languageAudio: {fileID: 2008347034}
 --- !u!1 &2043018912
 GameObject:
   m_ObjectHideFlags: 0
@@ -17828,3 +17908,4 @@ SceneRoots:
   - {fileID: 815154975}
   - {fileID: 744940630}
   - {fileID: 1139890018}
+  - {fileID: 835100657}
