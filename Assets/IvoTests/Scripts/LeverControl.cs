@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class LeverControl : MonoBehaviour
 {
-    
+    public AudioSource ac;
     private HingeJoint lever;
     private XRGrabInteractable interactable;
     public UnityEvent leverEvent;
@@ -16,7 +16,7 @@ public class LeverControl : MonoBehaviour
     void Awake()
     {
         interactable = GetComponent<XRGrabInteractable>();
-        lever = GetComponent<HingeJoint>(); 
+        lever = GetComponent<HingeJoint>();
     }
 
     // Update is called once per frame
@@ -30,14 +30,18 @@ public class LeverControl : MonoBehaviour
                 {
                     OnLeverMove();
                     safetyBool = true;
+                    ac.Play();
+                    interactable.enabled = false;
                 }
             }
             else 
             {
-                if (lever.angle < lever.limits.min + 10 || lever.angle > lever.limits.max - 10)
+                if (lever.angle < lever.limits.min || lever.angle > lever.limits.max)
                 {
                     OnLeverMove();
                     safetyBool = true;
+                    ac.Play();
+                    interactable.enabled = false;
                 }
             }
         }

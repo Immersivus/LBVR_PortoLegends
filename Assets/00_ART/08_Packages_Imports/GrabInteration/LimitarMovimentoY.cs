@@ -23,9 +23,11 @@ public class LimitarMovimento : MonoBehaviour
     private Rigidbody rb;
     private bool agarrado = false;
 
+    private bool regressa;
+
     void Start()
     {
-        posicaoInicial = transform.position;
+        posicaoInicial = transform.localPosition;
 
         grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.selectEntered.AddListener((args) => OnAgarrar());
@@ -73,9 +75,10 @@ public class LimitarMovimento : MonoBehaviour
                     fumo.Stop();
             }
         }
-        else
+
+        if (regressa)
         {
-            if (Vector3.Distance(transform.position, posicaoInicial) > 0.001f)
+           if(Vector3.Distance(transform.position, posicaoInicial) > 0.001f)
             {
                 transform.position = Vector3.MoveTowards(
                     transform.position,
@@ -86,7 +89,13 @@ public class LimitarMovimento : MonoBehaviour
             else
             {
                 transform.position = posicaoInicial;
+                regressa = false;
             }
         }
+    }
+
+    public void Return()
+    {
+        regressa = true;
     }
 }

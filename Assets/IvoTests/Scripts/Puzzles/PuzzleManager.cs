@@ -44,6 +44,16 @@ public class PuzzleManager : MonoBehaviour
         }
     }
 
+    public void AddToStepsNoOrder(PuzzleButton button)
+    {
+        if (!puzzleSolved && !button.correct)
+        {
+            steps++;
+            button.Pressed();
+            CheckCompletion();
+        }
+    }
+
     public void CheckCompletion()
     {
         if (stepsNeeded == steps)

@@ -3,6 +3,7 @@ using UnityEngine;
 public class OcclusionVisibilityController : MonoBehaviour
 {
     public Renderer targetRenderer;
+    public Renderer targetRendererPortal;
     public Camera targetCamera;
 
     public LayerMask occluderMask;
@@ -28,6 +29,7 @@ public class OcclusionVisibilityController : MonoBehaviour
         // Debug.DrawRay(origin, dir.normalized * dist, blocked ? Color.red : Color.green);
 
         targetRenderer.enabled = !blocked;
+        targetRendererPortal.enabled = !blocked;
     }
 
     Camera GetCamera()
