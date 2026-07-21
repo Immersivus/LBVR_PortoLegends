@@ -6982,7 +6982,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 0
+  m_InitialTime: 520
   m_SceneBindings:
   - key: {fileID: 4389972785638064560, guid: 6d6cc2d5acf47e2408daedd21fc4f36e, type: 2}
     value: {fileID: 2008347033}
@@ -13006,8 +13006,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.6700177, y: 2.5804996, z: 1.7062002}
-  m_Center: {x: -0.62129736, y: -0.15657163, z: 0.698728}
+  m_Size: {x: 1.5917464, y: 2.5804996, z: 0.5428058}
+  m_Center: {x: -0.7883443, y: -0.15657163, z: 0.365349}
 --- !u!1 &1479479768
 GameObject:
   m_ObjectHideFlags: 0
