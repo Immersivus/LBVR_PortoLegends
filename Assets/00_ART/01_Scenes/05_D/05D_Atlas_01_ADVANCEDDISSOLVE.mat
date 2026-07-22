@@ -7,21 +7,30 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 05D_Atlas_01
-  m_Shader: {fileID: 4800000, guid: 0ca6dca7396eb48e5849247ffd444914, type: 3}
+  m_Name: 05D_Atlas_01_ADVANCEDDISSOLVE
+  m_Shader: {fileID: 4800000, guid: dcda956a6808f8c4e84b1460ad3ac6eb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _AD_CUTOUT_STANDARD_SOURCE_CUSTOM_MAP
+  - _AD_STATE_ENABLED
   - _ALPHATEST_ON
-  m_InvalidKeywords: []
+  - _ENVIRONMENTREFLECTIONS_OFF
+  m_InvalidKeywords:
+  - _AD_CUTOUT_GEOMETRIC_COUNT_ONE
+  - _AD_CUTOUT_GEOMETRIC_TYPE_NONE
+  - _AD_CUTOUT_STANDARD_SOURCE_MAPS_MAPPING_TYPE_DEFAULT
+  - _AD_EDGE_ADDITIONAL_COLOR_NONE
+  - _AD_EDGE_BASE_SOURCE_NONE
+  - _AD_EDGE_UV_DISTORTION_SOURCE_DEFAULT
+  - _AD_GLOBAL_CONTROL_ID_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
-  disabledShaderPasses:
-  - MOTIONVECTORS
+  disabledShaderPasses: []
   m_LockedProperties: _DetailAlbedoMap
   m_SavedProperties:
     serializedVersion: 3
@@ -168,7 +177,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EnvironmentReflections: 1
+    - _EnvironmentReflections: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
