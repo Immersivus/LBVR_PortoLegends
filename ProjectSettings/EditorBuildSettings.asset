@@ -65,12 +65,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/00_ART/01_Scenes/05_C/05_C_v01.unity
     guid: fba943b3220dd4649b907f6f2434aae2
-  - enabled: 1
+  - enabled: 0
     path: Assets/00_ART/01_Scenes/05_D/05_D 1.unity
     guid: eb03e3a06c98a094a86b1e133a6a200b
   - enabled: 0
     path: Assets/00_ART/01_Scenes/05_A/05_A_ART_v01.unity
     guid: d752045e57e555c499b764fc6350ecc5
+  - enabled: 1
+    path: Assets/00_ART/01_Scenes/05_B/05_B_ART.unity
+    guid: f75aea8a2a4a3db4ca1c3bdeda8ffa80
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 38c655a9dc526aa44b0e17f60361a5dc, type: 2}

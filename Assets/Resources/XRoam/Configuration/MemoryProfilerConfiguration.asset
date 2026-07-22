@@ -31,9 +31,9 @@ MonoBehaviour:
     MeshMemory: 19
   - Path: Assets/00_ART/01_Scenes/02.unity
     Name: 02
-    Memory: 543
-    TextureMemory: 497
-    MeshMemory: 46
+    Memory: 395
+    TextureMemory: 347
+    MeshMemory: 48
   - Path: Assets/00_ART/01_Scenes/03.unity
     Name: 03
     Memory: 566
@@ -121,6 +121,6 @@ MonoBehaviour:
     MeshMemory: 19
   - Path: Assets/00_ART/01_Scenes/06/SC_06_ART_v01.unity
     Name: SC_06_ART_v01
-    Memory: 396
-    TextureMemory: 276
+    Memory: 382
+    TextureMemory: 262
     MeshMemory: 119
