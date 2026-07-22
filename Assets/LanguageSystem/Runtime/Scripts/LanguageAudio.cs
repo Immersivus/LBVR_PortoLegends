@@ -9,33 +9,17 @@ namespace Univrse.Studio.LanguageSystemV2
     {
         [SerializeField] private bool _playOnAwake;
         [SerializeField] private LanguageAudioObject _languages;
+        [SerializeField] private AudioSource ac;
 
         [SerializeField] private List<LanguageAudioObject> _clips;
         private ILanguageService _languageService;
 
         private int currentClipIndex;
 
-        protected override void Start()
-        {
-            base.Start();
-            _languageService = ServiceLocator.Instance.GetService<ILanguageService>();
-            _languageService.OnCurrentLanguageChange += OnCurrentLanguageChange;
-            _audioObject.SetAudioClip(GetClipByLanguage());
-        }
 
         private void OnEnable()
         {
             if(_playOnAwake) Play();
-        }
-
-        private void OnCurrentLanguageChange(LanguageObject languageObject)
-        {
-            _audioObject.SetAudioClip(GetClipByLanguage());
-            if (_audioObject.Playing)
-            {
-                _audioObject.Stop();
-                PlayIgnoringLayer();
-            }
         }
 
         private AudioClip GetClipByLanguage()
@@ -46,7 +30,11 @@ namespace Univrse.Studio.LanguageSystemV2
 
         public void ChangeClip()
         {
-            _audioObject.SetAudioClip(GetClipByLanguage());
+            if(_languageService == null)
+            {
+                _languageService = ServiceLocator.Instance.GetService<ILanguageService>();
+            }
+            ac.clip = GetClipByLanguage();
 
             currentClipIndex++;
             if (currentClipIndex >= _clips.Count)
@@ -55,8 +43,7 @@ namespace Univrse.Studio.LanguageSystemV2
             }
             _languages = _clips[currentClipIndex];
 
-            Play();
-
+            ac.Play();
         }
     }
 }

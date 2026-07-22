@@ -32,7 +32,6 @@ public class LimitarMovimento : MonoBehaviour
         grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.selectEntered.AddListener((args) => OnAgarrar());
         grabInteractable.selectExited.AddListener((args) => OnLargar());
-        grabInteractable.trackRotation = false;
 
         rb = GetComponent<Rigidbody>();
     }
@@ -57,9 +56,7 @@ public class LimitarMovimento : MonoBehaviour
     {
         if (agarrado)
         {
-            float yClampado = Mathf.Clamp(transform.position.y, posicaoInicial.y + yMinimo, posicaoInicial.y + yMaximo);
-            transform.position = new Vector3(transform.position.x, yClampado, transform.position.z);
-
+            regressa = false;
             if (transform.position.y <= posicaoInicial.y + yParaAtivarSom)
             {
                 if (!audioSource.isPlaying)

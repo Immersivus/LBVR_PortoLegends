@@ -1774,7 +1774,6 @@ MonoBehaviour:
   - {fileID: 852489550963816524}
   - {fileID: -8668573525672862027}
   - {fileID: 5297915991614157208}
-  - {fileID: 4389972785638064560}
   - {fileID: -6110571141857222126}
   - {fileID: 4935344512631425702}
   - {fileID: -4744247745507214592}
@@ -2477,33 +2476,6 @@ MonoBehaviour:
   ResumeType: 0
   JumpPreset: {fileID: 0}
   JumpState: 
---- !u!114 &4389972785638064560
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
-  m_Name: Audio Track
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips: []
-  m_Markers:
-    m_Objects: []
-  m_TrackProperties:
-    volume: 1
-    stereoPan: 0
-    spatialBlend: 0
 --- !u!114 &4935344512631425702
 MonoBehaviour:
   m_ObjectHideFlags: 1

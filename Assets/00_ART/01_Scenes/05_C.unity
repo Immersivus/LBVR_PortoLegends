@@ -20685,7 +20685,7 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 1
+  _oneUseOnly: 0
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
