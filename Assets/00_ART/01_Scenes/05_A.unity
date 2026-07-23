@@ -403,7 +403,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -0.021723438, y: 0.0137431715, z: 0.00922738, w: 0.041093197}
+  m_BoundingSphereOverride: {x: 3.9976e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -524,7 +524,7 @@ Light:
   m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.05217549, y: -0.026006907, z: 0.007539445, w: 0.026650816}
+  m_BoundingSphereOverride: {x: 6.28e-42, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1824,6 +1824,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5666858511584735161, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666858511584735161, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2253,17 +2257,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -5301487312846515653, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1913959087}
-    m_AddedComponents: []
+      addedObject: {fileID: 204179197}
+    - targetCorrespondingSourceObject: {fileID: -5301487312846515653, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 204179196}
   m_SourcePrefab: {fileID: 100100000, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
 --- !u!4 &204179194 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
   m_PrefabInstance: {fileID: 204179193}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &204179195 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5301487312846515653, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
+  m_PrefabInstance: {fileID: 204179193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &204179196
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204179195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &204179197
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204179195}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 8df56d45f7587ca468f702d960599961, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -7870825794270461201, guid: 8df56d45f7587ca468f702d960599961, type: 2}
+    value: {fileID: 204179196}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &250146431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,6 +2687,117 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6572647986970691425, guid: 2b73f0147cab4644bad0bb5697c1dd96, type: 3}
   m_PrefabInstance: {fileID: 442692178}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &457951445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457951446}
+  - component: {fileID: 457951448}
+  - component: {fileID: 457951447}
+  - component: {fileID: 457951449}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &457951446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457951445}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.716116, y: 1.8632077, z: -3.7315025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1913959087}
+  - {fileID: 717457578}
+  m_Father: {fileID: 993403345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &457951447
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457951445}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f5be4cc7e3e205e4a992be3414b96460, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &457951448
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457951445}
+  m_Mesh: {fileID: 6049959359099248206, guid: 7ed3ad54e9f265d4badd4cd1c332b715, type: 3}
+--- !u!95 &457951449
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457951445}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &494089975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2931,7 +3095,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &512967315
 Transform:
@@ -3358,7 +3522,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 3.99e-41, y: 2.524355e-29, z: 0, w: 3.9415303e+12}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -3643,7 +3807,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &662053061
 Transform:
@@ -3706,7 +3870,7 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 0
+  _oneUseOnly: 1
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
@@ -3769,7 +3933,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &664035516
 Transform:
@@ -3875,7 +4039,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &717457578
 Transform:
@@ -3886,7 +4050,7 @@ Transform:
   m_GameObject: {fileID: 717457577}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6.716116, y: -1.8632077, z: 3.7315025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3895,7 +4059,7 @@ Transform:
   - {fileID: 1510173029}
   - {fileID: 1125517001}
   - {fileID: 662053061}
-  m_Father: {fileID: 993403345}
+  m_Father: {fileID: 457951446}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &737566067
 GameObject:
@@ -4095,7 +4259,7 @@ Light:
   m_BounceIntensity: 5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.2001692, y: 2.2015781, z: 2.2914648, w: -1.9092412}
+  m_BoundingSphereOverride: {x: 3.3061e-41, y: 2.524355e-29, z: 0, w: -1.6439204e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -4216,7 +4380,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -0.9345506, y: -0.6171443, z: -2.787366, w: -1.193655}
+  m_BoundingSphereOverride: {x: 1.5423301e+25, y: 2.0702148e-19, z: 7.3604004e+22, w: 5.458139e-31}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -4549,7 +4713,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.125, y: 0.125, z: 0.125, w: 0.125}
+  m_BoundingSphereOverride: {x: 1.5423301e+25, y: 2.0702148e-19, z: 7.3604004e+22, w: 5.458139e-31}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -4670,7 +4834,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.3014765, y: 5.6764765, z: 5.0514765, w: 4.4264765}
+  m_BoundingSphereOverride: {x: 1.3637e-41, y: 2.524355e-29, z: 0, w: 2.7470774e+20}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -4791,7 +4955,7 @@ Light:
   m_BounceIntensity: 5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.9181795e-16, y: 2.352304e-20, z: 4.404318e-27, w: -3253782.5}
+  m_BoundingSphereOverride: {x: 3.7534e-41, y: 2.524355e-29, z: 0, w: -3.6495238e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9745,7 +9909,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 9.07e-43, w: 0}
+  m_BoundingSphereOverride: {x: 3.292e-42, y: 2.524355e-29, z: 0, w: 2.7470774e+20}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9952,7 +10116,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 7.61e-42, y: 2.524355e-29, z: 0, w: 2.7470774e+20}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14840,7 +15004,7 @@ Transform:
   - {fileID: 430618140}
   - {fileID: 1566268106}
   - {fileID: 1333873167}
-  - {fileID: 717457578}
+  - {fileID: 457951446}
   - {fileID: 1622468565}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19875,7 +20039,7 @@ Light:
   m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -1.9950798, y: -0.21616006, z: -2.4752686, w: -2.3718328}
+  m_BoundingSphereOverride: {x: 3.2894e-41, y: 2.524355e-29, z: 0, w: -3.682887e-33}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -19902,7 +20066,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1125517001
 Transform:
@@ -19965,7 +20129,7 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 0
+  _oneUseOnly: 1
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
@@ -20295,7 +20459,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.116e-41, y: 2.524355e-29, z: 0, w: 0.013071048}
+  m_BoundingSphereOverride: {x: 1.553e-42, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -20712,7 +20876,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: NaN, y: 4.7290704e-29, z: 9.04e-43, w: 4.7290704e-29}
+  m_BoundingSphereOverride: {x: 4.3505e-41, y: 2.524355e-29, z: 0, w: -4.9457406e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -25847,7 +26011,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 5.4328577e+11, y: NaN, z: 3.1781253e-21, w: -7.973766e+18}
+  m_BoundingSphereOverride: {x: 2.225e-42, y: 2.524355e-29, z: 0, w: 2.296e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -26296,7 +26460,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1510173029
 Transform:
@@ -26359,7 +26523,7 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 0
+  _oneUseOnly: 1
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
@@ -26603,7 +26767,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.125, y: 0.125, z: 0.125, w: 0.125}
+  m_BoundingSphereOverride: {x: 1.0154e-41, y: 2.524355e-29, z: 0, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -26629,7 +26793,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1549006202
 Transform:
@@ -26784,6 +26948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1622468565}
   - component: {fileID: 1622468566}
+  - component: {fileID: 1622468567}
   m_Layer: 0
   m_Name: PuzzleManager
   m_TagString: Untagged
@@ -26824,7 +26989,38 @@ MonoBehaviour:
   arrows: {fileID: 0}
   eventAfterCompletion:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1622468567}
+        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!320 &1622468567
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622468564}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: f3761bb586627374995d9ca45b40e9fa, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -7870825794270461201, guid: f3761bb586627374995d9ca45b40e9fa, type: 2}
+    value: {fileID: 457951449}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &1631414565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27027,7 +27223,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1642838949
 Transform:
@@ -27090,7 +27286,7 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 0
+  _oneUseOnly: 1
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
@@ -27506,7 +27702,7 @@ Light:
   m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.3014765, y: 5.6764765, z: 5.0514765, w: 4.4264765}
+  m_BoundingSphereOverride: {x: 1.3891e-41, y: 2.524355e-29, z: 0, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -27704,7 +27900,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1777877203
 Transform:
@@ -27908,7 +28104,7 @@ Light:
   m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.7740228e-20, y: 1.102131e-39, z: 4.1272e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28201,7 +28397,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.03086612, y: 0.000024440886, z: -0.016888982, w: 0.076754786}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: -113754.58, w: 3.1609914e-16}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28235,7 +28431,7 @@ Transform:
   m_GameObject: {fileID: 1913959086}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6.716116, y: -1.8632077, z: 3.7315025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28266,7 +28462,7 @@ Transform:
   - {fileID: 1878461484}
   - {fileID: 1997000575}
   - {fileID: 416161634}
-  m_Father: {fileID: 204179194}
+  m_Father: {fileID: 457951446}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1922899103
 GameObject:
@@ -28380,7 +28576,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.4625328e-32, y: 2.4625328e-32, z: 2.4625328e-32, w: 2.4625328e-32}
+  m_BoundingSphereOverride: {x: 6.53e-43, y: 8e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28406,7 +28602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1949328784
 Transform:
@@ -33521,7 +33717,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2005784414
 Transform:
@@ -33605,7 +33801,7 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 0
+  _oneUseOnly: 1
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
@@ -38661,7 +38857,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.3, y: 3.3, z: 3.3, w: 3.3}
+  m_BoundingSphereOverride: {x: 0, y: 8e-45, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -38782,7 +38978,7 @@ Light:
   m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 4.305e-42, w: 5.381e-42}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0

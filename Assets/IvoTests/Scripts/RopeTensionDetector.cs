@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(SpringJoint))]
 public class RopeTensionDetector : MonoBehaviour
@@ -15,7 +16,63 @@ public class RopeTensionDetector : MonoBehaviour
     public UnityEvent onRopeReachedTension;
     public UnityEvent onRopeReleaseTension;
 
+    [SerializeField] private float returnSpeed = 3f;
+    [SerializeField] private float returnRotSpeed = 360f; // degrees/sec
+    [SerializeField] private float snapDistance = 0.01f; // when to consider "arrived"
+
+    private Rigidbody rb;
+    private XRGrabInteractable grabInteractable;
+    private bool isReturning = false;
+
+    private Vector3 startPosition;
+    private Quaternion startRotation;
+
     private bool isTaut = false;
+
+    private void Awake()
+    {
+        startPosition = transform.position;
+        startRotation = transform.rotation;
+
+        grabInteractable = GetComponent<XRGrabInteractable>();
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void OnEnable()
+    {
+        grabInteractable.selectExited.AddListener(OnReleased);
+    }
+
+    void OnDisable()
+    {
+        grabInteractable.selectExited.RemoveListener(OnReleased);
+    }
+
+    private void OnReleased(SelectExitEventArgs args)
+    {
+        isReturning = true;
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+    }
+
+    void FixedUpdate()
+    {
+        if (!isReturning) return;
+
+        Vector3 newPos = Vector3.MoveTowards(transform.position, startPosition, returnSpeed * Time.fixedDeltaTime);
+        Quaternion newRot = Quaternion.RotateTowards(transform.rotation, startRotation, returnRotSpeed * Time.fixedDeltaTime);
+
+        rb.MovePosition(newPos);
+        rb.MoveRotation(newRot);
+
+        if (Vector3.Distance(transform.position, startPosition) <= snapDistance)
+        {
+            transform.position = startPosition;
+            transform.rotation = startRotation;
+            isReturning = false;
+        }
+    }
+
 
     void Update()
     {
