@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
+  m_FogColor: {r: 1, g: 0.8980392, b: 0.5568628, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.12
+  m_FogDensity: 0.006
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 52410895}
   - component: {fileID: 52410894}
   - component: {fileID: 52410893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ALPHA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2004,55 +2004,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &246746598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 246746600}
-  - component: {fileID: 246746599}
-  m_Layer: 0
-  m_Name: PostProcessing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &246746599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246746598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 5a478f9b2c9e3c848ac53e1636df17b7, type: 2}
---- !u!4 &246746600
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246746598}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -217.90033, y: -109.10264, z: 64.21491}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 994039559}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &267321023
 GameObject:
   m_ObjectHideFlags: 0
@@ -5797,7 +5748,7 @@ GameObject:
   - component: {fileID: 630426415}
   - component: {fileID: 630426416}
   - component: {fileID: 630426417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PortalTransition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6184,6 +6135,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3545136474831836231, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136474831836231, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -6194,6 +6149,10 @@ PrefabInstance:
     - target: {fileID: 3545136475437741097, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: playOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741100, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3545136475437741100, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_IsActive
@@ -6278,6 +6237,10 @@ PrefabInstance:
     - target: {fileID: 3545136475680483283, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Name
       value: Portal_3_vfx_prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475680483283, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3545136475680483283, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_IsActive
@@ -9046,7 +9009,6 @@ Transform:
   - {fileID: 1341227068}
   - {fileID: 1997218139}
   - {fileID: 883150758}
-  - {fileID: 246746600}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &996972573
@@ -9223,7 +9185,7 @@ GameObject:
   - component: {fileID: 1049520078}
   - component: {fileID: 1049520081}
   - component: {fileID: 1049520080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BLACK_SPHERE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9450,6 +9412,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3545136474831836231, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136474831836231, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -9460,6 +9426,10 @@ PrefabInstance:
     - target: {fileID: 3545136475437741097, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: playOnAwake
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741100, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3545136475437741100, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_IsActive
@@ -9552,6 +9522,10 @@ PrefabInstance:
     - target: {fileID: 3545136475680483283, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Name
       value: Portal_3_vfx_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475680483283, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3545136475680483283, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_IsActive

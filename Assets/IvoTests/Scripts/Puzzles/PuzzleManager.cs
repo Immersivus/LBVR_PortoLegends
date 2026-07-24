@@ -11,7 +11,7 @@ public class PuzzleManager : MonoBehaviour
 
     public bool ballGrabbed;
 
-    [SerializeField] GameObject arrows;
+    [SerializeField] GameObject[] arrows;
 
     [SerializeField] private UnityEvent eventAfterCompletion;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -67,7 +67,10 @@ public class PuzzleManager : MonoBehaviour
     {
         if (!ballGrabbed)
         {
-            arrows.SetActive(true);
+            for (int i = 0; i < arrows.Length; i++) 
+            {
+                arrows[i].SetActive(true);
+            }
             ballGrabbed = true;
         }
     }

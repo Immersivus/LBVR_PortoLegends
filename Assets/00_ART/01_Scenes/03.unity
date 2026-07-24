@@ -94863,9 +94863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ropeAnchor: {fileID: 1079580457}
-  maxRopeLength: 0.75
+  maxRopeLength: 0.45
   tensionThreshold: 0.95
-  releaseThreshold: 0.85
+  releaseThreshold: 0.65
   tensionAudio: {fileID: 830359611}
   tensionParticles: {fileID: 1285349181}
   onRopeReachedTension:
@@ -94874,8 +94874,8 @@ MonoBehaviour:
   onRopeReleaseTension:
     m_PersistentCalls:
       m_Calls: []
-  returnSpeed: 3
-  returnRotSpeed: 360
+  returnSpeed: 6
+  returnRotSpeed: 0
   snapDistance: 0.05
 --- !u!1 &1503402740
 GameObject:
@@ -103096,50 +103096,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649621147}
   m_Mesh: {fileID: 1925054533802985117, guid: cab1f07f6f55ec643a3c36dcd0deb6be, type: 3}
---- !u!1 &1649627388
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1649627390}
-  - component: {fileID: 1649627389}
-  m_Layer: 0
-  m_Name: MemoryTracker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1649627389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649627388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e211b37648d967c4e952d645dfd55181, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1649627390
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649627388}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1659609378
 GameObject:
   m_ObjectHideFlags: 0
@@ -137501,4 +137457,3 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1408082647}
-  - {fileID: 1649627390}

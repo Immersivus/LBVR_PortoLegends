@@ -21,28 +21,28 @@ MonoBehaviour:
     MeshMemory: 8
   - Path: Assets/00_ART/01_Scenes/00_MAIN.unity
     Name: 00_MAIN
-    Memory: 506
-    TextureMemory: 459
-    MeshMemory: 46
+    Memory: 325
+    TextureMemory: 311
+    MeshMemory: 14
   - Path: Assets/00_ART/01_Scenes/01.unity
     Name: 01
-    Memory: 516
-    TextureMemory: 476
+    Memory: 511
+    TextureMemory: 471
     MeshMemory: 40
   - Path: Assets/00_ART/01_Scenes/02.unity
     Name: 02
-    Memory: 612
-    TextureMemory: 548
+    Memory: 577
+    TextureMemory: 513
     MeshMemory: 64
   - Path: Assets/00_ART/01_Scenes/03.unity
     Name: 03
-    Memory: 505
-    TextureMemory: 466
+    Memory: 500
+    TextureMemory: 461
     MeshMemory: 39
   - Path: Assets/00_ART/01_Scenes/04.unity
     Name: 04
-    Memory: 359
-    TextureMemory: 335
+    Memory: 354
+    TextureMemory: 329
     MeshMemory: 24
   - Path: Assets/00_ART/01_Scenes/05.unity
     Name: 05
@@ -71,23 +71,23 @@ MonoBehaviour:
     MeshMemory: 31
   - Path: Assets/00_ART/01_Scenes/05_A.unity
     Name: 05_A
-    Memory: 384
-    TextureMemory: 351
+    Memory: 409
+    TextureMemory: 377
     MeshMemory: 32
   - Path: Assets/00_ART/01_Scenes/05_B.unity
     Name: 05_B
-    Memory: 330
-    TextureMemory: 300
-    MeshMemory: 30
+    Memory: 381
+    TextureMemory: 346
+    MeshMemory: 34
   - Path: Assets/00_ART/01_Scenes/05_C.unity
     Name: 05_C
-    Memory: 298
-    TextureMemory: 284
+    Memory: 325
+    TextureMemory: 311
     MeshMemory: 14
   - Path: Assets/00_ART/01_Scenes/05_D.unity
     Name: 05_D
-    Memory: 348
-    TextureMemory: 327
+    Memory: 377
+    TextureMemory: 355
     MeshMemory: 21
   - Path: Assets/00_ART/01_Scenes/03/SC03_ART_v01.unity
     Name: SC03_ART_v01

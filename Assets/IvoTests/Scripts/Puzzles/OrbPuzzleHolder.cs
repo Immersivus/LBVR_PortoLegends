@@ -14,6 +14,8 @@ public class OrbPuzzleHolder : MonoBehaviour
     [SerializeField] private List<GameObject> particles;
 
     [SerializeField] private PuzzleManager manager;
+
+    [SerializeField] private Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,8 +49,10 @@ public class OrbPuzzleHolder : MonoBehaviour
         ac.Play();
         foreach (GameObject particle in particles) 
         {
-            particle.SetActive(true);
+            particle.SetActive(!particle.activeSelf);
         }
+
+        anim.SetTrigger("RUN_ANIM");
         manager.CheckCompletion();
     }
 }
