@@ -5508,61 +5508,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &190141566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190141564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enabled: 1
-  color: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &190141567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190141564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _id: aac1d6ca-7fd0-471e-b0a0-465628313a45
-  _bodyPartType: 0
-  _onlyAdmin: 0
-  _synchronized: 0
-  _oneUseOnly: 1
-  OnEnterActions:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 190141565}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Trigger
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnExitActions:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAllUsersEnterActions:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAllUsersExitActions:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!65 &190141568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5582,8 +5527,63 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.280782, y: 1.4683641, z: 2.2320175}
-  m_Center: {x: -0.036657855, y: 1.6199263, z: -0.0122724455}
+  m_Size: {x: 2.3778508, y: 1.4683638, z: 2.4267256}
+  m_Center: {x: -0.085191205, y: 1.6199265, z: -0.109625764}
+--- !u!114 &190141569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190141564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enabled: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &190141570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190141564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: abdf83c1-b62c-4fdf-9150-384528bf7664
+  _bodyPartType: 0
+  _onlyAdmin: 0
+  _synchronized: 0
+  _oneUseOnly: 0
+  OnEnterActions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 190141565}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Puff
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersEnterActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersExitActions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &291235499
 GameObject:
   m_ObjectHideFlags: 0
@@ -22179,7 +22179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _activationType: 1
+  _activationType: 0
   _elements:
   - {fileID: 1592610846}
   - {fileID: 316761177}
@@ -27957,6 +27957,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.985
       objectReference: {fileID: 0}
+    - target: {fileID: 2855382851623298059, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855382851623298059, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855382851623298059, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855382851623298059, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855382851623298059, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855382851623298059, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 2888742874554406555, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -28420,10 +28444,10 @@ PrefabInstance:
       addedObject: {fileID: 190141568}
     - targetCorrespondingSourceObject: {fileID: -9193276524722276213, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 190141567}
+      addedObject: {fileID: 190141570}
     - targetCorrespondingSourceObject: {fileID: -9193276524722276213, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 190141566}
+      addedObject: {fileID: 190141569}
   m_SourcePrefab: {fileID: 100100000, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
 --- !u!4 &1763968525 stripped
 Transform:
