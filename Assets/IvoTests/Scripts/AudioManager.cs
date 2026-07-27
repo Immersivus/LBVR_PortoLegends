@@ -38,13 +38,13 @@ public class AudioManager : MonoBehaviour
 
         while (timeElapsed < timeToFade)
         {
-            track02.volume = Mathf.Lerp(0, 0.5f, timeElapsed / timeToFade);
-            track01.volume = Mathf.Lerp(0.5f, 0, timeElapsed / timeToFade);
+            track02.volume = Mathf.Lerp(0, 0.25f, timeElapsed / timeToFade);
+            track01.volume = Mathf.Lerp(0.25f, 0, timeElapsed / timeToFade);
             timeElapsed += Time.deltaTime;
             yield return null;
         }
         track01.volume = 0;
-        track02.volume = 0.5f;
+        track02.volume = 0.25f;
         track01.Stop();
     }
 }
