@@ -20,4 +20,8 @@ MonoBehaviour:
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/03.unity
   - Assets/00_ART/01_Scenes/04.unity
-  _stateActions: []
+  _stateActions:
+  - Id: d05eaae0-992a-4098-a8d9-e9199af7459b
+    Name: Swap Music SC03
+    Scene: 00_MAIN
+    Moment: 1
