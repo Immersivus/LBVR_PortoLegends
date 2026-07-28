@@ -27206,6 +27206,8 @@ GameObject:
   - component: {fileID: 659792611}
   - component: {fileID: 659792610}
   - component: {fileID: 659792612}
+  - component: {fileID: 659792614}
+  - component: {fileID: 659792613}
   m_Layer: 0
   m_Name: PuzzleManager
   m_TagString: Untagged
@@ -27228,13 +27230,14 @@ MonoBehaviour:
   stepsNeeded: 5
   steps: 0
   ballGrabbed: 0
-  arrows: {fileID: 0}
+  arrows:
+  - {fileID: 0}
   eventAfterCompletion:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 659792612}
-        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 659792613}
+        m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
+        m_MethodName: ChangeState
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27278,6 +27281,35 @@ PlayableDirector:
     value: {fileID: 448801360}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &659792613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659792609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _stateId: 6b4a148d-6ec4-4b92-84c4-f248e3742203
+  _applyChangeToServer: 0
+  _cleanChange: 0
+--- !u!114 &659792614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659792609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c44cd1068eec48882b722217eb260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedGuid: 6e2f184ae8ae8043b8a734d8de7d4341
 --- !u!1 &696215888
 GameObject:
   m_ObjectHideFlags: 0
