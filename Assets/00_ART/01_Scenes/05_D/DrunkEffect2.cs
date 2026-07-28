@@ -29,7 +29,7 @@ public class DrunkEffect2 : MonoBehaviour
     private Quaternion rotacaoShutterAtual;
     private float pesoAtualVolume = 0f;
 
-    // Guardamos a posição e rotação iniciais (globais e locais)
+    // Posições de origem
     private Vector3 startingWorldPosition;
     private Quaternion startingWorldRotation;
     private Transform initialParent;
@@ -48,7 +48,7 @@ public class DrunkEffect2 : MonoBehaviour
             volumeDeArrastamento.weight = 0f;
         }
 
-        // Guarda o estado inicial exato do objeto no arranque da cena
+        // Guarda o estado inicial exato do objeto
         startingWorldPosition = transform.position;
         startingWorldRotation = transform.rotation;
         initialParent = transform.parent;
@@ -159,40 +159,31 @@ public class DrunkEffect2 : MonoBehaviour
         tempoRestante = 0f;
     }
 
-    // Chamado quando largas o objeto
+    // Chamado pelo evento do XR Grab Interactable ao largar (Select Exited)
     public void Largar()
     {
-        // Usa uma Corrotina para garantir que o reposicionamento ocorre
-        // APÓS o sistema de VR soltar completamente o objeto
-        StartCoroutine(ResetPosicaoRotina());
         OnTriggerEnterReal();
+        StartCoroutine(ResetPosicaoRotina());
     }
 
     private IEnumerator ResetPosicaoRotina()
     {
-        // Espera pelo final do frame atual para não haver conflito com o XR Grab Interactable
-        yield return new WaitForEndOfFrame();
+        // Espera 1 frame simples para o XR Toolkit soltar completamente o objeto
+        yield return null;
 
         // Repõe o pai original caso tenha mudado
         transform.SetParent(initialParent);
 
-        // Se tiver Rigidbody, zera a física para ele não rolar ou cair
+        // Repõe a posição e rotação originais no mundo
+        transform.position = startingWorldPosition;
+        transform.rotation = startingWorldRotation;
+
+        // Anula forças físicas sem mexer no isKinematic (elimina o offset na mão ao agarrar)
         if (rb != null)
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
-            rb.isKinematic = true; // Pausa a física momentaneamente
-        }
-
-        // Repõe a posição e rotação exatas do início
-        transform.position = startingWorldPosition;
-        transform.rotation = startingWorldRotation;
-
-        // Reativa a física no frame seguinte se necessário
-        if (rb != null)
-        {
-            yield return new WaitForFixedUpdate();
-            rb.isKinematic = false;
+            rb.Sleep();
         }
     }
 }
