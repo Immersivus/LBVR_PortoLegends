@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.17254902, g: 0.25490198, b: 0.37647063, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.005
+  m_FogDensity: 0.15
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5113,7 +5113,6 @@ GameObject:
   m_Component:
   - component: {fileID: 538910268}
   - component: {fileID: 538910269}
-  - component: {fileID: 538910270}
   m_Layer: 0
   m_Name: SA - Swap Music SC03
   m_TagString: Untagged
@@ -5163,34 +5162,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 2107181273}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &538910270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538910267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7f4fce3f0ceac64db97ad287a0dcde7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _signalName: SwitchMusicSC03
-  _onSignalReceived:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 538910269}
-        m_TargetAssemblyTypeName: XRoam.Experience.Actions.ExperienceAction, XRoam.SDK
-        m_MethodName: Trigger
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

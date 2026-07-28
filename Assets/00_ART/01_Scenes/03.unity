@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 0
-  m_FogColor: {r: 0.17254902, g: 0.25490198, b: 0.37647063, a: 1}
+  m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.005
   m_LinearFogStart: 0
@@ -122773,7 +122773,6 @@ GameObject:
   - component: {fileID: 1964563919}
   - component: {fileID: 1964563918}
   - component: {fileID: 1964563921}
-  - component: {fileID: 1964563922}
   - component: {fileID: 1964563923}
   m_Layer: 0
   m_Name: LeverHolder
@@ -123045,18 +123044,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1964563922}
-        m_TargetAssemblyTypeName: SignalLauncher, Assembly-CSharp
-        m_MethodName: LaunchSignal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1964563923}
         m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
         m_MethodName: ChangeState
@@ -123070,19 +123057,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   notDoubleSided: 1
---- !u!114 &1964563922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964563916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a915f7c3963b84096998c3945e5009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _signalName: SwitchMusicSC03
 --- !u!114 &1964563923
 MonoBehaviour:
   m_ObjectHideFlags: 0
