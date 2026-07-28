@@ -3760,6 +3760,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7155141712583344491, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155141712583344491, guid: 4eb081a04d1366b489eb7bc9aa2cdaff, type: 3}
       propertyPath: 'm_Cameras.Array.data[4]'
       value: 
       objectReference: {fileID: 6190592399987156496}
