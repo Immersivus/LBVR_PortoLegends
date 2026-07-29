@@ -5,7 +5,6 @@ public class OcclusionVisibilityController : MonoBehaviour
     public Renderer targetRenderer;
     public Renderer targetRendererPortal;
     public Camera targetCamera;
-
     public LayerMask occluderMask;
 
     void Update()
