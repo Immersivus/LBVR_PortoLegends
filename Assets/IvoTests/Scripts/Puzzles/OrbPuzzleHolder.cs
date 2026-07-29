@@ -52,7 +52,7 @@ public class OrbPuzzleHolder : MonoBehaviour
             particle.SetActive(!particle.activeSelf);
         }
 
-        anim.SetTrigger("RUN_ANIM");
+        anim.SetTrigger("RUN_ANIMATION");
         manager.CheckCompletion();
     }
 }
