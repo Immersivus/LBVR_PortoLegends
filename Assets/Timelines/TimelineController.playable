@@ -675,6 +675,30 @@ MonoBehaviour:
   ResumeType: 0
   JumpPreset: {fileID: 0}
   JumpState: 
+--- !u!114 &-5587630225647734431
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: fa5bfa42a506a4f40a1ae0cb3d2d401d
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 9462
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+  directorOnClipEnd: 0
 --- !u!114 &-5244688153410603200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2014,10 +2038,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Portal 5B-5C
   - m_Version: 1
-    m_Start: 1027.216633333337
-    m_ClipIn: 86.98333333333335
+    m_Start: 1028.7333333333333
+    m_ClipIn: 80.98336666666262
     m_Asset: {fileID: 6279273279696696058}
-    m_Duration: 13
+    m_Duration: 11.999999999999886
     m_TimeScale: 1
     m_ParentTrack: {fileID: 852489550963816524}
     m_EaseInDuration: 0
@@ -2220,6 +2244,75 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: Portal 5A-5B
+  - m_Version: 1
+    m_Start: 1058.2833333333333
+    m_ClipIn: 1.966666666666356
+    m_Asset: {fileID: -5587630225647734431}
+    m_Duration: 5.572158973763635
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 852489550963816524}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SphereTransitionBlack
   m_Markers:
     m_Objects: []
 --- !u!114 &902574981013650915
@@ -2665,7 +2758,7 @@ MonoBehaviour:
     m_Start: 1033.216666666668
     m_ClipIn: 0
     m_Asset: {fileID: -7823216344071002169}
-    m_Duration: 21.314999999999714
+    m_Duration: 32.02999999999838
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5297915991614157208}
     m_EaseInDuration: 0
@@ -3299,7 +3392,7 @@ MonoBehaviour:
     m_Start: 1033.216666666668
     m_ClipIn: 0
     m_Asset: {fileID: 2036520906310466877}
-    m_Duration: 18.299999999999386
+    m_Duration: 29.01499999999851
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7013199287202305913}
     m_EaseInDuration: 0
@@ -3494,7 +3587,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_B_Transition
   - m_Version: 1
-    m_Start: 1051.5166666666678
+    m_Start: 1062.2316666666666
     m_ClipIn: 0
     m_Asset: {fileID: -4179635679679288060}
     m_Duration: 3.0149999999998727
