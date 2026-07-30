@@ -1476,6 +1476,28 @@ MonoBehaviour:
   active: 1
   postPlayback: 2
   directorOnClipEnd: 0
+--- !u!114 &-4179635679679288060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b258980d762a41b348d1dda651011, type: 3}
+  m_Name: StateClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  ResumeFromAdminUI: 0
+  Preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  StateId: 60087b3d-a839-46d5-9772-8808adbf00fd
+  PauseOnFinish: 1
+  AutomaticResume: 0
+  PauseDuration: 0
+  ResumeType: 0
+  JumpPreset: {fileID: 0}
+  JumpState: 
 --- !u!114 &-4081723858494294335
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2262,7 +2284,7 @@ MonoBehaviour:
   ResumeFromAdminUI: 0
   Preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   StateId: 4317ad62-fbbe-4ac5-ad3a-5d14602232f7
-  PauseOnFinish: 1
+  PauseOnFinish: 0
   AutomaticResume: 0
   PauseDuration: 0
   ResumeType: 0
@@ -3471,6 +3493,39 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_B_Transition
+  - m_Version: 1
+    m_Start: 1051.5166666666678
+    m_ClipIn: 0
+    m_Asset: {fileID: -4179635679679288060}
+    m_Duration: 3.0149999999998727
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 7013199287202305913}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: C08
   m_Markers:
     m_Objects: []
 --- !u!114 &7169531313515676987

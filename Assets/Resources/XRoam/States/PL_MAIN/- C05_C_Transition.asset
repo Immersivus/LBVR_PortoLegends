@@ -10,14 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
-  m_Name: 9 - C05_C_Finish
+  m_Name: '- C05_C_Transition'
   m_EditorClassIdentifier: 
-  _id: e6864789-efb3-4cbb-91f3-23a9a8a85ead
-  _name: 9 - C05_C_Finish
+  _id: f3c30242-f949-4f68-ad95-d30542646b55
+  _name: '- C05_C_Transition'
   _mainScene: Assets/00_ART/01_Scenes/00_MAIN.unity
   _exposed: 1
-  _exposedName: 9 - C05_C_Fini
+  _exposedName: '- C05_C_TRANSI'
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/05_C.unity
   - Assets/00_ART/01_Scenes/05_D.unity
-  _stateActions: []
+  _stateActions:
+  - Id: 0b77925a-101e-4393-bd66-75b3855fa035
+    Name: IncreaseFarClip
+    Scene: 00_MAIN
+    Moment: 1

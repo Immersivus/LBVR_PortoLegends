@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
-  m_Name: 9 - C05_C
+  m_Name: '- C05_C'
   m_EditorClassIdentifier: 
   _id: 18a4bd9b-7e0f-43fc-bfa0-0357f8b2a89d
-  _name: 9 - C05_C
+  _name: '- C05_C'
   _mainScene: Assets/00_ART/01_Scenes/00_MAIN.unity
   _exposed: 1
-  _exposedName: 9 - C05_C
+  _exposedName: '- C05_C'
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/05_C.unity
   - Assets/00_ART/01_Scenes/05_D.unity
