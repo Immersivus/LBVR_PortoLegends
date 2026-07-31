@@ -947,7 +947,7 @@ Light:
   m_BounceIntensity: 5
   m_ColorTemperature: 4287
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 9e-44}
+  m_BoundingSphereOverride: {x: 4.1174e-41, y: 2.524355e-29, z: 0, w: 2.112216e-39}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -21349,7 +21349,7 @@ Light:
   m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.75e-41, y: 0, z: 0, w: 2.2838316e-24}
+  m_BoundingSphereOverride: {x: 3.7489e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -26348,7 +26348,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 34e3394eab7e3b0409b88f173758f8a7, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -37289,7 +37289,7 @@ Light:
   m_BounceIntensity: 3
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.2564e-41, y: 3e-45, z: 0, w: 6e-45}
+  m_BoundingSphereOverride: {x: 4.131e-41, y: 2.524355e-29, z: 0, w: 1.3555898e-19}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -67842,7 +67842,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 34e3394eab7e3b0409b88f173758f8a7, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -112348,7 +112348,7 @@ Light:
   m_BounceIntensity: 5
   m_ColorTemperature: 3509
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.6927021e+22, y: 2.524355e-29, z: 0, w: 3.6359737e+11}
+  m_BoundingSphereOverride: {x: 2.369356e-38, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0

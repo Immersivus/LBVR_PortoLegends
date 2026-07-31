@@ -12211,7 +12211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
-  _stateId: 27b7604c-25c9-4eec-8b5e-22c2fe0628ff
+  _stateId: 098244aa-1129-42f0-844d-3f4a8519d5c8
   _applyChangeToServer: 0
   _cleanChange: 0
 --- !u!114 &1489931557
@@ -12288,8 +12288,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.6700177, y: 2.5804996, z: 1.7062002}
-  m_Center: {x: -0.62129736, y: -0.15657163, z: 0.698728}
+  m_Size: {x: 1.989645, y: 2.5804996, z: 1.7062002}
+  m_Center: {x: -0.46148372, y: -0.15657163, z: 0.698728}
 --- !u!1 &1514117184
 GameObject:
   m_ObjectHideFlags: 0
@@ -13892,6 +13892,7 @@ MonoBehaviour:
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _statesIds:
   - 7cbf5504-b2f9-411a-8005-296e83efedec
+  - 098244aa-1129-42f0-844d-3f4a8519d5c8
   _disableOnStateChanged: 1
 --- !u!1 &1697138836
 GameObject:
