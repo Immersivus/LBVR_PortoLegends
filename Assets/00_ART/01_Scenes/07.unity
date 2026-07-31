@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 0
-  m_FogColor: {r: 0.1294945, g: 0.1835524, b: 0.2830189, a: 1}
+  m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.085
+  m_FogDensity: 0.12
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -13751,6 +13751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286089626}
+  - component: {fileID: 286089627}
   m_Layer: 0
   m_Name: Container
   m_TagString: Untagged
@@ -13778,6 +13779,26 @@ Transform:
   - {fileID: 988457847}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &286089627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286089625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _activationType: 1
+  _elements:
+  - {fileID: 988457846}
+  _progressiveActivation: 1
+  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _statesIds:
+  - 8b74f0f0-ac32-4114-8882-9b52bddc768e
+  _disableOnStateChanged: 1
 --- !u!1 &286762459
 GameObject:
   m_ObjectHideFlags: 0
@@ -19549,6 +19570,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: e96f04f190dc5c44fbfc4aaad0ebbc94, type: 2}
+    - target: {fileID: 6427313651645820230, guid: 2b73f0147cab4644bad0bb5697c1dd96, type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6427313651645820230, guid: 2b73f0147cab4644bad0bb5697c1dd96, type: 3}
       propertyPath: ShapeModule.m_Scale.x
       value: 3
@@ -42410,7 +42435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988457847}
   m_Layer: 0
-  m_Name: HEART_TOUCH_PARTICLES
+  m_Name: '[Activator] HEART_TOUCH_PARTICLES'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64857,6 +64882,7 @@ GameObject:
   - component: {fileID: 1264550486}
   - component: {fileID: 1264550485}
   - component: {fileID: 1264550484}
+  - component: {fileID: 1264550489}
   m_Layer: 0
   m_Name: HearthCollider
   m_TagString: Untagged
@@ -64913,10 +64939,10 @@ MonoBehaviour:
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 988457846}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1264550489}
+        m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
+        m_MethodName: ChangeState
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -65008,6 +65034,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264550482}
   m_Mesh: {fileID: 4711208715938537054, guid: e537a8332729de240b837e5985472f49, type: 3}
+--- !u!114 &1264550489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264550482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c72eda3147d846a5e4e6fa8ce6bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _stateId: 8b74f0f0-ac32-4114-8882-9b52bddc768e
+  _applyChangeToServer: 0
+  _cleanChange: 0
 --- !u!1001 &1269675891
 PrefabInstance:
   m_ObjectHideFlags: 0
