@@ -59310,6 +59310,22 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -5217978706621872809, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -5217978706621872809, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.9646
+      objectReference: {fileID: 0}
+    - target: {fileID: -5217978706621872809, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5217978706621872809, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0877
+      objectReference: {fileID: 0}
     - target: {fileID: -5190630082793040378, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -60125,6 +60141,7 @@ PrefabInstance:
     - {fileID: 2800250516343163423, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
     - {fileID: -5568371526223589888, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
     - {fileID: -9193276524722276213, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+    - {fileID: 5635190183566590198, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       insertIndex: 22
@@ -60160,7 +60177,7 @@ PrefabInstance:
       insertIndex: 96
       addedObject: {fileID: 1387884361}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
-      insertIndex: 142
+      insertIndex: 141
       addedObject: {fileID: 1429375393}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9074541570607186709, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
