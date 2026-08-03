@@ -248,7 +248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2664005694985297596}
   - component: {fileID: 8502641262813927250}
-  - component: {fileID: -5668205408531765053}
+  - component: {fileID: -3289290514886946004}
   m_Layer: 0
   m_Name: OffsetGizmo
   m_TagString: Untagged
@@ -291,7 +291,7 @@ MonoBehaviour:
   <PredictedSpawn>k__BackingField: {fileID: 0}
   <PredictedOwner>k__BackingField: {fileID: 0}
   NetworkBehaviours:
-  - {fileID: -5668205408531765053}
+  - {fileID: -3289290514886946004}
   InitializedParentNetworkBehaviour: {fileID: 0}
   InitializedNestedNetworkObjects: []
   RuntimeParentNetworkBehaviour: {fileID: 0}
@@ -325,7 +325,7 @@ MonoBehaviour:
     Rotation: {x: 0, y: 0, z: 0, w: 1}
     Scale: {x: 1, y: 1, z: 1}
     IsValid: 1
---- !u!114 &-5668205408531765053
+--- !u!114 &-3289290514886946004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
