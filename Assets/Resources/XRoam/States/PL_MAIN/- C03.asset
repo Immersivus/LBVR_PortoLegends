@@ -20,4 +20,8 @@ MonoBehaviour:
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/03.unity
   - Assets/00_ART/01_Scenes/04.unity
-  _stateActions: []
+  _stateActions:
+  - Id: 619c14aa-34a6-4acf-bb41-b23744c36f47
+    Name: Joel Timeline Change C03
+    Scene: 00_MAIN
+    Moment: 1
