@@ -8347,6 +8347,22 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3545136474831836224, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: ShapeModule.type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136474831836224, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136474831836230, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136474831836230, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 3545136474831836231, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -8363,6 +8379,14 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741097, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741097, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.47
+      objectReference: {fileID: 0}
     - target: {fileID: 3545136475437741100, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -8374,6 +8398,14 @@ PrefabInstance:
     - target: {fileID: 3545136475437741102, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741103, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741103, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.421
       objectReference: {fileID: 0}
     - target: {fileID: 3545136475680483276, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_LocalScale.x
@@ -13253,6 +13285,14 @@ PrefabInstance:
       propertyPath: playOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741097, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: ForceModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741097, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: ForceModule.y.scalar
+      value: -0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3545136475437741100, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -13264,6 +13304,14 @@ PrefabInstance:
     - target: {fileID: 3545136475437741102, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741103, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545136475437741103, guid: b4180303bc08117489bf103983b70710, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.332
       objectReference: {fileID: 0}
     - target: {fileID: 3545136475680483276, guid: b4180303bc08117489bf103983b70710, type: 3}
       propertyPath: m_LocalScale.x
