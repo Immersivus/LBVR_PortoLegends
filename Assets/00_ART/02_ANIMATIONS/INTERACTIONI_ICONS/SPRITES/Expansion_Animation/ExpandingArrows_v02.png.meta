@@ -1,0 +1,1616 @@
+fileFormatVersion: 2
+guid: c01facbf0c95015479fcc6a6014e598e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1944
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977926b3b2422f4fa8e2930738d3a42
+      internalID: 1305913984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1944
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1c6aaca9ec0d44598db269cc1412d0
+      internalID: -2083762187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1944
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f716a0323723ba4786b2860515c3e22
+      internalID: 1401823376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1944
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ce7b42a2c29c48b6512017a02ef98
+      internalID: -1313554826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_4
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1944
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662d49ae779492146b1ddad87f582dd7
+      internalID: 173712992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1782
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92670d6bffea2eb48913f8ca6b8d9583
+      internalID: -1315767036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1782
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45c9fe6f22770040a60ce44cfb2e4b8
+      internalID: 462420880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_7
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1782
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42515fcadfa68d542bbb1ba46851935a
+      internalID: -2071788547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_8
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1782
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329073cafa907744fbf002fac582e8ff
+      internalID: 696919767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_9
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1782
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554ec3ff2b8cc984bbf829a20b56da08
+      internalID: 11731388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abbb8ba9601726498e210754ed23e68
+      internalID: -295137176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1620
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cb9d4168e931543bd03e202a26a063
+      internalID: 419192243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1620
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e15043989f7bd46a471422307379fb
+      internalID: 1241220992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_13
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1620
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bfd68c8960f6f49932994cff05928c
+      internalID: -2112421105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_14
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1620
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fa3f8a1f2ddc24684c6d110c7a0744
+      internalID: -1530119335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1458
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93d1854fb92f9e4495d3c1cae66bd5f
+      internalID: -640153458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1458
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7998c2661ab209444ba1417b12b27854
+      internalID: -624094945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_17
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1458
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7109cccf14c874a80df57c63f9f275
+      internalID: -306443197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_18
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1458
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756d7e178f4935e45a29f3f38e20b472
+      internalID: -1535305150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_19
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1458
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87d2242965cd546b9f037ff52d6d36
+      internalID: -1224339797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1296
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3440f0dfa2ba54ca2063831b0bcdef
+      internalID: 325824607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1296
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60335e7dfb4f2624d81355553ee1f3d2
+      internalID: 1061596307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1296
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad813e9b3bfbea45a03dc39f8b88095
+      internalID: -44115577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_23
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1296
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aa123af9bbd644c8549919ee036b06
+      internalID: -763446609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_24
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1296
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c308acdf7d7bf49994dbd2d5dd2ac2
+      internalID: -371373767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1134
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290e1bf4ffb60284ea0e2e6d234f8b5b
+      internalID: -302587903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_26
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1134
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eff673d409cd6543a75cafa8c80f4d9
+      internalID: -218796562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_27
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1134
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100a659909e2cf4bbfba2e01a66ee51
+      internalID: -502046766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_28
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1134
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aef40392c7ac6459521c1d32348f36
+      internalID: -1759507898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_29
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1134
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c70d88cd01488c43adbcd55a3cf8938
+      internalID: -1339382267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d852c278eca19247bfccb2fc0bdabdc
+      internalID: 1313793318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_31
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 972
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1352e34a14632d34cb41a1f9a5ed8818
+      internalID: -293607126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_32
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 972
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcceb92f580f424aabda7ec73f2d7c4
+      internalID: -1655390774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_33
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 972
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e3cc5bb5b374645a764a492397ba37
+      internalID: 2049385016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_34
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 972
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63777c922c5aad4f912a4b9026be87d
+      internalID: 1691989214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1e6307dd9df4d489778b215d5f0ef1
+      internalID: 997802197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_36
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 810
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb66f5d08b7379459e616dd8739ff7c
+      internalID: -1007945416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_37
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 810
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e1ab74da017e40b6c4c43bef64c89
+      internalID: 2130625891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_38
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 810
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a261a14cb933eee41bcb542d183bd5bc
+      internalID: -72105019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_39
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 810
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d49181227bfcef429a2badbd759612f
+      internalID: -1106644480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e68921356ff13469ab38be10ec9448
+      internalID: 1193164445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 648
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971c3572b90c8ee43bb5868bea638443
+      internalID: -1353111361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_42
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 648
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b975b2d4b1e845b4a93dbdc722ea7
+      internalID: -1053716074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_43
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 648
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c950362ce79ec4e8d315df8cdd1b46
+      internalID: 1372559586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_44
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 648
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae3944a501be6f4fba2305cb0a89192
+      internalID: 1137079922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd7a2b3b8e5e8a45afb8d848c26380c
+      internalID: 1779262554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_46
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 486
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5546c32f6aed07c4992206b6b12deac8
+      internalID: 56872177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_47
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 486
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303eb7853b0497043b6e6b056d1cca21
+      internalID: -545996259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_48
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 486
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421579a2ebf75b5439d2c792c135b482
+      internalID: -1363539807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_49
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 486
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f27bee9415f03741a15206a3ff1bc22
+      internalID: -1768767614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857be89d3ee3e644f9726036f36d2e08
+      internalID: -1642939905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_51
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 324
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3153cf6a112d10c4181dbf9ee18ebf1e
+      internalID: 479184509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_52
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 324
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a11963994467a34cb26233e27e55f45
+      internalID: 1874634151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_53
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 324
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9619f2e459b4a468c40ba0b9f0088b
+      internalID: 1090013244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_54
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 324
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f866fadd882e46b1b7967ec7adb82
+      internalID: 369237764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f8b10065ddf0488009a98308d6c10
+      internalID: -1212972098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_56
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 162
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce090f1a396ca9488d1922c12dad9d9
+      internalID: 1991104426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_57
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 162
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5b6b188c5c0e04398c4a7c18db3e3d
+      internalID: 470934892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_58
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 162
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf9d6129641b44390731669547f17c
+      internalID: 1429655446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_59
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 162
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9c4eafeecd6e441aa0b36dd1bfd18c
+      internalID: 559618685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc823cf79c1b2446ae778d43576b8cf
+      internalID: 304879466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_61
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3fe908627f86f499529203c263112c
+      internalID: 1424074461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_62
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89a54fb8f0595f42bb24a872af04a5f
+      internalID: -605174442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpandingArrows_v02_63
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 285
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c055f0d349d5684f8384f71820b0796
+      internalID: -1108853600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cabdb5fb5240cad44b9dab3fc204625c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExpandingArrows_v02_0: 1305913984
+      ExpandingArrows_v02_1: -2083762187
+      ExpandingArrows_v02_10: -295137176
+      ExpandingArrows_v02_11: 419192243
+      ExpandingArrows_v02_12: 1241220992
+      ExpandingArrows_v02_13: -2112421105
+      ExpandingArrows_v02_14: -1530119335
+      ExpandingArrows_v02_15: -640153458
+      ExpandingArrows_v02_16: -624094945
+      ExpandingArrows_v02_17: -306443197
+      ExpandingArrows_v02_18: -1535305150
+      ExpandingArrows_v02_19: -1224339797
+      ExpandingArrows_v02_2: 1401823376
+      ExpandingArrows_v02_20: 325824607
+      ExpandingArrows_v02_21: 1061596307
+      ExpandingArrows_v02_22: -44115577
+      ExpandingArrows_v02_23: -763446609
+      ExpandingArrows_v02_24: -371373767
+      ExpandingArrows_v02_25: -302587903
+      ExpandingArrows_v02_26: -218796562
+      ExpandingArrows_v02_27: -502046766
+      ExpandingArrows_v02_28: -1759507898
+      ExpandingArrows_v02_29: -1339382267
+      ExpandingArrows_v02_3: -1313554826
+      ExpandingArrows_v02_30: 1313793318
+      ExpandingArrows_v02_31: -293607126
+      ExpandingArrows_v02_32: -1655390774
+      ExpandingArrows_v02_33: 2049385016
+      ExpandingArrows_v02_34: 1691989214
+      ExpandingArrows_v02_35: 997802197
+      ExpandingArrows_v02_36: -1007945416
+      ExpandingArrows_v02_37: 2130625891
+      ExpandingArrows_v02_38: -72105019
+      ExpandingArrows_v02_39: -1106644480
+      ExpandingArrows_v02_4: 173712992
+      ExpandingArrows_v02_40: 1193164445
+      ExpandingArrows_v02_41: -1353111361
+      ExpandingArrows_v02_42: -1053716074
+      ExpandingArrows_v02_43: 1372559586
+      ExpandingArrows_v02_44: 1137079922
+      ExpandingArrows_v02_45: 1779262554
+      ExpandingArrows_v02_46: 56872177
+      ExpandingArrows_v02_47: -545996259
+      ExpandingArrows_v02_48: -1363539807
+      ExpandingArrows_v02_49: -1768767614
+      ExpandingArrows_v02_5: -1315767036
+      ExpandingArrows_v02_50: -1642939905
+      ExpandingArrows_v02_51: 479184509
+      ExpandingArrows_v02_52: 1874634151
+      ExpandingArrows_v02_53: 1090013244
+      ExpandingArrows_v02_54: 369237764
+      ExpandingArrows_v02_55: -1212972098
+      ExpandingArrows_v02_56: 1991104426
+      ExpandingArrows_v02_57: 470934892
+      ExpandingArrows_v02_58: 1429655446
+      ExpandingArrows_v02_59: 559618685
+      ExpandingArrows_v02_6: 462420880
+      ExpandingArrows_v02_60: 304879466
+      ExpandingArrows_v02_61: 1424074461
+      ExpandingArrows_v02_62: -605174442
+      ExpandingArrows_v02_63: -1108853600
+      ExpandingArrows_v02_64: 938342339
+      ExpandingArrows_v02_7: -2071788547
+      ExpandingArrows_v02_8: 696919767
+      ExpandingArrows_v02_9: 11731388
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

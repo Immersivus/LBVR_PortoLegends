@@ -3403,6 +3403,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3358160471626792431, guid: ea44f49751cf9234cb1f7e88da11cc23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9043252044937409322, guid: ea44f49751cf9234cb1f7e88da11cc23, type: 3}
       propertyPath: m_Name
       value: Avatars
