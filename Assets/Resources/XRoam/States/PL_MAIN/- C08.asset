@@ -19,4 +19,8 @@ MonoBehaviour:
   _exposedName: '- C08'
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/08.unity
-  _stateActions: []
+  _stateActions:
+  - Id: 00eb48d4-ed6d-4355-8ce6-cc39b0db1b6e
+    Name: Reset Timelines
+    Scene: 00_MAIN
+    Moment: 1
