@@ -33334,7 +33334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1696799910380822996, guid: f3d195b28082dc0448b3eaff39703766, type: 3}
       propertyPath: m_Name
-      value: PL_guide_idle01
+      value: '[Activator] PL_guide_idle01'
       objectReference: {fileID: 0}
     - target: {fileID: 1696799910380822996, guid: f3d195b28082dc0448b3eaff39703766, type: 3}
       propertyPath: m_IsActive
