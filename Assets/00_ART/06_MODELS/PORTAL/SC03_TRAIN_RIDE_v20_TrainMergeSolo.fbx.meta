@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ARROWS
+    second: {fileID: 2100000, guid: 23101db757589114090006d3fa1c1db1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BACKCART
+    second: {fileID: 2100000, guid: 193d02418bf64dd49ab00a8aa0617a11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: LOCOMOTIVE_A
     second: {fileID: 2100000, guid: 0aea7cb0c00fb3246a05d9b6489fbeba, type: 2}
   - first:
@@ -14,6 +24,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: SC03_MAIN_SHADER_ATLAS
     second: {fileID: 2100000, guid: 04a55032869711840b7f0beaf20b9c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SIMPLE_G
+    second: {fileID: 2100000, guid: 193d02418bf64dd49ab00a8aa0617a11, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
