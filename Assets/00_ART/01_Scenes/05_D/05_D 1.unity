@@ -435,6 +435,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95523873}
   m_Mesh: {fileID: -6603935758491053918, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+--- !u!1 &128866696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128866698}
+  - component: {fileID: 128866697}
+  m_Layer: 0
+  m_Name: SismoVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &128866697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128866696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 5cea33836ed321547bbb157d0d784452, type: 2}
+--- !u!4 &128866698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128866696}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05634715, y: 1.4170125, z: 0.75244623}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &148903097
 GameObject:
   m_ObjectHideFlags: 0
@@ -10179,6 +10228,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -6490052543448114514, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -6278357009413739052, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -10746,6 +10799,10 @@ PrefabInstance:
     - target: {fileID: 4622869240820988277, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628347513043353130, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4692360930536726667, guid: f2d195fde6d1bcc4c8ac860728216b7e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11764,6 +11821,81 @@ Transform:
   - {fileID: 896368443}
   - {fileID: 1654989698}
   - {fileID: 911544359}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &815134253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815134256}
+  - component: {fileID: 815134255}
+  - component: {fileID: 815134254}
+  m_Layer: 0
+  m_Name: SismoSimulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &815134254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815134253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7104e7a30ec3d48b94b62056b2ba8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duracao: 5
+  tempoSuavizacao: 1.5
+  velocidadeSismo: 25
+  tremorEixoX_Lados: 0.03
+  tremorEixoY_CimaBaixo: 0.01
+  tremorEixoZ_FrenteTras: 0.03
+  usarEfeitoShutter: 0
+  fpsShutter: 12
+  volumeDeArrastamento: {fileID: 128866697}
+--- !u!65 &815134255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815134253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.6353123, z: 1}
+  m_Center: {x: 0, y: 0.31765616, z: 0}
+--- !u!4 &815134256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815134253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.105, y: 0.404, z: 0.302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &829805290
@@ -71775,8 +71907,10 @@ SceneRoots:
   - {fileID: 802504342}
   - {fileID: 247201536}
   - {fileID: 619598512}
+  - {fileID: 128866698}
   - {fileID: 1500977783}
   - {fileID: 1308205975}
   - {fileID: 1335483279}
   - {fileID: 1630239762}
   - {fileID: 296275943}
+  - {fileID: 815134256}
