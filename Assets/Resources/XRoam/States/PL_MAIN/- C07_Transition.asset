@@ -19,4 +19,8 @@ MonoBehaviour:
   _exposedName: '- C07_1'
   _scenesToLoad:
   - Assets/00_ART/01_Scenes/07.unity
-  _stateActions: []
+  _stateActions:
+  - Id: 22ced335-48b4-4d83-b40f-284eaa2e1ff7
+    Name: Joel Timeline Change C07 Transition
+    Scene: 00_MAIN
+    Moment: 1

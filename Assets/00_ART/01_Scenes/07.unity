@@ -42414,7 +42414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988457847}
   m_Layer: 0
-  m_Name: HEART_TOUCH_PARTICLES
+  m_Name: '[Activator] HEART_TOUCH_PARTICLES'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64862,6 +64862,7 @@ GameObject:
   - component: {fileID: 1264550485}
   - component: {fileID: 1264550484}
   - component: {fileID: 1264550489}
+  - component: {fileID: 1264550490}
   m_Layer: 0
   m_Name: HearthCollider
   m_TagString: Untagged
@@ -64918,18 +64919,6 @@ MonoBehaviour:
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 988457846}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1264550489}
         m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
         m_MethodName: ChangeState
@@ -65041,6 +65030,26 @@ MonoBehaviour:
   _stateId: 8b74f0f0-ac32-4114-8882-9b52bddc768e
   _applyChangeToServer: 0
   _cleanChange: 0
+--- !u!114 &1264550490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264550482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _activationType: 1
+  _elements:
+  - {fileID: 988457846}
+  _progressiveActivation: 1
+  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
+  _statesIds:
+  - 8b74f0f0-ac32-4114-8882-9b52bddc768e
+  _disableOnStateChanged: 1
 --- !u!1001 &1269675891
 PrefabInstance:
   m_ObjectHideFlags: 0
