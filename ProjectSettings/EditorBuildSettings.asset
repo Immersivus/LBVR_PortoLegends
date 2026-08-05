@@ -74,6 +74,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/00_ART/01_Scenes/05_B/05_B_ART.unity
     guid: f75aea8a2a4a3db4ca1c3bdeda8ffa80
+  - enabled: 0
+    path: Assets/00_ART/06_MODELS/PORTAL/NEW_PORTALS.unity
+    guid: 1187268c8b3b94b42998aee0716d96b2
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 437ce80565e6ae042b9b9ed268dff4af, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
