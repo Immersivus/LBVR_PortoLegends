@@ -13751,7 +13751,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286089626}
-  - component: {fileID: 286089627}
   m_Layer: 0
   m_Name: Container
   m_TagString: Untagged
@@ -13779,26 +13778,6 @@ Transform:
   - {fileID: 988457847}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &286089627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286089625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5f97d060060b141a581102ffc261c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _activationType: 1
-  _elements:
-  - {fileID: 988457846}
-  _progressiveActivation: 1
-  _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
-  _statesIds:
-  - 8b74f0f0-ac32-4114-8882-9b52bddc768e
-  _disableOnStateChanged: 1
 --- !u!1 &286762459
 GameObject:
   m_ObjectHideFlags: 0
@@ -42435,7 +42414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988457847}
   m_Layer: 0
-  m_Name: '[Activator] HEART_TOUCH_PARTICLES'
+  m_Name: HEART_TOUCH_PARTICLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64935,10 +64914,22 @@ MonoBehaviour:
   _bodyPartType: 2
   _onlyAdmin: 0
   _synchronized: 0
-  _oneUseOnly: 0
+  _oneUseOnly: 1
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 988457846}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1264550489}
         m_TargetAssemblyTypeName: XRoam.Core.States.StateChanger, XRoam.SDK
         m_MethodName: ChangeState
@@ -90902,7 +90893,7 @@ Transform:
   m_GameObject: {fileID: 2080431239}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.67, y: 1.028, z: -2.9571}
+  m_LocalPosition: {x: 5.8, y: 1.028, z: -2.9571}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_ConstrainProportionsScale: 0
   m_Children: []
