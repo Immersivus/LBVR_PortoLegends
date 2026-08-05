@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.02
@@ -230,7 +230,6 @@ GameObject:
   - component: {fileID: 18777537}
   - component: {fileID: 18777543}
   - component: {fileID: 18777542}
-  - component: {fileID: 18777541}
   - component: {fileID: 18777540}
   - component: {fileID: 18777539}
   - component: {fileID: 18777538}
@@ -345,24 +344,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.4
   m_Center: {x: 0, y: 0.33, z: 0}
---- !u!114 &18777541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18777536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bff72daccb5c6b8429764dfa5e3b042d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetRenderer: {fileID: 2012330071}
-  targetRendererPortal: {fileID: 0}
-  targetCamera: {fileID: 0}
-  occluderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!23 &18777542
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11798,10 +11779,10 @@ GameObject:
   - component: {fileID: 1084261912}
   - component: {fileID: 1084261918}
   - component: {fileID: 1084261917}
-  - component: {fileID: 1084261916}
   - component: {fileID: 1084261915}
   - component: {fileID: 1084261914}
   - component: {fileID: 1084261913}
+  - component: {fileID: 1084261919}
   m_Layer: 8
   m_Name: ALPHA
   m_TagString: Untagged
@@ -11913,24 +11894,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.4
   m_Center: {x: 0, y: 0.33, z: 0}
---- !u!114 &1084261916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084261911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bff72daccb5c6b8429764dfa5e3b042d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetRenderer: {fileID: 1722670419}
-  targetRendererPortal: {fileID: 0}
-  targetCamera: {fileID: 0}
-  occluderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!23 &1084261917
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11984,6 +11947,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084261911}
   m_Mesh: {fileID: 4821388298399525931, guid: 4f1cd049671d6f74e85f83be4dcb2909, type: 3}
+--- !u!65 &1084261919
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084261911}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.9999986, y: 1.7071067, z: 1.9999993}
+  m_Center: {x: -0.0000005066395, y: 0.083569646, z: -0.00000035762787}
 --- !u!1 &1090384834
 GameObject:
   m_ObjectHideFlags: 0
@@ -13744,7 +13728,6 @@ GameObject:
   - component: {fileID: 1262259903}
   - component: {fileID: 1262259909}
   - component: {fileID: 1262259908}
-  - component: {fileID: 1262259907}
   - component: {fileID: 1262259906}
   - component: {fileID: 1262259905}
   - component: {fileID: 1262259904}
@@ -13859,24 +13842,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.4
   m_Center: {x: 0, y: 0.33, z: 0}
---- !u!114 &1262259907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262259902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bff72daccb5c6b8429764dfa5e3b042d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetRenderer: {fileID: 1971120282}
-  targetRendererPortal: {fileID: 0}
-  targetCamera: {fileID: 0}
-  occluderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!23 &1262259908
 MeshRenderer:
   m_ObjectHideFlags: 0
