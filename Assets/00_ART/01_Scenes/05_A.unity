@@ -44000,7 +44000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308324, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61320806
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308324, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_LocalPosition.z
@@ -44044,7 +44044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308327, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308327, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -45065,7 +45065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308324, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61320806
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308324, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_LocalPosition.z
@@ -81682,7 +81682,7 @@ ParentConstraint:
   m_TranslationOffsets:
   - {x: -0.069200516, y: 0.1354003, z: 0.17289972}
   m_RotationOffsets:
-  - {x: -47.235355, y: -106.43052, z: 89.122894}
+  - {x: -47.23535, y: -106.43052, z: 89.122894}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
