@@ -1900,10 +1900,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 370.3877
+    m_Start: 370.38767
     m_ClipIn: 0
     m_Asset: {fileID: -3193163321093169151}
-    m_Duration: 32.35000000000002
+    m_Duration: 27.195629999999994
     m_TimeScale: 1
     m_ParentTrack: {fileID: 852489550963816524}
     m_EaseInDuration: 0
@@ -2038,7 +2038,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Portal 5B-5C
   - m_Version: 1
-    m_Start: 1025.8666666666666
+    m_Start: 1025.25
     m_ClipIn: 80.98336666666262
     m_Asset: {fileID: 6279273279696696058}
     m_Duration: 11.999999999999886
@@ -2107,7 +2107,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sphere 6
   - m_Version: 1
-    m_Start: 833.8038010385562
+    m_Start: 832.8
     m_ClipIn: 0.8166666666664923
     m_Asset: {fileID: -4449371825158606284}
     m_Duration: 12
@@ -2245,7 +2245,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Portal 5A-5B
   - m_Version: 1
-    m_Start: 1069.7333333333333
+    m_Start: 1196.7166666666667
     m_ClipIn: 1.966666666666356
     m_Asset: {fileID: -5587630225647734431}
     m_Duration: 12
@@ -2780,7 +2780,7 @@ MonoBehaviour:
     m_Start: 1030.0038343718866
     m_ClipIn: 0
     m_Asset: {fileID: -7823216344071002169}
-    m_Duration: 59.02999999999838
+    m_Duration: 182.07729999999992
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5297915991614157208}
     m_EaseInDuration: 0
@@ -3454,7 +3454,7 @@ MonoBehaviour:
     m_Start: 1030.0038343718866
     m_ClipIn: 0
     m_Asset: {fileID: 2036520906310466877}
-    m_Duration: 29.01499999999851
+    m_Duration: 150
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7013199287202305913}
     m_EaseInDuration: 0
@@ -3649,7 +3649,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_B_Transition
   - m_Version: 1
-    m_Start: 1074.033834371885
+    m_Start: 1201.004
     m_ClipIn: 0
     m_Asset: {fileID: -4179635679679288060}
     m_Duration: 15
@@ -3715,10 +3715,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_D_Transition
   - m_Version: 1
-    m_Start: 1059.018834371885
+    m_Start: 1180.0038343718866
     m_ClipIn: 0
     m_Asset: {fileID: 5996208512952638982}
-    m_Duration: 15.014999999999873
+    m_Duration: 21
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7013199287202305913}
     m_EaseInDuration: 0
@@ -3733,7 +3733,25 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
