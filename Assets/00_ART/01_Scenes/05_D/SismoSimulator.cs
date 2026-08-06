@@ -32,6 +32,21 @@ public class SismoSimulator : MonoBehaviour
     [Header("Efeito de Arrastamento Visual")]
     public Volume volumeDeArrastamento;
 
+    [Header("Efeitos Adicionais (Partículas e Objetos)")]
+    [Tooltip("Sistemas de partículas a disparar quando o sismo inicia")]
+    public ParticleSystem[] sistemasParticulas;
+
+    [Tooltip("Objetos a ativar durante o sismo e desativar no fim")]
+    public GameObject[] objetosParaAtivar;
+
+    [Header("Áudio do Sismo")]
+    [Tooltip("Componente AudioSource com o som do terramoto (configura como 3D no Inspector para ser espacial)")]
+    public AudioSource somSismo;
+
+    [Tooltip("Volume máximo do som durante o pico do sismo")]
+    [Range(0f, 1f)]
+    public float volumeMaximoSom = 1.0f;
+
     private Transform cameraVR;
     private float tempoRestante = 0f;
     private bool efeitoAtivo = false;
@@ -54,6 +69,11 @@ public class SismoSimulator : MonoBehaviour
         {
             volumeDeArrastamento.weight = 0f;
         }
+
+        if (somSismo != null)
+        {
+            somSismo.volume = 0f;
+        }
     }
 
     void Update()
@@ -70,7 +90,13 @@ public class SismoSimulator : MonoBehaviour
                 volumeDeArrastamento.weight = pesoAtualVolume;
             }
 
-            // 2. POSIÇÃO DA CÂMERA (TREMOR DE SISMO)
+            // 2. CONTROLO DO ÁUDIO (Volume sobe e desce com a transição do sismo)
+            if (somSismo != null)
+            {
+                somSismo.volume = multiplicadorForca * volumeMaximoSom;
+            }
+
+            // 3. POSIÇÃO DA CÂMERA (TREMOR DE SISMO)
             if (cameraVR != null)
             {
                 if (usarEfeitoShutter)
@@ -107,6 +133,16 @@ public class SismoSimulator : MonoBehaviour
             {
                 volumeDeArrastamento.weight = Mathf.Lerp(volumeDeArrastamento.weight, 0f, Time.deltaTime * 4f);
             }
+
+            // Faz fade out do som se ainda estiver a tocar
+            if (somSismo != null && somSismo.volume > 0f)
+            {
+                somSismo.volume = Mathf.Lerp(somSismo.volume, 0f, Time.deltaTime * 5f);
+                if (somSismo.volume <= 0.01f)
+                {
+                    somSismo.Stop();
+                }
+            }
         }
     }
 
@@ -124,7 +160,6 @@ public class SismoSimulator : MonoBehaviour
         }
     }
 
-    // Apenas alterou a referência dos novos nomes das variáveis
     private Vector3 CalcularPosicaoSismo(float multiplicadorForca)
     {
         float xOffset = Mathf.Sin(Time.time * velocidadeSismo) * (tremorEixoX_Lados * multiplicadorForca);
@@ -156,10 +191,36 @@ public class SismoSimulator : MonoBehaviour
         tempoRestante = duracao;
         efeitoAtivo = true;
         tempoUltimoShutter = Time.time;
+
         if (cameraVR != null)
         {
             posOriginalCamera = cameraVR.localPosition;
             posShutterAtual = posOriginalCamera;
+        }
+
+        // Toca o som
+        if (somSismo != null)
+        {
+            somSismo.volume = 0f;
+            somSismo.Play();
+        }
+
+        // Ativa Partículas
+        if (sistemasParticulas != null)
+        {
+            foreach (ParticleSystem ps in sistemasParticulas)
+            {
+                if (ps != null) ps.Play();
+            }
+        }
+
+        // Ativa Objetos extra
+        if (objetosParaAtivar != null)
+        {
+            foreach (GameObject obj in objetosParaAtivar)
+            {
+                if (obj != null) obj.SetActive(true);
+            }
         }
     }
 
@@ -167,5 +228,23 @@ public class SismoSimulator : MonoBehaviour
     {
         efeitoAtivo = false;
         tempoRestante = 0f;
+
+        // Desliga Partículas
+        if (sistemasParticulas != null)
+        {
+            foreach (ParticleSystem ps in sistemasParticulas)
+            {
+                if (ps != null) ps.Stop();
+            }
+        }
+
+        // Desliga Objetos extra
+        if (objetosParaAtivar != null)
+        {
+            foreach (GameObject obj in objetosParaAtivar)
+            {
+                if (obj != null) obj.SetActive(false);
+            }
+        }
     }
 }
