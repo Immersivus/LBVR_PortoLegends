@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
+  m_FogColor: {r: 0.20392157, g: 0.27058825, b: 0.47058824, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.03
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -82037,7 +82037,7 @@ ParentConstraint:
   m_TranslationOffsets:
   - {x: -0.069200516, y: 0.1354003, z: 0.17289972}
   m_RotationOffsets:
-  - {x: -47.235355, y: -106.43052, z: 89.122894}
+  - {x: -47.23535, y: -106.43052, z: 89.122894}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
@@ -105658,6 +105658,7 @@ MonoBehaviour:
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _statesIds:
   - b672978d-f8a8-4a15-9b76-96954352a6c0
+  - 3d2a695c-0dc0-4d89-9bf5-98179f9f0fbc
   _disableOnStateChanged: 1
 --- !u!1 &1878461483
 GameObject:
