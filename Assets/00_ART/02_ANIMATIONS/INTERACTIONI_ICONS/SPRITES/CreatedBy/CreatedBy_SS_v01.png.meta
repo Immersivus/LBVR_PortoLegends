@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca1d90a455628e44b9c207a87aeb64ab
+guid: 539aea8deca85c248822c12a22e6ebdd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_0
+      name: CreatedBy_SS_v01_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0930211431bfe604f8f758b081543cb1
-      internalID: -1981345456
+      spriteID: 0386ed41f81666d4492d366b71304f26
+      internalID: -799910612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_1
+      name: CreatedBy_SS_v01_1
       rect:
         serializedVersion: 2
         x: 350
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee14f262b7932864794a1a70248ebb4e
-      internalID: -1974829756
+      spriteID: b8a252c8d1efbc747b5cbd5ec7698823
+      internalID: 62060741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_2
+      name: CreatedBy_SS_v01_2
       rect:
         serializedVersion: 2
         x: 700
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a62aa32a8b40f438efe4772b10cc31
-      internalID: 1910683602
+      spriteID: 97a217aea79a8d64ca505ff07e871baa
+      internalID: -326835180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_3
+      name: CreatedBy_SS_v01_3
       rect:
         serializedVersion: 2
         x: 1050
@@ -204,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55f2a2c591663114a81a5eab5379abeb
-      internalID: 1561178383
+      spriteID: 065adaaea3c569142a1a490bafaaa83f
+      internalID: -1572719606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_4
+      name: CreatedBy_SS_v01_4
       rect:
         serializedVersion: 2
         x: 1400
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70a498d9489fb149af3c6b14bf57573
-      internalID: -816966282
+      spriteID: 4cb3d5b39099ce849a73e49b5619bfe0
+      internalID: 871340373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_5
+      name: CreatedBy_SS_v01_5
       rect:
         serializedVersion: 2
         x: 0
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9576dce8167195a4d95e02642f12d6ce
-      internalID: -1065855609
+      spriteID: 62864c220f48b2140b3dc1567aa51a13
+      internalID: -1224217575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_6
+      name: CreatedBy_SS_v01_6
       rect:
         serializedVersion: 2
         x: 350
@@ -270,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecafa001caca0a348bc3ca545c1c261d
-      internalID: 917574503
+      spriteID: d88eb1f7fc0b28d4db7b781f8d328489
+      internalID: 1979495727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_7
+      name: CreatedBy_SS_v01_7
       rect:
         serializedVersion: 2
         x: 700
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c5ea129ae0a34a4c8bb46f3413b1890
-      internalID: -1276439990
+      spriteID: c431176240bc8b44e830abee7106d178
+      internalID: -1182820119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_8
+      name: CreatedBy_SS_v01_8
       rect:
         serializedVersion: 2
         x: 1050
@@ -314,14 +314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b70f3c5bd86d3ba4894523133bb76200
-      internalID: -690085031
+      spriteID: 4ab0ef244565971459dbfab64c22ac96
+      internalID: 1105658837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_9
+      name: CreatedBy_SS_v01_9
       rect:
         serializedVersion: 2
         x: 1400
@@ -336,14 +336,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cde5cfb235a4176498e94fa10d4286be
-      internalID: 1464079586
+      spriteID: 4715d7b5de8559e4c960e97b784d4ec8
+      internalID: 506342738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_10
+      name: CreatedBy_SS_v01_10
       rect:
         serializedVersion: 2
         x: 0
@@ -358,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96614dc75714f1047908139ef8473e44
-      internalID: -113170364
+      spriteID: dc27ef8fb91a2a64f91c092691461a5e
+      internalID: -573623608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_11
+      name: CreatedBy_SS_v01_11
       rect:
         serializedVersion: 2
         x: 350
@@ -380,14 +380,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea234040412382344aaa824bf85d18ed
-      internalID: 1125346281
+      spriteID: 878dabdff66bb2148923aa278badc2e6
+      internalID: -1465992753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_12
+      name: CreatedBy_SS_v01_12
       rect:
         serializedVersion: 2
         x: 700
@@ -402,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2722a35cb0e16624f914a84aa593085e
-      internalID: 660734704
+      spriteID: 038c482370018584d998249b4985a171
+      internalID: 1990326666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_13
+      name: CreatedBy_SS_v01_13
       rect:
         serializedVersion: 2
         x: 1050
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8251561366e3b740a6a9157433eebba
-      internalID: 2058781827
+      spriteID: 08cab2d3cace9084a9a47694d7fc959f
+      internalID: -1952997869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_14
+      name: CreatedBy_SS_v01_14
       rect:
         serializedVersion: 2
         x: 1400
@@ -446,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92380c71ecdf79f4fa920c8ddfd6a0d5
-      internalID: -1139475443
+      spriteID: 02ea064929efebc48af8dde80d228d20
+      internalID: 1054060394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_15
+      name: CreatedBy_SS_v01_15
       rect:
         serializedVersion: 2
         x: 0
@@ -468,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0b80d3ddce2b24eac7482231a2709f
-      internalID: -1519932536
+      spriteID: e117303dd6954ec4a88d7b8c81fcfb32
+      internalID: 760510009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_16
+      name: CreatedBy_SS_v01_16
       rect:
         serializedVersion: 2
         x: 350
@@ -490,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbd8c823b40bf2549bf0aaf1551da68a
-      internalID: 1883121391
+      spriteID: da891ce6a328039458e9091513e7f704
+      internalID: -1797458533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_17
+      name: CreatedBy_SS_v01_17
       rect:
         serializedVersion: 2
         x: 700
@@ -512,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d6f5ccff71e1c549a5508118a05c2f9
-      internalID: -99472670
+      spriteID: ef1599147ce867b4b835ea8bbfe3d0d7
+      internalID: 646313877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_18
+      name: CreatedBy_SS_v01_18
       rect:
         serializedVersion: 2
         x: 1050
@@ -534,14 +534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97f7e856ba0fd274e8eadac3cdab4cdf
-      internalID: -1169457916
+      spriteID: a3b256fce87061549bc2c3185cbac2c3
+      internalID: -969083596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_19
+      name: CreatedBy_SS_v01_19
       rect:
         serializedVersion: 2
         x: 1400
@@ -556,14 +556,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b71ce649975cf54a887e9b653fd70f0
-      internalID: 912066107
+      spriteID: f901d0225c407c64bbdd5f01b45a03ac
+      internalID: 639195242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_20
+      name: CreatedBy_SS_v01_20
       rect:
         serializedVersion: 2
         x: 0
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7ed851186281424dac9a58bc040082f
-      internalID: 2059616668
+      spriteID: cda4eb5247e6e2e48af444f56b277c26
+      internalID: 1521110566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_21
+      name: CreatedBy_SS_v01_21
       rect:
         serializedVersion: 2
         x: 350
@@ -600,14 +600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d34d8486a0526a4995cebb9cbbde08c
-      internalID: -1402421891
+      spriteID: 1d398c7817bed724a9064913142d582d
+      internalID: 835100143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_22
+      name: CreatedBy_SS_v01_22
       rect:
         serializedVersion: 2
         x: 700
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 661915907436dd347a8826b11273015c
-      internalID: -1566183957
+      spriteID: 14b45b6236f0e864ab008511996465f2
+      internalID: 816491237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_23
+      name: CreatedBy_SS_v01_23
       rect:
         serializedVersion: 2
         x: 1050
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5abbbbb77a470b4a8ec77f58329a916
-      internalID: -2000206732
+      spriteID: 04f5c675c863933438ccbdea0988d89c
+      internalID: -1644658365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_24
+      name: CreatedBy_SS_v01_24
       rect:
         serializedVersion: 2
         x: 1400
@@ -666,14 +666,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c98001ef4747442a956cf00c215bfd
-      internalID: 121531765
+      spriteID: 6d781fd7a645dea458b5c227fd74ee3a
+      internalID: 969845874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RemoveHeadset_SS_v01_25
+      name: CreatedBy_SS_v01_25
       rect:
         serializedVersion: 2
         x: 0
@@ -688,8 +688,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30aaafc91753a854ab954e630c03fefc
-      internalID: -1400026412
+      spriteID: c8c522f6c48e76440b07a4355c809065
+      internalID: 740614629
       vertices: []
       indices: 
       edges: []
@@ -698,7 +698,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6faa885561e8e104a8baafbb59ca7af7
+    spriteID: 59ba2c5ec3ceb764688f3748e8b95165
     internalID: 0
     vertices: []
     indices: 
@@ -708,35 +708,33 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RemoveHeadset_SS_v01_0: -1981345456
-      RemoveHeadset_SS_v01_1: -1974829756
-      RemoveHeadset_SS_v01_10: -113170364
-      RemoveHeadset_SS_v01_11: 1125346281
-      RemoveHeadset_SS_v01_12: 660734704
-      RemoveHeadset_SS_v01_13: 2058781827
-      RemoveHeadset_SS_v01_14: -1139475443
-      RemoveHeadset_SS_v01_15: -1519932536
-      RemoveHeadset_SS_v01_16: 1883121391
-      RemoveHeadset_SS_v01_17: -99472670
-      RemoveHeadset_SS_v01_18: -1169457916
-      RemoveHeadset_SS_v01_19: 912066107
-      RemoveHeadset_SS_v01_2: 1910683602
-      RemoveHeadset_SS_v01_20: 2059616668
-      RemoveHeadset_SS_v01_21: -1402421891
-      RemoveHeadset_SS_v01_22: -1566183957
-      RemoveHeadset_SS_v01_23: -2000206732
-      RemoveHeadset_SS_v01_24: 121531765
-      RemoveHeadset_SS_v01_25: -1400026412
-      RemoveHeadset_SS_v01_26: 746753795
-      RemoveHeadset_SS_v01_27: -1970304139
-      RemoveHeadset_SS_v01_28: -616377970
-      RemoveHeadset_SS_v01_3: 1561178383
-      RemoveHeadset_SS_v01_4: -816966282
-      RemoveHeadset_SS_v01_5: -1065855609
-      RemoveHeadset_SS_v01_6: 917574503
-      RemoveHeadset_SS_v01_7: -1276439990
-      RemoveHeadset_SS_v01_8: -690085031
-      RemoveHeadset_SS_v01_9: 1464079586
+      CreatedBy_SS_v01_0: -799910612
+      CreatedBy_SS_v01_1: 62060741
+      CreatedBy_SS_v01_10: -573623608
+      CreatedBy_SS_v01_11: -1465992753
+      CreatedBy_SS_v01_12: 1990326666
+      CreatedBy_SS_v01_13: -1952997869
+      CreatedBy_SS_v01_14: 1054060394
+      CreatedBy_SS_v01_15: 760510009
+      CreatedBy_SS_v01_16: -1797458533
+      CreatedBy_SS_v01_17: 646313877
+      CreatedBy_SS_v01_18: -969083596
+      CreatedBy_SS_v01_19: 639195242
+      CreatedBy_SS_v01_2: -326835180
+      CreatedBy_SS_v01_20: 1521110566
+      CreatedBy_SS_v01_21: 835100143
+      CreatedBy_SS_v01_22: 816491237
+      CreatedBy_SS_v01_23: -1644658365
+      CreatedBy_SS_v01_24: 969845874
+      CreatedBy_SS_v01_25: 740614629
+      CreatedBy_SS_v01_26: -1819859507
+      CreatedBy_SS_v01_3: -1572719606
+      CreatedBy_SS_v01_4: 871340373
+      CreatedBy_SS_v01_5: -1224217575
+      CreatedBy_SS_v01_6: 1979495727
+      CreatedBy_SS_v01_7: -1182820119
+      CreatedBy_SS_v01_8: 1105658837
+      CreatedBy_SS_v01_9: 506342738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
