@@ -17056,6 +17056,7 @@ GameObject:
   - component: {fileID: 215216086}
   - component: {fileID: 215216085}
   - component: {fileID: 215216084}
+  - component: {fileID: 215216088}
   m_Layer: 0
   m_Name: DummyAudio
   m_TagString: Untagged
@@ -17209,9 +17210,10 @@ MonoBehaviour:
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 215216085}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 215216088}
+        m_TargetAssemblyTypeName: Univrse.Studio.LanguageSystemV2.LanguageAudio,
+          Assembly-CSharp
+        m_MethodName: ChangeClip
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17251,6 +17253,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8116245, y: 2.0322978, z: 4.103334}
   m_Center: {x: -5.5126467, y: 0.8882836, z: 0.020201921}
+--- !u!114 &215216088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215216082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abe31640fba18a4eb4ac51fbe7e573f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioObject:
+    _fadeOutTime: 0
+    AudioSource: {fileID: 0}
+    Priority: 0
+  _onAudioFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  _playOnAwake: 0
+  _languages: {fileID: 11400000, guid: c4d2a2e53a510f84b87951211a20bff4, type: 2}
+  ac: {fileID: 215216085}
+  _clips: []
 --- !u!1 &246067388
 GameObject:
   m_ObjectHideFlags: 0

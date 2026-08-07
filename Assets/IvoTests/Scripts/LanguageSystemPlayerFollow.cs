@@ -1,11 +1,16 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+using UnityEngine.Timeline;
+using UnityEngine.Playables;
 
 public class LanguageSystemPlayerFollow : MonoBehaviour
 {
     bool tracking;
     Transform playerTransform;
 
+    [SerializeField] List<PlayableDirector> timelines;
     public static LanguageSystemPlayerFollow Instance { get; private set; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -18,13 +23,6 @@ public class LanguageSystemPlayerFollow : MonoBehaviour
         {
             Instance = this;
         }
-    }
-
-    public PlayerAvatarController _localPlayerAvatar;
-
-    public void SetLocalPlayer(PlayerAvatarController avatar)
-    {
-        _localPlayerAvatar = avatar;
     }
 
     // Update is called once per frame
@@ -57,16 +55,31 @@ public class LanguageSystemPlayerFollow : MonoBehaviour
         }
     }
 
-    public void ChangeAvatar(int avatarIndex)
+    public void MuteWithLanguageChange(int index)
     {
-    
-        if (_localPlayerAvatar == null)
+        foreach(PlayableDirector director in timelines)
         {
-            Debug.LogWarning("Local player avatar not yet assigned.");
-            return;
-        }
+            TimelineAsset timeline = director.playableAsset as TimelineAsset;
+            if (timeline == null) return;
 
-        _localPlayerAvatar.RequestAvatarChange(avatarIndex);
+            var track = timeline.GetOutputTracks()
+                                 .OfType<AudioTrack>().ToList();                                
+
+            if(track != null)
+            {
+                for (int i = 0; i < track.Count; i++)
+                {
+                    if(i != index)
+                    {
+                        track[i].muted = true;
+                    }
+                    else
+                    {
+                        track[i].muted = false;
+                    }
+                }
+            }
+        }
     }
 
 }

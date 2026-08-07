@@ -19,7 +19,7 @@ namespace Univrse.Studio.LanguageSystemV2
 
         private void OnEnable()
         {
-            if(_playOnAwake) Play();
+            if(_playOnAwake) ChangeClip();
         }
 
         private AudioClip GetClipByLanguage()
@@ -35,13 +35,6 @@ namespace Univrse.Studio.LanguageSystemV2
                 _languageService = ServiceLocator.Instance.GetService<ILanguageService>();
             }
             ac.clip = GetClipByLanguage();
-
-            currentClipIndex++;
-            if (currentClipIndex >= _clips.Count)
-            {
-                currentClipIndex = 0;
-            }
-            _languages = _clips[currentClipIndex];
 
             ac.Play();
         }
