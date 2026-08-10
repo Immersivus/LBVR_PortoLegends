@@ -24,3 +24,7 @@ MonoBehaviour:
     Name: DecreaseFarClip
     Scene: 00_MAIN
     Moment: 1
+  - Id: f51b1953-b87e-4f97-9fbe-365c573838ed
+    Name: PostProcessing
+    Scene: 00_MAIN
+    Moment: 1

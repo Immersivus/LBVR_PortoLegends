@@ -44216,7 +44216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308327, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_Name
-      value: '[Activator] Smoke_vfx_prefab'
+      value: Smoke_vfx_prefab
       objectReference: {fileID: 0}
     - target: {fileID: 3926191984814308327, guid: 67bce8bfd3a0f904ea41d1b559800063, type: 3}
       propertyPath: m_IsActive
@@ -82037,7 +82037,7 @@ ParentConstraint:
   m_TranslationOffsets:
   - {x: -0.069200516, y: 0.1354003, z: 0.17289972}
   m_RotationOffsets:
-  - {x: -47.23535, y: -106.43052, z: 89.122894}
+  - {x: -47.235355, y: -106.43052, z: 89.122894}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
@@ -105648,7 +105648,6 @@ MonoBehaviour:
   - {fileID: 430618139}
   - {fileID: 1566268105}
   - {fileID: 1333873166}
-  - {fileID: 613224239}
   - {fileID: 703670443}
   - {fileID: 457951445}
   - {fileID: 1622468564}
