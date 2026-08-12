@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &24823097
 Transform:
   m_ObjectHideFlags: 0
@@ -15209,12 +15209,12 @@ GameObject:
   - component: {fileID: 265787383}
   - component: {fileID: 265787382}
   m_Layer: 0
-  m_Name: 02_wine (1)
+  m_Name: '[Activator] 02_wine (1)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &265787381
 Transform:
   m_ObjectHideFlags: 0
@@ -15223,12 +15223,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265787380}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: -5.164, y: 3.371, z: 16.869}
-  m_LocalScale: {x: 0.016112225, y: 0.016112227, z: 0.016112227}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.479819, y: -0.20817971, z: -0.10136604}
+  m_LocalScale: {x: 0.016112225, y: 0.016112223, z: 0.016112223}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 622008714}
+  m_Father: {fileID: 543450652987388407}
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 90}
 --- !u!199 &265787382
 ParticleSystemRenderer:
@@ -25559,7 +25559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &598710572
 Transform:
   m_ObjectHideFlags: 0
@@ -25884,9 +25884,7 @@ Transform:
   m_Children:
   - {fileID: 1406421643}
   - {fileID: 842334432}
-  - {fileID: 265787381}
   - {fileID: 1357785604}
-  - {fileID: 1881285712}
   m_Father: {fileID: 543450652987388407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &636035731
@@ -25957,55 +25955,7 @@ MonoBehaviour:
   OnEnterActions:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 598710571}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1074494416}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1237974632}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1318121465}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 24823096}
+      - m_Target: {fileID: 1967896207}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -36554,7 +36504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e884ab4b6d1b840499374f80473e15e6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36564,11 +36514,6 @@ PrefabInstance:
 --- !u!4 &1074494415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e884ab4b6d1b840499374f80473e15e6, type: 3}
-  m_PrefabInstance: {fileID: 1074494414}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1074494416 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e884ab4b6d1b840499374f80473e15e6, type: 3}
   m_PrefabInstance: {fileID: 1074494414}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1099992411
@@ -37552,7 +37497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1237974633
 Transform:
   m_ObjectHideFlags: 0
@@ -37965,7 +37910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1318121466
 Transform:
   m_ObjectHideFlags: 0
@@ -53733,9 +53678,10 @@ MonoBehaviour:
   - {fileID: 1047906647}
   - {fileID: 1099992411}
   - {fileID: 1320981425}
-  - {fileID: 1925958849}
   - {fileID: 1343916299}
   - {fileID: 506813895}
+  - {fileID: 265787380}
+  - {fileID: 1881285711}
   _progressiveActivation: 1
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _statesIds:
@@ -54012,12 +53958,12 @@ GameObject:
   - component: {fileID: 1881285714}
   - component: {fileID: 1881285713}
   m_Layer: 0
-  m_Name: 03_wine (1)
+  m_Name: '[Activator] 03_wine (1)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1881285712
 Transform:
   m_ObjectHideFlags: 0
@@ -54026,12 +53972,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881285711}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: -5.164, y: 3.371, z: 16.869}
-  m_LocalScale: {x: 0.016112225, y: 0.016112227, z: 0.016112227}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.479819, y: -0.20817971, z: -0.10136604}
+  m_LocalScale: {x: 0.016112225, y: 0.016112223, z: 0.016112223}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 622008714}
+  m_Father: {fileID: 543450652987388407}
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 90}
 --- !u!199 &1881285713
 ParticleSystemRenderer:
@@ -60321,7 +60267,7 @@ GameObject:
   - component: {fileID: 1925958851}
   - component: {fileID: 1925958850}
   m_Layer: 0
-  m_Name: '[Activator] DrunkVolume'
+  m_Name: DrunkVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60409,7 +60355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1967896208
 Transform:
   m_ObjectHideFlags: 0
@@ -65255,6 +65201,8 @@ Transform:
   - {fileID: 559310126}
   - {fileID: 1317719905}
   - {fileID: 1957439868}
+  - {fileID: 265787381}
+  - {fileID: 1881285712}
   - {fileID: 622008714}
   - {fileID: 1047906648}
   - {fileID: 1099992412}

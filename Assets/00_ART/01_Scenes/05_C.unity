@@ -7299,7 +7299,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 275838713}
         m_TargetAssemblyTypeName: PuzzleManager, Assembly-CSharp
-        m_MethodName: AddToSteps
+        m_MethodName: AddToStepsNoOrder
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 267712779}
@@ -38379,7 +38379,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 275838713}
         m_TargetAssemblyTypeName: PuzzleManager, Assembly-CSharp
-        m_MethodName: AddToSteps
+        m_MethodName: AddToStepsNoOrder
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 627393259}
@@ -134745,7 +134745,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 275838713}
         m_TargetAssemblyTypeName: PuzzleManager, Assembly-CSharp
-        m_MethodName: AddToSteps
+        m_MethodName: AddToStepsNoOrder
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1877766557}

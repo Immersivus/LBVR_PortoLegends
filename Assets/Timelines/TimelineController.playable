@@ -398,7 +398,7 @@ MonoBehaviour:
     m_Start: 783.6
     m_ClipIn: 0
     m_Asset: {fileID: -1804441536696345130}
-    m_Duration: 15
+    m_Duration: 10
     m_TimeScale: 1
     m_ParentTrack: {fileID: -6110571141857222126}
     m_EaseInDuration: 0
@@ -479,7 +479,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: ReferencedTimelineClip
   - m_Version: 1
-    m_Start: 798.6
+    m_Start: 793.6
     m_ClipIn: 0
     m_Asset: {fileID: -533299710380539674}
     m_Duration: 16.087167705222555
@@ -2036,7 +2036,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Portal 5B-5C
   - m_Version: 1
-    m_Start: 1025.25
+    m_Start: 1020.25
     m_ClipIn: 80.98336666666262
     m_Asset: {fileID: 6279273279696696058}
     m_Duration: 11.999999999999886
@@ -2105,7 +2105,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Sphere 6
   - m_Version: 1
-    m_Start: 832.8
+    m_Start: 827.8
     m_ClipIn: 0.8166666666664923
     m_Asset: {fileID: -4449371825158606284}
     m_Duration: 12
@@ -2243,7 +2243,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Portal 5A-5B
   - m_Version: 1
-    m_Start: 1195.7333333333333
+    m_Start: 1190.7333333333331
     m_ClipIn: 1.966666666666356
     m_Asset: {fileID: -5587630225647734431}
     m_Duration: 12
@@ -2811,7 +2811,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C04
   - m_Version: 1
-    m_Start: 838.0038343718898
+    m_Start: 833.0038343718896
     m_ClipIn: 0
     m_Asset: {fileID: 2854991194004329133}
     m_Duration: 192
@@ -2844,7 +2844,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C06
   - m_Version: 1
-    m_Start: 1030.0038343718866
+    m_Start: 1025.0038343718866
     m_ClipIn: 0
     m_Asset: {fileID: -7823216344071002169}
     m_Duration: 185.96768788630447
@@ -2880,7 +2880,7 @@ MonoBehaviour:
     m_Start: 633.6
     m_ClipIn: 0
     m_Asset: {fileID: 7246890980155781058}
-    m_Duration: 181.08716770522256
+    m_Duration: 176.08716770522256
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5297915991614157208}
     m_EaseInDuration: 0
@@ -2910,7 +2910,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_C
   - m_Version: 1
-    m_Start: 814.6871677052226
+    m_Start: 809.6871677052226
     m_ClipIn: 0
     m_Asset: {fileID: -5244688153410603200}
     m_Duration: 23.31666666666706
@@ -3302,7 +3302,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_A
   - m_Version: 1
-    m_Start: 838.0038343718898
+    m_Start: 833.0038343718898
     m_ClipIn: 0
     m_Asset: {fileID: 2209593760819652608}
     m_Duration: 180
@@ -3401,7 +3401,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_C
   - m_Version: 1
-    m_Start: 814.6871677052226
+    m_Start: 809.6871677052226
     m_ClipIn: 0
     m_Asset: {fileID: 2064826116925300633}
     m_Duration: 14.199999999999932
@@ -3518,7 +3518,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C03_Transition
   - m_Version: 1
-    m_Start: 1030.0038343718866
+    m_Start: 1025.0038343718866
     m_ClipIn: 0
     m_Asset: {fileID: 2036520906310466877}
     m_Duration: 150
@@ -3551,7 +3551,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C07
   - m_Version: 1
-    m_Start: 1018.0038343718875
+    m_Start: 1013.0038343718875
     m_ClipIn: 0
     m_Asset: {fileID: -5899071664705842006}
     m_Duration: 12
@@ -3587,7 +3587,7 @@ MonoBehaviour:
     m_Start: 783.6
     m_ClipIn: 0
     m_Asset: {fileID: 4340485283595838332}
-    m_Duration: 15
+    m_Duration: 10
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7013199287202305913}
     m_EaseInDuration: 0
@@ -3617,7 +3617,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_C_Transition
   - m_Version: 1
-    m_Start: 798.6
+    m_Start: 793.6
     m_ClipIn: 0
     m_Asset: {fileID: -7062370640220749534}
     m_Duration: 16.087167705222555
@@ -3716,7 +3716,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_B_Transition
   - m_Version: 1
-    m_Start: 1201.004
+    m_Start: 1196.004
     m_ClipIn: 0
     m_Asset: {fileID: -4179635679679288060}
     m_Duration: 15
@@ -3749,7 +3749,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C08
   - m_Version: 1
-    m_Start: 828.8871677052225
+    m_Start: 823.8871677052225
     m_ClipIn: 0
     m_Asset: {fileID: 4788653717899189424}
     m_Duration: 9.116666666667129
@@ -3782,7 +3782,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_D_Transition
   - m_Version: 1
-    m_Start: 1180.0038343718866
+    m_Start: 1175.0038343718866
     m_ClipIn: 0
     m_Asset: {fileID: 5996208512952638982}
     m_Duration: 21

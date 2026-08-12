@@ -40286,7 +40286,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7d79c0d7676df140a3361450135469e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _neighbours: []
+  _neighbours:
+  - {fileID: 542691531}
+  - {fileID: 4812286}
 --- !u!65 &1477136912
 BoxCollider:
   m_ObjectHideFlags: 0
