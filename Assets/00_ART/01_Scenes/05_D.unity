@@ -53682,6 +53682,7 @@ MonoBehaviour:
   - {fileID: 506813895}
   - {fileID: 265787380}
   - {fileID: 1881285711}
+  - {fileID: 1925958849}
   _progressiveActivation: 1
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _statesIds:
@@ -60267,7 +60268,7 @@ GameObject:
   - component: {fileID: 1925958851}
   - component: {fileID: 1925958850}
   m_Layer: 0
-  m_Name: DrunkVolume
+  m_Name: '[Activator] DrunkVolume'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
