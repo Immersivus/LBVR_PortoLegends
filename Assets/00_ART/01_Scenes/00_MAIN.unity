@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.02
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -18965,6 +18965,7 @@ PlayableDirector:
     - a1790d5cf8243d74f9db4e790c8980b5: {fileID: 2001105092}
     - 1815d1777d8943d4fb68edd4f8a0aedf: {fileID: 1733439037}
     - 1efb97cb83e4fe14284f193f4865373b: {fileID: 1824558667}
+    - 63618dcaa226a16489d9732f31fec3c4: {fileID: 4812285}
     - 5781c102c996d4e4f8a54dd9d800156c: {fileID: 1697138836}
     - 486ad97f600768747a2e5ca4f7b34726: {fileID: 251726372}
     - 418cf1ce74a9e454cb1241ecfb0e24ee: {fileID: 870747619}
@@ -18995,6 +18996,7 @@ PlayableDirector:
     - 456ca69de5d4e884d8e6a1c5ec6d8366: {fileID: 0}
     - 8199cca424194e14b8d509886748f669: {fileID: 1708862740}
     - 6466db2c7af680c4190dfaabb4cc8ee3: {fileID: 2132600295}
+    - da1e9fd7e7f03174fa3fa95d8673f161: {fileID: 4812285}
     - c52bc2705af2d404aa99889706ffdbf0: {fileID: 2001105092}
     - eb6fa91b1f6c72547b281c03ca4a563e: {fileID: 2008347031}
     - 7c9ecd8f616a5664cb072c4da88c645d: {fileID: 1012089420}
@@ -21689,7 +21691,7 @@ MonoBehaviour:
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _stateId: 5c322708-dc8e-480e-8ecb-a67ab4933d4e
   _applyChangeToServer: 0
-  _cleanChange: 0
+  _cleanChange: 1
 --- !u!114 &942442798
 MonoBehaviour:
   m_ObjectHideFlags: 0
