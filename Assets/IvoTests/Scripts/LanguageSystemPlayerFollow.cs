@@ -23,6 +23,8 @@ public class LanguageSystemPlayerFollow : MonoBehaviour
         {
             Instance = this;
         }
+
+        MuteWithLanguageChange(0);
     }
 
     // Update is called once per frame
