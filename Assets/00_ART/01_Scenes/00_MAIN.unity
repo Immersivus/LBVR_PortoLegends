@@ -20841,6 +20841,10 @@ PrefabInstance:
       value: ACTIVATOR_C01
       objectReference: {fileID: 0}
     - target: {fileID: 4406011083235751146, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
+      propertyPath: _delay
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406011083235751146, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: _preset
       value: 
       objectReference: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
@@ -20906,19 +20910,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Size.x
-      value: 3.4267178
+      value: 8.73941
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Size.z
-      value: 3.2137756
+      value: 14.879762
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Center.x
-      value: 3.1177597
+      value: 0.46141338
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Center.z
-      value: 5.075718
+      value: 10.6381645
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
