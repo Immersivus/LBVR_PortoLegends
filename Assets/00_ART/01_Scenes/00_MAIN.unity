@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.005
+  m_FogDensity: 0.085
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9418,6 +9418,7 @@ GameObject:
   - component: {fileID: 331145077}
   - component: {fileID: 331145076}
   - component: {fileID: 331145075}
+  - component: {fileID: 331145079}
   m_Layer: 0
   m_Name: '[Activator] ST_02'
   m_TagString: Untagged
@@ -9538,6 +9539,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 331145079}
+        m_TargetAssemblyTypeName: XRoam.Experience.Actions.ExperienceAction, XRoam.SDK
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnExitActions:
     m_PersistentCalls:
       m_Calls: []
@@ -9568,6 +9581,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8868778, y: 2.5804996, z: 3.4083004}
   m_Center: {x: -0.3372811, y: -0.15657163, z: -0.34442997}
+--- !u!114 &331145079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331145073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b734a50ec2f386b4ba4769e8ea68c673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: c2fae6bc-a419-4a95-9e48-906776bfb069
+  _synchronized: 0
+  _exposed: 0
+  _name: 
+  _delay: 0
+  _type: 1
+  _actionsOnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &333653332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18394,6 +18428,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 942442795}
+  - {fileID: 1056149162}
   - {fileID: 587694410}
   - {fileID: 1256390178}
   - {fileID: 1483118660}
@@ -27475,6 +27510,138 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1056149161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1056149162}
+  - component: {fileID: 1056149167}
+  - component: {fileID: 1056149166}
+  - component: {fileID: 1056149165}
+  - component: {fileID: 1056149163}
+  m_Layer: 0
+  m_Name: ST_OFFBOARDING
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1056149162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056149161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.18, y: 1.5, z: 8.15}
+  m_LocalScale: {x: 1.9588, y: 1, z: 2.3876}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 654879928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1056149163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056149161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b734a50ec2f386b4ba4769e8ea68c673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: 7465e1f6-6488-4566-8d35-fbefc19ceedd
+  _synchronized: 0
+  _exposed: 0
+  _name: 
+  _delay: 0
+  _type: 2
+  _actionsOnTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1056149165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056149161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c512af6691756094c92315451e36a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enabled: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1056149166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056149161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1cdea3e544c04cad7d337b70d7e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _id: 03b020d9-4417-4638-a1fd-21086c62e26e
+  _bodyPartType: 1
+  _onlyAdmin: 0
+  _synchronized: 0
+  _oneUseOnly: 0
+  OnEnterActions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1056149163}
+        m_TargetAssemblyTypeName: XRoam.Experience.Actions.ExperienceAction, XRoam.SDK
+        m_MethodName: Trigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersEnterActions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAllUsersExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &1056149167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056149161}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.9606985, y: 3, z: 1.2320917}
+  m_Center: {x: -0.12794222, y: 0, z: -4.6764607}
 --- !u!1 &1090384834
 GameObject:
   m_ObjectHideFlags: 0
