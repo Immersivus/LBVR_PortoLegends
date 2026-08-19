@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.085
+  m_FogDensity: 0.12
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -21881,8 +21881,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.123268, y: 3, z: 1.270572}
-  m_Center: {x: 0.2907748, y: 0, z: -3.587263}
+  m_Size: {x: 1.4934155, y: 3, z: 2.3694606}
+  m_Center: {x: 0.10570014, y: 0, z: -4.1111236}
 --- !u!1 &945248991
 GameObject:
   m_ObjectHideFlags: 0
