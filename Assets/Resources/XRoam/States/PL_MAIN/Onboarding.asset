@@ -10,16 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 600db2aaa22d90942819b9c6ba594b2d, type: 3}
-  m_Name: '- C01'
+  m_Name: Onboarding
   m_EditorClassIdentifier: 
-  _id: 5c322708-dc8e-480e-8ecb-a67ab4933d4e
-  _name: '- C01'
+  _id: 8158b4e0-8ba0-46a0-bcf9-e1639d65ac15
+  _name: Onboarding
   _mainScene: Assets/00_ART/01_Scenes/00_MAIN.unity
   _exposed: 1
-  _exposedName: 01
-  _scenesToLoad:
-  - Assets/00_ART/01_Scenes/01.unity
-  - Assets/00_ART/01_Scenes/02.unity
-  - Assets/00_ART/01_Scenes/03.unity
-  - Assets/00_ART/01_Scenes/04.unity
-  _stateActions: []
+  _exposedName: Onboarding
+  _scenesToLoad: []
+  _stateActions:
+  - Id: e9ea449a-b916-4e60-9f98-a92298a0f149
+    Name: Swap Music SC02
+    Scene: 00_MAIN
+    Moment: 1
+  - Id: 00eb48d4-ed6d-4355-8ce6-cc39b0db1b6e
+    Name: Reset Timelines
+    Scene: 00_MAIN
+    Moment: 1

@@ -15,6 +15,7 @@ MonoBehaviour:
   _synchronous: 0
   _mainScene: Assets/00_ART/01_Scenes/00_MAIN.unity
   _statesConfigs:
+  - {fileID: 11400000, guid: 798eb77f8d2b8744599ebadfc8fcf126, type: 2}
   - {fileID: 11400000, guid: bf60c4e9a86fbbb448f6349d132169df, type: 2}
   - {fileID: 11400000, guid: 5b9a01399a4730f4da92203e0565f59a, type: 2}
   - {fileID: 11400000, guid: 9e091abd94805eb46bb13bcc9d76a106, type: 2}
