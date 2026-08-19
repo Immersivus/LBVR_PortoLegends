@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605d24102c0c7484480a45e47eea0f25, type: 3}
+  m_Name: YellowPuzzleAudio
+  m_EditorClassIdentifier: 
+  data:
+  - language: {fileID: 11400000, guid: 27582f8a7854ffd4090d778a4445a14f, type: 2}
+    clip: {fileID: 8300000, guid: 0055f695dd44f5642a9f00b6ef7b62e1, type: 3}
+  - language: {fileID: 11400000, guid: e56c9986422019245a551a88ffac09dd, type: 2}
+    clip: {fileID: 8300000, guid: 124bbf0fe6d0eb04d88f2ca7e892dd3c, type: 3}
+  - language: {fileID: 11400000, guid: 1c9cb3c2115f5b847bd0241c97145fb9, type: 2}
+    clip: {fileID: 8300000, guid: a257a4a3f19ea2644908eb78aa92a7b4, type: 3}
+  - language: {fileID: 11400000, guid: 74d7bd800c1177048889364d78dfaa64, type: 2}
+    clip: {fileID: 8300000, guid: 8ceed42b810739e4cb43449b779e4020, type: 3}

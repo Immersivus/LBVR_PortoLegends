@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using Univrse.Studio.LanguageSystemV2;
 using XRoam.Experience.Colliders;
 
 public class OrbPuzzleHolder : MonoBehaviour
@@ -16,6 +17,8 @@ public class OrbPuzzleHolder : MonoBehaviour
     [SerializeField] private PuzzleManager manager;
 
     [SerializeField] private Animator anim;
+
+    [SerializeField] LanguageAudio dummyAudioPuzzle;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,6 +50,7 @@ public class OrbPuzzleHolder : MonoBehaviour
         orb.GetComponent<OrbPuzzleOrb>().Placed(gameObject);
         manager.steps++;
         ac.Play();
+        dummyAudioPuzzle.ChangeClip();
         foreach (GameObject particle in particles) 
         {
             particle.SetActive(!particle.activeSelf);

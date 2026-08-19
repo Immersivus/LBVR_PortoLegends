@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605d24102c0c7484480a45e47eea0f25, type: 3}
+  m_Name: FinishedPuzzleAudio
+  m_EditorClassIdentifier: 
+  data:
+  - language: {fileID: 11400000, guid: 27582f8a7854ffd4090d778a4445a14f, type: 2}
+    clip: {fileID: 8300000, guid: 6cfe483792e9e2e4b90258675b552eba, type: 3}
+  - language: {fileID: 11400000, guid: e56c9986422019245a551a88ffac09dd, type: 2}
+    clip: {fileID: 8300000, guid: 0352533c04399b04b90bf18dcd3a64a1, type: 3}
+  - language: {fileID: 11400000, guid: 1c9cb3c2115f5b847bd0241c97145fb9, type: 2}
+    clip: {fileID: 8300000, guid: 9cc331d0eee488d479d62d97a8b985ff, type: 3}
+  - language: {fileID: 11400000, guid: 74d7bd800c1177048889364d78dfaa64, type: 2}
+    clip: {fileID: 8300000, guid: 1e45b634d905e714c99076abfc0143c1, type: 3}
