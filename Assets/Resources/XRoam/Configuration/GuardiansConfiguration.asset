@@ -16,6 +16,6 @@ MonoBehaviour:
   VisualMaterial: {fileID: 2100000, guid: 3225cd428ce04504bb44754f98ef964a, type: 2}
   VisualHeadDistance: 0.3
   VisualHandsDistance: 0.3
-  SoundHandsEnabled: 1
-  SoundDistancePercent: 75
-  SoundFrequency: 3
+  SoundHandsEnabled: 0
+  SoundDistancePercent: 0
+  SoundFrequency: 10
