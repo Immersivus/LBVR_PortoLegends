@@ -129480,6 +129480,64 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1304211638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1304211641}
+  - component: {fileID: 1304211640}
+  - component: {fileID: 1304211639}
+  m_Layer: 0
+  m_Name: SignalLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1304211639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304211638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab2d8ec0347a274da24bbfc005a8fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1304211640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304211638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a915f7c3963b84096998c3945e5009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _signalName: LeverAutoTrain
+--- !u!4 &1304211641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304211638}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.3458376, y: -6.2289853, z: 4.698013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304247547
 GameObject:
   m_ObjectHideFlags: 0
@@ -166700,6 +166758,8 @@ PlayableDirector:
     value: {fileID: 242955895}
   - key: {fileID: -4058579134840822110, guid: 475fa4c959f972c40b8bbbd9b2948208, type: 2}
     value: {fileID: 1331595876}
+  - key: {fileID: -680350666540017588, guid: 475fa4c959f972c40b8bbbd9b2948208, type: 2}
+    value: {fileID: 1304211638}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1813242989
@@ -182223,6 +182283,7 @@ GameObject:
   - component: {fileID: 1964563918}
   - component: {fileID: 1964563921}
   - component: {fileID: 1964563923}
+  - component: {fileID: 1964563924}
   m_Layer: 0
   m_Name: LeverHolder
   m_TagString: Untagged
@@ -182522,6 +182583,34 @@ MonoBehaviour:
   _stateId: eb4a6cad-18cc-4c08-a251-de7667958b4c
   _applyChangeToServer: 0
   _cleanChange: 0
+--- !u!114 &1964563924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964563916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f4fce3f0ceac64db97ad287a0dcde7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _signalName: LeverAutoTrain
+  _onSignalReceived:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1964563921}
+        m_TargetAssemblyTypeName: LeverControl, Assembly-CSharp
+        m_MethodName: DummyFix
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1965355374
 GameObject:
   m_ObjectHideFlags: 0
@@ -198724,3 +198813,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1408082647}
+  - {fileID: 1304211641}

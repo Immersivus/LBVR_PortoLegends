@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
+using XRoam.Core.StateMachine;
+using XRoam.Services.StateMachine;
 
 public class LeverControl : MonoBehaviour
 {
@@ -24,6 +26,7 @@ public class LeverControl : MonoBehaviour
     {
         if (!safetyBool)
         {
+
             if (notDoubleSided)
             {
                 if (lever.angle > lever.limits.max - 10)
@@ -34,7 +37,7 @@ public class LeverControl : MonoBehaviour
                     interactable.enabled = false;
                 }
             }
-            else 
+            else
             {
                 if (lever.angle < lever.limits.min || lever.angle > lever.limits.max)
                 {
@@ -46,11 +49,18 @@ public class LeverControl : MonoBehaviour
             }
         }
 
+    }
 
+    public void DummyFix()
+    {
+        OnLeverMove();
+        safetyBool = true;
+        ac.Play();
+        interactable.enabled = false;
     }
 
     void OnLeverMove()
-    { 
+    {
         leverEvent?.Invoke();
     }
 }

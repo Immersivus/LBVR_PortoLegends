@@ -685,6 +685,8 @@ PlayableDirector:
     value: {fileID: 1957587682}
   - key: {fileID: 1350095690189382000, guid: 85fc9a782fc739444a9406f2e5c85312, type: 2}
     value: {fileID: 1941053514}
+  - key: {fileID: -5636163113820648460, guid: 85fc9a782fc739444a9406f2e5c85312, type: 2}
+    value: {fileID: 1251177575}
   m_ExposedReferences:
     m_References:
     - c67760f24759502458751a30e8d863be: {fileID: 689755098}
@@ -13893,6 +13895,7 @@ GameObject:
   - component: {fileID: 988466298}
   - component: {fileID: 988466297}
   - component: {fileID: 988466296}
+  - component: {fileID: 988466303}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -14245,6 +14248,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988466294}
   m_Mesh: {fileID: 2534964839176971238, guid: 0a655b70cdaeab54ba53a2eabad3df5a, type: 3}
+--- !u!114 &988466303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988466294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f4fce3f0ceac64db97ad287a0dcde7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _signalName: LeverAutoPull
+  _onSignalReceived:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 988466297}
+        m_TargetAssemblyTypeName: LeverControl, Assembly-CSharp
+        m_MethodName: DummyFix
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1030961993
 GameObject:
   m_ObjectHideFlags: 0
@@ -19491,6 +19522,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6572647986970691425, guid: 2b73f0147cab4644bad0bb5697c1dd96, type: 3}
   m_PrefabInstance: {fileID: 1239167109}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1251177575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1251177578}
+  - component: {fileID: 1251177577}
+  - component: {fileID: 1251177576}
+  m_Layer: 0
+  m_Name: SignalLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1251177576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251177575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab2d8ec0347a274da24bbfc005a8fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1251177577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251177575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a915f7c3963b84096998c3945e5009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _signalName: LeverAutoPull
+--- !u!4 &1251177578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251177575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.564287, y: -0.6117804, z: 1.6437612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1257576130
 GameObject:
   m_ObjectHideFlags: 0
@@ -37939,3 +38028,4 @@ SceneRoots:
   - {fileID: 1371274625}
   - {fileID: 2072540047}
   - {fileID: 51712957}
+  - {fileID: 1251177578}
