@@ -15,8 +15,4 @@ public class ToggleSignalLauncher : MonoBehaviour
        _signalLauncher.LaunchSignal();
     }
 
-    private void OnDisable()
-    {
-        _signalLauncher.LaunchSignal();
-    }
 }
