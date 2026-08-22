@@ -25900,12 +25900,12 @@ GameObject:
   - component: {fileID: 636035734}
   - component: {fileID: 636035733}
   m_Layer: 0
-  m_Name: DoorActivation
+  m_Name: '[Activator] DoorActivation'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &636035732
 Transform:
   m_ObjectHideFlags: 0
@@ -53683,6 +53683,7 @@ MonoBehaviour:
   - {fileID: 265787380}
   - {fileID: 1881285711}
   - {fileID: 1925958849}
+  - {fileID: 636035731}
   _progressiveActivation: 1
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
   _statesIds:
