@@ -23,7 +23,7 @@ MonoBehaviour:
   MemoryProfiling: 1
   PlayModeMultiplayer: 0
   SynchronizationData:
-    Synchronous: 0
-    IntervalTime: 0
-    TimeGapThreshold: 0
-    GroupingTimeline: 0
+    Synchronous: 1
+    IntervalTime: 3
+    TimeGapThreshold: 5
+    GroupingTimeline: 1

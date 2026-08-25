@@ -26672,7 +26672,7 @@ MonoBehaviour:
   _id: 61e2a058-d932-41e0-9623-712a37737800
   _bodyPartType: 2
   _onlyAdmin: 0
-  _synchronized: 0
+  _synchronized: 1
   _oneUseOnly: 0
   OnEnterActions:
     m_PersistentCalls:
@@ -72344,7 +72344,7 @@ MonoBehaviour:
   _id: b911ef3a-5d68-43bf-82a7-4cc7594b4646
   _bodyPartType: 2
   _onlyAdmin: 0
-  _synchronized: 0
+  _synchronized: 1
   _oneUseOnly: 0
   OnEnterActions:
     m_PersistentCalls:
@@ -236442,7 +236442,7 @@ MonoBehaviour:
   _id: d438dd0d-d353-4b86-90ad-fdad9bd9cfbd
   _bodyPartType: 2
   _onlyAdmin: 0
-  _synchronized: 0
+  _synchronized: 1
   _oneUseOnly: 0
   OnEnterActions:
     m_PersistentCalls:
