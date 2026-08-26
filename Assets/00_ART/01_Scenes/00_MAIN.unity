@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.12941177, g: 0.18431373, b: 0.28235295, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 1, g: 0.7254902, b: 0.5019608, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.12
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9938,12 +9938,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
-  _stateId: 5c322708-dc8e-480e-8ecb-a67ab4933d4e
+  _stateId: 60087b3d-a839-46d5-9772-8808adbf00fd
   _delay: 60
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 745896573}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -9955,7 +9955,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1709846797}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -11615,7 +11615,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 755061387}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -11627,7 +11627,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1135721382}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -16804,7 +16804,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 1289188706}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -16816,7 +16816,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1001649240}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -18281,7 +18281,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 1967292959}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -18293,7 +18293,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1785504167}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -20819,6 +20819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ALTERNATE CONTENT_C01
       objectReference: {fileID: 0}
+    - target: {fileID: 2985802011198015813, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3504120482792582850, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: OnFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -20877,7 +20881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4406011083235751146, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: _delay
-      value: 600
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 4406011083235751146, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: _preset
@@ -20945,19 +20949,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Size.x
-      value: 8.73941
+      value: 3.9837008
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Size.z
-      value: 14.879762
+      value: 6.9904037
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Center.x
-      value: 0.46141338
+      value: 2.8392682
       objectReference: {fileID: 0}
     - target: {fileID: 8820695660740839231, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       propertyPath: m_Center.z
-      value: 10.6381645
+      value: 3.536772
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -21012,7 +21016,7 @@ PrefabInstance:
       addedObject: {fileID: 1552506464}
     - targetCorrespondingSourceObject: {fileID: 3516523375256669473, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1713644545}
+      addedObject: {fileID: 1404251901}
     - targetCorrespondingSourceObject: {fileID: 2259853242124082806, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 888077419}
@@ -21066,33 +21070,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42490e41590bf174295a7b24ad027b1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &883150761 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5373714293823525722, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
-  m_PrefabInstance: {fileID: 883150757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8d614f8b5d77934aba93d03fdc42f8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &883150762 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8646574375625412674, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
   m_PrefabInstance: {fileID: 883150757}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &883150763 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8411495511255256431, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
-  m_PrefabInstance: {fileID: 883150757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d89a8d59b60006546ad19becdd0da4a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &883150764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5631065865144550776, guid: 0217a2f7cd3620249a76491376ccaea2, type: 3}
@@ -21240,7 +21222,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 1877047308}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -21252,7 +21234,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1360186136}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -21341,7 +21323,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 1127001935}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -21353,7 +21335,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1284024069}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -21881,8 +21863,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.4934155, y: 3, z: 2.3694606}
-  m_Center: {x: 0.10570014, y: 0, z: -4.1111236}
+  m_Size: {x: 0.933743, y: 3, z: 2.8430324}
+  m_Center: {x: 0.38553506, y: 0, z: -3.874335}
 --- !u!1 &945248991
 GameObject:
   m_ObjectHideFlags: 0
@@ -33236,12 +33218,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _preset: {fileID: 11400000, guid: 4eacfcc1cd763a34aba8620f362da4c4, type: 2}
-  _stateId: 5c322708-dc8e-480e-8ecb-a67ab4933d4e
+  _stateId: 18a4bd9b-7e0f-43fc-bfa0-0357f8b2a89d
   _delay: 300
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 1901723650}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -33253,7 +33235,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 2084372029}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -35018,6 +35000,92 @@ Transform:
   - {fileID: 954392406}
   m_Father: {fileID: 1514117185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1404251900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1404251901}
+  - component: {fileID: 1404251903}
+  - component: {fileID: 1404251902}
+  m_Layer: 31
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1404251901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404251900}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.0825999, y: -0.233, z: -1.2426}
+  m_LocalScale: {x: 0.58132, y: 0.21576999, z: 0.30377}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1949041451}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1404251902
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404251900}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8bbcfa0f2973caa42bf76123664b447b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1404251903
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404251900}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1407208633
 GameObject:
   m_ObjectHideFlags: 0
@@ -40216,7 +40284,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 1140181989}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -40228,7 +40296,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 20872383}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -43155,92 +43223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _eventName: 'Walkable Area Timer Ended - [STATE]'
---- !u!1 &1713644544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1713644545}
-  - component: {fileID: 1713644547}
-  - component: {fileID: 1713644546}
-  m_Layer: 31
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1713644545
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713644544}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6097, y: -0.23, z: -1.2392}
-  m_LocalScale: {x: 0.24377835, y: 0.21577416, z: 0.25875777}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1949041451}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1713644546
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713644544}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a370b7c7147d11a4683dab7feb4e0fbd, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1713644547
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713644544}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1733439037
 GameObject:
   m_ObjectHideFlags: 0
@@ -43377,7 +43359,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 879509814}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -43389,7 +43371,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 351086514}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
@@ -44002,7 +43984,7 @@ MonoBehaviour:
   OnFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 883150763}
+      - m_Target: {fileID: 103185357}
         m_TargetAssemblyTypeName: XRoam.Contents.AlternateContent, XRoam.SDK
         m_MethodName: EnableContent
         m_Mode: 1
@@ -44014,7 +43996,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 883150761}
+      - m_Target: {fileID: 1542109273}
         m_TargetAssemblyTypeName: XRoam.Core.Events.CustomEventLauncher, XRoam.SDK
         m_MethodName: Trigger
         m_Mode: 1
