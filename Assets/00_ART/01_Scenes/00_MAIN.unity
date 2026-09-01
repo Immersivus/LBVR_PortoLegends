@@ -3568,7 +3568,7 @@ GameObject:
   - component: {fileID: 205403645}
   - component: {fileID: 205403648}
   - component: {fileID: 205403647}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: Alpha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3763,7 +3763,7 @@ GameObject:
   - component: {fileID: 212473569}
   - component: {fileID: 212473571}
   - component: {fileID: 212473570}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: HealingBeam (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9818,7 +9818,7 @@ GameObject:
   - component: {fileID: 337866894}
   - component: {fileID: 337866897}
   - component: {fileID: 337866896}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: Alpha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11677,7 +11677,7 @@ GameObject:
   - component: {fileID: 465787448}
   - component: {fileID: 465787450}
   - component: {fileID: 465787449}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: HealingBeam (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16869,7 +16869,7 @@ GameObject:
   - component: {fileID: 508658353}
   - component: {fileID: 508658352}
   - component: {fileID: 508658351}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: ALPHA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17047,7 +17047,7 @@ GameObject:
   - component: {fileID: 529984444}
   - component: {fileID: 529984443}
   - component: {fileID: 529984442}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: ALPHA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17317,7 +17317,7 @@ GameObject:
   - component: {fileID: 532836737}
   - component: {fileID: 532836740}
   - component: {fileID: 532836739}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: BLACK_SPHERE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17876,7 +17876,7 @@ GameObject:
   - component: {fileID: 614857201}
   - component: {fileID: 614857203}
   - component: {fileID: 614857202}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: CHAO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17892,7 +17892,7 @@ Transform:
   m_GameObject: {fileID: 614857200}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.4, y: -1.3717452, z: 2.55}
+  m_LocalPosition: {x: -48.4, y: -1.3, z: 2.55}
   m_LocalScale: {x: 0.89393, y: 0.89393, z: 0.8760246}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18589,7 +18589,7 @@ GameObject:
   - component: {fileID: 701471007}
   - component: {fileID: 701471009}
   - component: {fileID: 701471008}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: BLACK_DOOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19171,7 +19171,7 @@ GameObject:
   - component: {fileID: 729667062}
   - component: {fileID: 729667065}
   - component: {fileID: 729667064}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: Alpha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20568,7 +20568,7 @@ GameObject:
   - component: {fileID: 859736551}
   - component: {fileID: 859736553}
   - component: {fileID: 859736552}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: CHAO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20584,7 +20584,7 @@ Transform:
   m_GameObject: {fileID: 859736550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.74, y: -1.3717452, z: 2.5489998}
+  m_LocalPosition: {x: -48.74, y: -1.3, z: 2.5489998}
   m_LocalScale: {x: 0.89393, y: 0.89393, z: 0.8760246}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22754,7 +22754,7 @@ GameObject:
   - component: {fileID: 1013716081}
   - component: {fileID: 1013716083}
   - component: {fileID: 1013716082}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: HealingBeam (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27749,7 +27749,7 @@ GameObject:
   - component: {fileID: 1097926357}
   - component: {fileID: 1097926359}
   - component: {fileID: 1097926358}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: Portal_3_particles_floating
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32826,7 +32826,7 @@ GameObject:
   - component: {fileID: 1129838629}
   - component: {fileID: 1129838632}
   - component: {fileID: 1129838631}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: BLACK_SPHERE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33543,7 +33543,7 @@ GameObject:
   - component: {fileID: 1180910934}
   - component: {fileID: 1180910936}
   - component: {fileID: 1180910935}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: BLACK_DOOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35201,7 +35201,7 @@ GameObject:
   - component: {fileID: 1407208634}
   - component: {fileID: 1407208637}
   - component: {fileID: 1407208636}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: BLACK_SPHERE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35495,7 +35495,7 @@ GameObject:
   - component: {fileID: 1421004550}
   - component: {fileID: 1421004552}
   - component: {fileID: 1421004551}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: Portal_3_particles_floating
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40450,7 +40450,7 @@ GameObject:
   - component: {fileID: 1460295305}
   - component: {fileID: 1460295307}
   - component: {fileID: 1460295306}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: BLACK_DOOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43844,7 +43844,7 @@ GameObject:
   - component: {fileID: 1787841109}
   - component: {fileID: 1787841111}
   - component: {fileID: 1787841110}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: CHAO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43860,7 +43860,7 @@ Transform:
   m_GameObject: {fileID: 1787841108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.38, y: -1.3717452, z: 2.5489998}
+  m_LocalPosition: {x: -48.38, y: -1.3, z: 2.5489998}
   m_LocalScale: {x: 0.89393, y: 0.89393, z: 0.8760246}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45891,7 +45891,7 @@ GameObject:
   - component: {fileID: 2003337121}
   - component: {fileID: 2003337123}
   - component: {fileID: 2003337122}
-  m_Layer: 27
+  m_Layer: 4
   m_Name: Portal_3_particles_floating
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51048,7 +51048,7 @@ GameObject:
   - component: {fileID: 2038698727}
   - component: {fileID: 2038698726}
   - component: {fileID: 2038698732}
-  m_Layer: 27
+  m_Layer: 5
   m_Name: ALPHA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
