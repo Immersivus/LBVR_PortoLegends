@@ -941,6 +941,24 @@ MonoBehaviour:
   active: 1
   postPlayback: 2
   directorOnClipEnd: 0
+--- !u!114 &-1426876419716618173
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip(Clone)
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 0}
+  ambientColor: {r: 1, g: 1, b: 1, a: 1}
+  ambientMode: 0
+  fog: 1
+  fogColor: {r: 1, g: 0.8980392, b: 0.5568628, a: 1}
+  fogDensity: 0.006
 --- !u!114 &-533299710380539674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1460,6 +1478,24 @@ MonoBehaviour:
   ResumeType: 0
   JumpPreset: {fileID: 0}
   JumpState: 
+--- !u!114 &1262283474534542547
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1801678a13935be419e697e2f3f61fdc, type: 3}
+  m_Name: EnvironmentClip
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 0}
+  ambientColor: {r: 1, g: 1, b: 1, a: 1}
+  ambientMode: 0
+  fog: 1
+  fogColor: {r: 1, g: 0.8980392, b: 0.5568628, a: 1}
+  fogDensity: 0.006
 --- !u!114 &2036520906310466877
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1978,10 +2014,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: C08
   - m_Version: 1
-    m_Start: 606.6500000000017
+    m_Start: 703.6833333333333
     m_ClipIn: 0
     m_Asset: {fileID: 7246890980155781058}
-    m_Duration: 199.40383437188962
+    m_Duration: 102.37050103855802
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5297915991614157208}
     m_EaseInDuration: 0
@@ -2043,6 +2079,90 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: C05_B
+  - m_Version: 1
+    m_Start: 606.6500000000007
+    m_ClipIn: 0
+    m_Asset: {fileID: 1262283474534542547}
+    m_Duration: 47.78333333333262
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5297915991614157208}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: EnvironmentClip
+  - m_Version: 1
+    m_Start: 654.4333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: -1426876419716618173}
+    m_Duration: 49.25
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5297915991614157208}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: EnvironmentClip
   m_Markers:
     m_Objects: []
 --- !u!114 &5595211764320906916
